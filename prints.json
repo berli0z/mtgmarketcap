@@ -1,0 +1,20 @@
+{
+  "Alpha": {
+    "rare": 1080,
+    "uncommon": 4500,
+    "common": 15900,
+    "land": 87000
+  },
+  "Beta": {
+    "rare": 3000,
+    "uncommon": 12600,
+    "common": 44800,
+    "land": 160000
+  },
+  "Unlimited": {
+    "rare": 16000,
+    "uncommon": 59500,
+    "common": 214000,
+    "land": 760000
+  }
+}

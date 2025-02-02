@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MTG Market Cap Dashboard ({{ set_name|title }})</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+  <style>
+    body {
+      margin-top: 20px;
+    }
+    h1 {
+      margin-bottom: 30px;
+    }
+    .thumbnail-img {
+      max-width: 80px;
+    }
+    .small-col {
+      width: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Display the set name dynamically in the header -->
+    <h1 class="text-center">MTG Market Cap Dashboard ({{ set_name|title }})</h1>
+
+    <!-- Row for showing last update & total marketcap, plus the set dropdown -->
+    <div class="row mb-3">
+      <div class="col-md-8">
+        <!-- Last Update and Total Marketcap info -->
+        <p><strong>Last Update:</strong> {{ last_update }}</p>
+        <p><strong>Total Market Cap:</strong>
+          {% if total_marketcap is not none %}
+            {{ "{:,.2f}".format(total_marketcap|float) }}
+          {% else %}
+            N/A
+          {% endif %}
+        </p>
+      </div>
+      <div class="col-md-4 text-right">
+        <!-- Dropdown to switch sets (Alpha, Beta, Unlimited).
+             The 'location = this.value' approach reloads the page with the chosen set as a GET param. -->
+        <label for="setSelect" class="mr-2"><strong>Choose Set:</strong></label>
+        <select id="setSelect" onchange="location = this.value">
+          <!-- The value points to the same route but with a different ?set= param -->
+          <option value="/?set=alpha" {% if set_name == 'alpha' %}selected{% endif %}>Alpha</option>
+          <option value="/?set=beta" {% if set_name == 'beta' %}selected{% endif %}>Beta</option>
+          <option value="/?set=unlimited" {% if set_name == 'unlimited' %}selected{% endif %}>Unlimited</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- DataTables table for card listings -->
+    <table id="cardsTable" class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th class="small-col">#</th>
+          <th>Supply</th>
+          <th>Last Price (USD)</th>
+          <th>Market Cap</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for card in cards %}
+        <tr>
+          <!-- Thumbnail -->
+          <td>
+            {% if card.thumbnail %}
+              <img src="{{ card.thumbnail }}" alt="{{ card.name }} thumbnail" class="thumbnail-img">
+            {% endif %}
+          </td>
+
+          <!-- Card Name -->
+          <td>{{ card.name }}</td>
+
+          <!-- Collector Number -->
+          <td class="small-col">{{ card.collector_number }}</td>
+
+          <!-- Prints/Supply -->
+          <td>{{ card.prints }}</td>
+
+          <!-- Price (USD) -->
+          <!-- Use data-order for numeric sorting in DataTables -->
+          <td data-order="{% if card.usd and card.usd != '' %}{{ card.usd|float }}{% else %}0{% endif %}">
+            {% if card.usd %}
+              {{ "{:,.2f}".format(card.usd|float) }}
+            {% else %}
+              N/A
+            {% endif %}
+          </td>
+
+          <!-- Market Cap -->
+          <td data-order="{% if card.market_cap and card.market_cap != '' %}{{ card.market_cap|float }}{% else %}0{% endif %}">
+            {% if card.market_cap %}
+              {{ "{:,.2f}".format(card.market_cap|float) }}
+            {% else %}
+              N/A
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+...
+  </div> <!-- End of main container -->
+
+  <!-- Link to Methodology Markdown at the bottom of the page -->
+  <div class="container mt-4">
+    <p>
+      <a href="methodology.md" target="_blank">
+        View Methodology (Markdown)
+      </a>
+    </p>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- DataTables JS -->
+  <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#cardsTable').DataTable({
+        "order": [[5, "desc"]]
+      });
+    });
+  </script>
+</body>
+</html>

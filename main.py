@@ -6,7 +6,7 @@ import json
 import os
 
 app = Flask(__name__)
-
+print(os.environ.get('SERVER_SOFTWARE', ''))
 # Detect if running under Apache mod_wsgi (production) or locally
 if 'mod_wsgi' in os.environ.get('SERVER_SOFTWARE', ''):
     DATA_DIR = "/var/www/main/data"  # Production path

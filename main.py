@@ -4,7 +4,6 @@ from flask import Flask, render_template, request
 import csv
 import json
 import os
-print(os.environ.get('HOME'))
 
 app = Flask(__name__)
 # Detect if running under Apache mod_wsgi (production) or locally
@@ -32,10 +31,6 @@ def load_data_for_set(set_name):
         raise FileNotFoundError(f"CSV file not found: {filename}")
 
     cards = []
-
-    with open(filename, 'r', encoding='utf-8') as file:
-        for line in file:
-            print(line.strip())  # Debugging: Ensure data is being read
 
     total_marketcap = 0.0
 

@@ -7,6 +7,12 @@ import os
 
 app = Flask(__name__)
 
+# Detect if running under Apache mod_wsgi (production) or locally
+if 'mod_wsgi' in os.environ.get('SERVER_SOFTWARE', ''):
+    DATA_DIR = "/var/www/main/data"  # Production path
+else:
+    DATA_DIR = "/Users/macbookpro_e/PycharmProjects/mtgmarketcap"  # Local development path
+
 def load_data_for_set(set_name):
     """
     Load CSV data for the specified set (alpha, beta, unlimited).
@@ -17,8 +23,20 @@ def load_data_for_set(set_name):
         - cards: a list of dicts (one per card)
         - total_marketcap: float summing the 'market_cap' for all cards
     """
-    filename = f"data_{set_name}.csv"  # e.g. data_alpha.csv, data_beta.csv, data_unlimited.csv
+    filename = os.path.join(DATA_DIR, f"data_{set_name}.csv")
+
+    # Debugging: Print the selected file path
+    print(f"Loading data from: {filename}")
+
+    if not os.path.exists(filename):
+        raise FileNotFoundError(f"CSV file not found: {filename}")
+
     cards = []
+
+    with open(filename, 'r', encoding='utf-8') as file:
+        for line in file:
+            print(line.strip())  # Debugging: Ensure data is being read
+
     total_marketcap = 0.0
 
     # If the file doesn't exist (e.g., you haven't crawled that set yet), just return empty data

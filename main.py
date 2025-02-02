@@ -4,10 +4,9 @@ from flask import Flask, render_template, request
 import csv
 import json
 import os
-print(os.environ.get())
+print(os.environ.get('HOME'))
 
 app = Flask(__name__)
-print(os.environ.get('SERVER_SOFTWARE', ''))
 # Detect if running under Apache mod_wsgi (production) or locally
 if 'ubuntu' or 'mod_wsgi' in os.environ.get('HOME'):
     DATA_DIR = "/home/ubuntu/mtgmarketcap"  # Production path

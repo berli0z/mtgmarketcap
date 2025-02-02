@@ -6,10 +6,11 @@ import json
 import os
 app = Flask(__name__)
 # Detect if running under Apache mod_wsgi (production) or locally
-if 'ubuntu' in os.environ.get('HOME'):
-    DATA_DIR = "/home/ubuntu/mtgmarketcap"  # Production path
-else:
+if 'macbook' in os.environ.get('HOME'):
     DATA_DIR = "/Users/macbookpro_e/PycharmProjects/mtgmarketcap"  # Local development path
+else:
+    DATA_DIR = "/home/ubuntu/mtgmarketcap"  # Production path
+
 
 def load_data_for_set(set_name):
     """

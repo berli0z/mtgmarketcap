@@ -74,8 +74,9 @@ def load_last_update():
     Load the timestamp from last_update.json, if it exists.
     Returns 'N/A' if unavailable.
     """
+
     try:
-        with open("last_update.json", "r", encoding="utf-8") as f:
+        with open(os.path.join(DATA_DIR, "last_update.json"), "r", encoding="utf-8") as f:
             data = json.load(f)
         return data.get("last_update", "N/A")
     except (FileNotFoundError, json.JSONDecodeError):

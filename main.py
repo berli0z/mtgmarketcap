@@ -4,10 +4,9 @@ from flask import Flask, render_template, request
 import csv
 import json
 import os
-
 app = Flask(__name__)
 # Detect if running under Apache mod_wsgi (production) or locally
-if 'ubuntu' or 'mod_wsgi' in os.environ.get('HOME'):
+if 'ubuntu' in os.environ.get('HOME'):
     DATA_DIR = "/home/ubuntu/mtgmarketcap"  # Production path
 else:
     DATA_DIR = "/Users/macbookpro_e/PycharmProjects/mtgmarketcap"  # Local development path
@@ -31,7 +30,6 @@ def load_data_for_set(set_name):
         raise FileNotFoundError(f"CSV file not found: {filename}")
 
     cards = []
-
     total_marketcap = 0.0
 
     # If the file doesn't exist (e.g., you haven't crawled that set yet), just return empty data

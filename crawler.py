@@ -1,6 +1,7 @@
 import json
 import requests
 import logging
+import datetime
 
 # Configure logging to save to a file and print to console
 log_filename = "crawler.log"
@@ -12,6 +13,20 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
+
+def save_last_update():
+    """
+    Saves the last update timestamp in UTC format to last_update.json.
+    """
+    last_update_file = "last_update.json"
+    timestamp = datetime.datetime.now(datetime.timezone.utc).isoformat()
+
+    try:
+        with open(last_update_file, "w", encoding="utf-8") as f:
+            json.dump({"last_update": timestamp}, f, indent=2)
+        logging.info(f"Last update timestamp saved: {timestamp}")
+    except Exception as e:
+        logging.error(f"Error saving last update timestamp: {e}")
 
 # Load the JSON data
 file_path = "prints.json"
@@ -103,3 +118,7 @@ with open(output_file_path, "w", encoding="utf-8") as output_file:
     json.dump(output_data, output_file, indent=4)
 
 logging.info(f"Processed {len(output_data)} cards. Data saved to {output_file_path}")
+
+# Save the last update timestamp
+save_last_update()
+logging.info("Saved last update.")

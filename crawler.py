@@ -1,211 +1,105 @@
-#!/usr/bin/env python3
-# :)
-import csv
 import json
 import requests
-import datetime
-import os
+import logging
 
-def fetch_eur_to_usd():
-    """
-    Fetch the current EUR -> USD conversion rate from the Frankfurter API.
-    Return 1.04 if there's any error.
-    """
-    url = "https://api.frankfurter.app/latest?from=EUR&to=USD"
+# Configure logging to save to a file and print to console
+log_filename = "crawler.log"
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(log_filename, mode='w', encoding='utf-8'),
+        logging.StreamHandler()
+    ]
+)
+
+# Load the JSON data
+file_path = "prints.json"
+
+with open(file_path, "r", encoding="utf-8") as file:
+    cards_data = json.load(file)
+
+# Scryfall API endpoint for querying cards by collector number
+SCRYFALL_SEARCH_URL = "https://api.scryfall.com/cards"  # Adjusted for direct lookup
+EXCHANGE_RATE_API_URL = "https://api.exchangerate-api.com/v4/latest/EUR"
+
+# Fetch EUR to USD conversion rate
+def get_eur_to_usd_rate():
     try:
-        response = requests.get(url)
-        if response.ok:
-            data = response.json()
-            return data["rates"]["USD"]
-    except Exception as e:
-        print("Error fetching conversion rate:", e)
-    print("Failed to fetch conversion rate, using default 1.04.")
-    return 1.04
+        response = requests.get(EXCHANGE_RATE_API_URL, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        return data.get("rates", {}).get("USD", 1)  # Default to 1 if not found
+    except requests.RequestException as e:
+        logging.error(f"Error fetching exchange rate: {e}")
+    return 1
 
-def fetch_scryfall_cards(set_code, eur_to_usd_rate):
-    """
-    Fetches all cards from Scryfall for the given set_code (e.g. 'lea' for Alpha).
-    Attempts to use 'usd' price; if missing, tries to convert 'eur' -> 'usd' using eur_to_usd_rate.
-    Returns a list of dicts with at least: name, collector_number, usd, rarity, thumbnail.
-    """
-    base_url = "https://api.scryfall.com/cards/search"
-    params = {
-        "q": f"e:{set_code}",
-        "unique": "prints",
-        "order": "set",
-        "dir": "asc"
-    }
-    all_cards = []
-    url = base_url
+EUR_TO_USD_RATE = get_eur_to_usd_rate()
+logging.info(f'EUR to USD rate: {EUR_TO_USD_RATE}')
 
-    while url:
-        resp = requests.get(url, params=params)
-        if not resp.ok:
-            print(f"Error fetching data for {set_code}:", resp.text)
-            break
+# Output JSON structure
+output_data = []
 
-        data = resp.json()
-        for card in data.get("data", []):
-            prices = card.get("prices", {})
-            usd_price = prices.get("usd")
+def fetch_card_details(set_code, collector_number):
+    """Fetches card details from Scryfall API using set code and collector number."""
+    url = f"{SCRYFALL_SEARCH_URL}/{set_code}/{collector_number}"
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        return response.json()
+    except requests.RequestException as e:
+        logging.error(f"Error fetching card details for set '{set_code}', collector number '{collector_number}': {e}")
+    return None
 
-            # If 'usd' is missing, try converting from 'eur'
-            if not usd_price:
-                eur_price = prices.get("eur")
-                if eur_price:
-                    try:
-                        converted = float(eur_price) * eur_to_usd_rate
-                        usd_price = f"{converted:.2f}"
-                    except Exception as e:
-                        print(f"Error converting EUR price for '{card.get('name', '')}': {e}")
-                        usd_price = ""
+for card in cards_data:
+    card_name = card["name"].split(" - ")[0].strip()  # Extract actual name without variations
+    set_code = card["set"]
+    collector_number = card["#"]
+    print_count = int(card["prints"])
 
-            # Clean up collector number (remove #, etc.)
-            collector_number = card.get("collector_number", "").replace("#", "").strip()
+    logging.info(f"Processing card: {card_name} (Set: {set_code}, Collector #: {collector_number})")
+    card_details = fetch_card_details(set_code, collector_number)
 
-            # Rarity
-            rarity = card.get("rarity", "").lower()
+    if card_details:
+        # Extract price data
+        price_usd = card_details.get("prices", {}).get("usd")
+        price_eur = card_details.get("prices", {}).get("eur")
 
-            # Thumbnail image
-            image_uris = card.get("image_uris", {})
-            thumbnail = image_uris.get("small")
-            if not thumbnail:
-                # Attempt a fallback; note that the path might be invalid if scryfall doesn't have it
-                thumbnail = f"https://img.scryfall.com/cards/small/en/{set_code}/{collector_number}.jpg"
+        # Convert EUR to USD if necessary
+        if price_usd is None and price_eur is not None:
+            try:
+                price_eur = float(price_eur)
+                price_usd = f"{price_eur * EUR_TO_USD_RATE:.2f}"
+            except (ValueError, TypeError):
+                logging.warning(f"Invalid EUR price for '{card_name}', skipping conversion.")
+                price_usd = "N/A"
+        elif price_usd is None:
+            price_usd = "N/A"
 
-            all_cards.append({
-                "name": card.get("name", ""),
-                "collector_number": collector_number,
-                "usd": usd_price,
-                "rarity": rarity,
-                "thumbnail": thumbnail
-            })
+        # Extract image URL
+        image_url = card_details.get("image_uris", {}).get("small", "N/A")
 
-        if data.get("has_more"):
-            url = data.get("next_page")
-            params = None  # Next page URL includes all params
-        else:
-            url = None
-
-    return all_cards
-
-def compute_and_assign_market_cap(cards, supply_data):
-    """
-    Given a list of cards and a dict of supply estimates by rarity (e.g. {"rare": 1100, "uncommon": 4500, ...}),
-    compute:
-        prints = supply_data[rarity]
-        market_cap = usd_price * prints
-    If the card's USD price or a matching rarity is missing, leave market_cap empty.
-    Returns the updated card list.
-    """
-    for card in cards:
-        rarity = card.get("rarity", "")
-        # supply_data might have keys in lowercase: "rare", "uncommon", "common", "land"
-        # ensure we use .lower() if needed
-        supply = supply_data.get(rarity)
-        card["prints"] = supply if supply is not None else ""
-
-        # Compute market cap
+        # Calculate market cap (Price * Printed Count)
         try:
-            usd = float(card["usd"]) if card["usd"] else 0.0
-            if supply:
-                mc = usd * supply
-                card["market_cap"] = f"{mc:.2f}"
-            else:
-                card["market_cap"] = ""
+            market_cap = float(price_usd) * print_count if price_usd != "N/A" else "N/A"
         except ValueError:
-            card["market_cap"] = ""
-    return cards
+            market_cap = "N/A"
 
-def write_csv_for_set(cards, set_name):
-    """
-    Writes CSV data to 'data_<set_name>.csv'.
-    Columns: [name, collector_number, prints, usd, market_cap, thumbnail].
-    """
-    filename = f"data_{set_name}.csv"
-    fieldnames = ["name", "collector_number", "prints", "usd", "market_cap", "thumbnail"]
-    with open(filename, "w", newline="", encoding="utf-8") as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        for card in cards:
-            row = {fn: card.get(fn, "") for fn in fieldnames}
-            writer.writerow(row)
-    print(f"CSV for {set_name} -> {filename} (total: {len(cards)} cards)")
+        output_data.append({
+            "name": card_name,
+            "set": set_code,
+            "print_count": print_count,
+            "latest_price_usd": price_usd,
+            "image_thumbnail": image_url,
+            "market_cap": market_cap
+        })
+    else:
+        logging.warning(f"No details found for '{card_name}' in set '{set_code}', collector number '{collector_number}'.")
 
-def main():
-    # 1. Load the supply data from prints.json
-    if not os.path.exists("prints.json"):
-        print("ERROR: prints.json file not found. Exiting.")
-        return
+# Save output to a JSON file
+output_file_path = "card_market_cap.json"
 
-    with open("prints.json", "r", encoding="utf-8") as f:
-        all_prints_data = json.load(f)
-        # Expected: all_prints_data["Alpha"], all_prints_data["Beta"], all_prints_data["Unlimited"]
+with open(output_file_path, "w", encoding="utf-8") as output_file:
+    json.dump(output_data, output_file, indent=4)
 
-    # 2. Fetch EUR->USD conversion rate
-    eur_to_usd_rate = fetch_eur_to_usd()
-    print(f"Using EUR->USD rate: {eur_to_usd_rate:.4f}")
-
-    # 3. Map each 'set_name' to (Scryfall code, supply key in prints.json)
-    sets_to_fetch = {
-        "alpha":  {
-            "scryfall_code": "lea",
-            "prints_key": "Alpha"
-        },
-        "beta": {
-            "scryfall_code": "leb",
-            "prints_key": "Beta"
-        },
-        "unlimited": {
-            "scryfall_code": "2ed",
-            "prints_key": "Unlimited"
-        }
-    }
-
-    # This will store all sets' data for a combined JSON
-    all_results = {}
-
-    # 4. Fetch each set, compute market caps, write CSV
-    for set_name, info in sets_to_fetch.items():
-        scryfall_code = info["scryfall_code"]  # e.g. 'lea', 'leb', '2ed'
-        prints_key = info["prints_key"]        # e.g. 'Alpha', 'Beta', 'Unlimited'
-
-        # supply_data for the set from prints.json
-        supply_data = all_prints_data.get(prints_key, {})
-
-        print(f"\n--- Processing {prints_key} ({scryfall_code}) ---")
-        cards = fetch_scryfall_cards(scryfall_code, eur_to_usd_rate)
-        cards = compute_and_assign_market_cap(cards, supply_data)
-
-        # Write out a CSV file for the set
-        write_csv_for_set(cards, set_name)
-
-        # Compute total marketcap
-        total_mc = 0.0
-        for c in cards:
-            mc_str = c.get("market_cap", "")
-            if mc_str:
-                try:
-                    total_mc += float(mc_str)
-                except ValueError:
-                    pass
-
-        # Put into a dict for JSON
-        all_results[set_name] = {
-            "cards": cards,
-            "total_marketcap": round(total_mc, 2)
-        }
-
-    # 5. Write combined crawler output
-    with open("crawler_output.json", "w", encoding="utf-8") as f:
-        json.dump(all_results, f, indent=2)
-    print("\nWrote combined data to crawler_output.json")
-
-    # 6. Write last update time
-    now_str = datetime.datetime.now().isoformat()
-    with open("last_update.json", "w", encoding="utf-8") as f:
-        json.dump({"last_update": now_str}, f)
-    print(f"Wrote last update time to last_update.json -> {now_str}")
-
-if __name__ == "__main__":
-    main()
+logging.info(f"Processed {len(output_data)} cards. Data saved to {output_file_path}")

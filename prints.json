@@ -1,20 +1,9122 @@
-{
-  "Alpha": {
-    "rare": 1080,
-    "uncommon": 4500,
-    "common": 15900,
-    "land": 87000
+[
+  {
+    "name": "Abu Ja'far",
+    "prints": "31000",
+    "set": "arn",
+    "#": "1"
   },
-  "Beta": {
-    "rare": 3000,
-    "uncommon": 12600,
-    "common": 44800,
-    "land": 160000
+  {
+    "name": "Aladdin",
+    "prints": "20700",
+    "set": "arn",
+    "#": "34"
   },
-  "Unlimited": {
-    "rare": 16000,
-    "uncommon": 59500,
-    "common": 214000,
-    "land": 760000
+  {
+    "name": "Aladdin's Lamp",
+    "prints": "20700",
+    "set": "arn",
+    "#": "56"
+  },
+  {
+    "name": "Aladdin's Ring",
+    "prints": "20700",
+    "set": "arn",
+    "#": "57"
+  },
+  {
+    "name": "Ali Baba",
+    "prints": "31000",
+    "set": "arn",
+    "#": "35"
+  },
+  {
+    "name": "Ali from Cairo",
+    "prints": "20700",
+    "set": "arn",
+    "#": "36"
+  },
+  {
+    "name": "Army of Allah (a)",
+    "prints": "93000",
+    "set": "arn",
+    "#": "2"
+  },
+  {
+    "name": "Army of Allah (b)",
+    "prints": "31000",
+    "set": "arn",
+    "#": "2†"
+  },
+  {
+    "name": "Bazaar of Baghdad",
+    "prints": "31000",
+    "set": "arn",
+    "#": "70"
+  },
+  {
+    "name": "Bird Maiden (a)",
+    "prints": "62000",
+    "set": "arn",
+    "#": "37"
+  },
+  {
+    "name": "Bird Maiden (b)",
+    "prints": "62000",
+    "set": "arn",
+    "#": "37†"
+  },
+  {
+    "name": "Bottle of Suleiman",
+    "prints": "20700",
+    "set": "arn",
+    "#": "58"
+  },
+  {
+    "name": "Brass Man",
+    "prints": "31000",
+    "set": "arn",
+    "#": "59"
+  },
+  {
+    "name": "Camel",
+    "prints": "155000",
+    "set": "arn",
+    "#": "3"
+  },
+  {
+    "name": "City in a Bottle",
+    "prints": "20700",
+    "set": "arn",
+    "#": "60"
+  },
+  {
+    "name": "City of Brass",
+    "prints": "31000",
+    "set": "arn",
+    "#": "71"
+  },
+  {
+    "name": "Cuombajj Witches",
+    "prints": "124000",
+    "set": "arn",
+    "#": "23"
+  },
+  {
+    "name": "Cyclone",
+    "prints": "31000",
+    "set": "arn",
+    "#": "45"
+  },
+  {
+    "name": "Dancing Scimitar",
+    "prints": "20700",
+    "set": "arn",
+    "#": "61"
+  },
+  {
+    "name": "Dandân",
+    "prints": "124000",
+    "set": "arn",
+    "#": "12"
+  },
+  {
+    "name": "Desert",
+    "prints": "341000",
+    "set": "arn",
+    "#": "72"
+  },
+  {
+    "name": "Desert Nomads",
+    "prints": "124000",
+    "set": "arn",
+    "#": "38"
+  },
+  {
+    "name": "Desert Twister",
+    "prints": "31000",
+    "set": "arn",
+    "#": "46"
+  },
+  {
+    "name": "Diamond Valley",
+    "prints": "20700",
+    "set": "arn",
+    "#": "73"
+  },
+  {
+    "name": "Drop of Honey",
+    "prints": "20700",
+    "set": "arn",
+    "#": "47"
+  },
+  {
+    "name": "Ebony Horse",
+    "prints": "20700",
+    "set": "arn",
+    "#": "62"
+  },
+  {
+    "name": "El-Hajjâj",
+    "prints": "20700",
+    "set": "arn",
+    "#": "74"
+  },
+  {
+    "name": "Elephant Graveyard",
+    "prints": "20700",
+    "set": "arn",
+    "#": "24"
+  },
+  {
+    "name": "Erg Raiders (a)",
+    "prints": "93000",
+    "set": "arn",
+    "#": "25"
+  },
+  {
+    "name": "Erg Raiders (b)",
+    "prints": "62000",
+    "set": "arn",
+    "#": "25†"
+  },
+  {
+    "name": "Erhnam Djinn",
+    "prints": "20700",
+    "set": "arn",
+    "#": "48"
+  },
+  {
+    "name": "Eye for an Eye",
+    "prints": "31000",
+    "set": "arn",
+    "#": "4"
+  },
+  {
+    "name": "Fishliver Oil (a)",
+    "prints": "93000",
+    "set": "arn",
+    "#": "13"
+  },
+  {
+    "name": "Fishliver Oil (b)",
+    "prints": "31000",
+    "set": "arn",
+    "#": "13†"
+  },
+  {
+    "name": "Flying Carpet",
+    "prints": "31000",
+    "set": "arn",
+    "#": "63"
+  },
+  {
+    "name": "Flying Men",
+    "prints": "155000",
+    "set": "arn",
+    "#": "14"
+  },
+  {
+    "name": "Ghazbán Ogre",
+    "prints": "124000",
+    "set": "arn",
+    "#": "49"
+  },
+  {
+    "name": "Giant Tortoise (a)",
+    "prints": "93000",
+    "set": "arn",
+    "#": "15"
+  },
+  {
+    "name": "Giant Tortoise (b)",
+    "prints": "31000",
+    "set": "arn",
+    "#": "15†"
+  },
+  {
+    "name": "Guardian Beast",
+    "prints": "20700",
+    "set": "arn",
+    "#": "26"
+  },
+  {
+    "name": "Hasran Ogress (a)",
+    "prints": "93000",
+    "set": "arn",
+    "#": "27"
+  },
+  {
+    "name": "Hasran Ogress (b)",
+    "prints": "62000",
+    "set": "arn",
+    "#": "27†"
+  },
+  {
+    "name": "Hurr Jackal",
+    "prints": "124000",
+    "set": "arn",
+    "#": "39"
+  },
+  {
+    "name": "Ifh-Bíff Efreet",
+    "prints": "20700",
+    "set": "arn",
+    "#": "50"
+  },
+  {
+    "name": "Island Fish Jasconius",
+    "prints": "20700",
+    "set": "arn",
+    "#": "16"
+  },
+  {
+    "name": "Island of Wak-Wak",
+    "prints": "20700",
+    "set": "arn",
+    "#": "75"
+  },
+  {
+    "name": "Jandor's Ring",
+    "prints": "20700",
+    "set": "arn",
+    "#": "64"
+  },
+  {
+    "name": "Jandor's Saddlebags",
+    "prints": "20700",
+    "set": "arn",
+    "#": "65"
+  },
+  {
+    "name": "Jeweled Bird",
+    "prints": "31000",
+    "set": "arn",
+    "#": "66"
+  },
+  {
+    "name": "Jihad",
+    "prints": "20700",
+    "set": "arn",
+    "#": "5"
+  },
+  {
+    "name": "Junún Efreet",
+    "prints": "20700",
+    "set": "arn",
+    "#": "28"
+  },
+  {
+    "name": "Juzám Djinn",
+    "prints": "20700",
+    "set": "arn",
+    "#": "29"
+  },
+  {
+    "name": "Khabál Ghoul",
+    "prints": "31000",
+    "set": "arn",
+    "#": "30"
+  },
+  {
+    "name": "King Suleiman",
+    "prints": "20700",
+    "set": "arn",
+    "#": "6"
+  },
+  {
+    "name": "Kird Ape",
+    "prints": "155000",
+    "set": "arn",
+    "#": "40"
+  },
+  {
+    "name": "Library of Alexandria",
+    "prints": "31000",
+    "set": "arn",
+    "#": "76"
+  },
+  {
+    "name": "Magnetic Mountain",
+    "prints": "31000",
+    "set": "arn",
+    "#": "41"
+  },
+  {
+    "name": "Merchant Ship",
+    "prints": "31000",
+    "set": "arn",
+    "#": "17"
+  },
+  {
+    "name": "Metamorphosis",
+    "prints": "124000",
+    "set": "arn",
+    "#": "51"
+  },
+  {
+    "name": "Mijae Djinn",
+    "prints": "20700",
+    "set": "arn",
+    "#": "42"
+  },
+  {
+    "name": "Moorish Cavalry (a)",
+    "prints": "93000",
+    "set": "arn",
+    "#": "7"
+  },
+  {
+    "name": "Moorish Cavalry (b)",
+    "prints": "62000",
+    "set": "arn",
+    "#": "7†"
+  },
+  {
+    "name": "Mountain",
+    "prints": "31000",
+    "set": "arn",
+    "#": "77"
+  },
+  {
+    "name": "Naf's Asp (a)",
+    "prints": "93000",
+    "set": "arn",
+    "#": "52"
+  },
+  {
+    "name": "Naf's Asp (b)",
+    "prints": "62000",
+    "set": "arn",
+    "#": "52†"
+  },
+  {
+    "name": "Oasis",
+    "prints": "41300",
+    "set": "arn",
+    "#": "78"
+  },
+  {
+    "name": "Old Man of the Sea",
+    "prints": "20700",
+    "set": "arn",
+    "#": "18"
+  },
+  {
+    "name": "Oubliette (a)",
+    "prints": "62000",
+    "set": "arn",
+    "#": "31"
+  },
+  {
+    "name": "Oubliette (b)",
+    "prints": "62000",
+    "set": "arn",
+    "#": "31†"
+  },
+  {
+    "name": "Piety (a)",
+    "prints": "93000",
+    "set": "arn",
+    "#": "8"
+  },
+  {
+    "name": "Piety (b)",
+    "prints": "31000",
+    "set": "arn",
+    "#": "8†"
+  },
+  {
+    "name": "Pyramids",
+    "prints": "20700",
+    "set": "arn",
+    "#": "67"
+  },
+  {
+    "name": "Repentant Blacksmith",
+    "prints": "20700",
+    "set": "arn",
+    "#": "9"
+  },
+  {
+    "name": "Ring of Ma'rûf",
+    "prints": "20700",
+    "set": "arn",
+    "#": "68"
+  },
+  {
+    "name": "Rukh Egg (a)",
+    "prints": "93000",
+    "set": "arn",
+    "#": "43"
+  },
+  {
+    "name": "Rukh Egg (b)",
+    "prints": "31000",
+    "set": "arn",
+    "#": "43†"
+  },
+  {
+    "name": "Sandals of Abdallah",
+    "prints": "31000",
+    "set": "arn",
+    "#": "69"
+  },
+  {
+    "name": "Sandstorm",
+    "prints": "124000",
+    "set": "arn",
+    "#": "53"
+  },
+  {
+    "name": "Serendib Djinn",
+    "prints": "20700",
+    "set": "arn",
+    "#": "19"
+  },
+  {
+    "name": "Serendib Efreet",
+    "prints": "20700",
+    "set": "arn",
+    "#": "20"
+  },
+  {
+    "name": "Shahrazad",
+    "prints": "20700",
+    "set": "arn",
+    "#": "10"
+  },
+  {
+    "name": "Sindbad",
+    "prints": "31000",
+    "set": "arn",
+    "#": "21"
+  },
+  {
+    "name": "Singing Tree",
+    "prints": "20700",
+    "set": "arn",
+    "#": "54"
+  },
+  {
+    "name": "Sorceress Queen",
+    "prints": "31000",
+    "set": "arn",
+    "#": "32"
+  },
+  {
+    "name": "Stone-Throwing Devils (a)",
+    "prints": "93000",
+    "set": "arn",
+    "#": "33"
+  },
+  {
+    "name": "Stone-Throwing Devils (b)",
+    "prints": "31000",
+    "set": "arn",
+    "#": "33†"
+  },
+  {
+    "name": "Unstable Mutation",
+    "prints": "155000",
+    "set": "arn",
+    "#": "22"
+  },
+  {
+    "name": "War Elephant (a)",
+    "prints": "93000",
+    "set": "arn",
+    "#": "11"
+  },
+  {
+    "name": "War Elephant (b)",
+    "prints": "31000",
+    "set": "arn",
+    "#": "11†"
+  },
+  {
+    "name": "Wyluli Wolf (a)",
+    "prints": "124000",
+    "set": "arn",
+    "#": "55"
+  },
+  {
+    "name": "Wyluli Wolf (b)",
+    "prints": "31000",
+    "set": "arn",
+    "#": "55†"
+  },
+  {
+    "name": "Ydwen Efreet",
+    "prints": "20700",
+    "set": "arn",
+    "#": "44"
+  },
+  {
+    "name": "Amulet of Kroog",
+    "prints": "372000",
+    "set": "atq",
+    "#": "36"
+  },
+  {
+    "name": "Argivian Archaeologist",
+    "prints": "31000",
+    "set": "atq",
+    "#": "1"
+  },
+  {
+    "name": "Argivian Blacksmith",
+    "prints": "372000",
+    "set": "atq",
+    "#": "2"
+  },
+  {
+    "name": "Argothian Pixies",
+    "prints": "372000",
+    "set": "atq",
+    "#": "29"
+  },
+  {
+    "name": "Argothian Treefolk",
+    "prints": "372000",
+    "set": "atq",
+    "#": "30"
+  },
+  {
+    "name": "Armageddon Clock",
+    "prints": "62000",
+    "set": "atq",
+    "#": "37"
+  },
+  {
+    "name": "Artifact Blast",
+    "prints": "372000",
+    "set": "atq",
+    "#": "22"
+  },
+  {
+    "name": "Artifact Possession",
+    "prints": "372000",
+    "set": "atq",
+    "#": "15"
+  },
+  {
+    "name": "Artifact Ward",
+    "prints": "372000",
+    "set": "atq",
+    "#": "3"
+  },
+  {
+    "name": "Ashnod's Altar",
+    "prints": "62000",
+    "set": "atq",
+    "#": "38"
+  },
+  {
+    "name": "Ashnod's Battle Gear",
+    "prints": "62000",
+    "set": "atq",
+    "#": "39"
+  },
+  {
+    "name": "Ashnod's Transmogrant",
+    "prints": "93000",
+    "set": "atq",
+    "#": "40"
+  },
+  {
+    "name": "Atog",
+    "prints": "372000",
+    "set": "atq",
+    "#": "23"
+  },
+  {
+    "name": "Battering Ram",
+    "prints": "372000",
+    "set": "atq",
+    "#": "41"
+  },
+  {
+    "name": "Bronze Tablet",
+    "prints": "31000",
+    "set": "atq",
+    "#": "42"
+  },
+  {
+    "name": "Candelabra of Tawnos",
+    "prints": "31000",
+    "set": "atq",
+    "#": "43"
+  },
+  {
+    "name": "Circle of Protection: Artifacts",
+    "prints": "93000",
+    "set": "atq",
+    "#": "4"
+  },
+  {
+    "name": "Citanul Druid",
+    "prints": "93000",
+    "set": "atq",
+    "#": "31"
+  },
+  {
+    "name": "Clay Statue",
+    "prints": "372000",
+    "set": "atq",
+    "#": "44"
+  },
+  {
+    "name": "Clockwork Avian",
+    "prints": "31000",
+    "set": "atq",
+    "#": "45"
+  },
+  {
+    "name": "Colossus of Sardia",
+    "prints": "31000",
+    "set": "atq",
+    "#": "46"
+  },
+  {
+    "name": "Coral Helm",
+    "prints": "31000",
+    "set": "atq",
+    "#": "47"
+  },
+  {
+    "name": "Crumble",
+    "prints": "372000",
+    "set": "atq",
+    "#": "32"
+  },
+  {
+    "name": "Cursed Rack",
+    "prints": "93000",
+    "set": "atq",
+    "#": "48"
+  },
+  {
+    "name": "Damping Field",
+    "prints": "93000",
+    "set": "atq",
+    "#": "5"
+  },
+  {
+    "name": "Detonate",
+    "prints": "93000",
+    "set": "atq",
+    "#": "24"
+  },
+  {
+    "name": "Drafna's Restoration",
+    "prints": "372000",
+    "set": "atq",
+    "#": "8"
+  },
+  {
+    "name": "Dragon Engine",
+    "prints": "372000",
+    "set": "atq",
+    "#": "49"
+  },
+  {
+    "name": "Dwarven Weaponsmith",
+    "prints": "93000",
+    "set": "atq",
+    "#": "25"
+  },
+  {
+    "name": "Energy Flux",
+    "prints": "93000",
+    "set": "atq",
+    "#": "9"
+  },
+  {
+    "name": "Feldon's Cane",
+    "prints": "93000",
+    "set": "atq",
+    "#": "50"
+  },
+  {
+    "name": "Gaea's Avenger",
+    "prints": "31000",
+    "set": "atq",
+    "#": "33"
+  },
+  {
+    "name": "Gate to Phyrexia",
+    "prints": "93000",
+    "set": "atq",
+    "#": "16"
+  },
+  {
+    "name": "Goblin Artisans",
+    "prints": "93000",
+    "set": "atq",
+    "#": "26"
+  },
+  {
+    "name": "Golgothian Sylex",
+    "prints": "31000",
+    "set": "atq",
+    "#": "51"
+  },
+  {
+    "name": "Grapeshot Catapult",
+    "prints": "372000",
+    "set": "atq",
+    "#": "52"
+  },
+  {
+    "name": "Haunting Wind",
+    "prints": "93000",
+    "set": "atq",
+    "#": "17"
+  },
+  {
+    "name": "Hurkyl's Recall",
+    "prints": "31000",
+    "set": "atq",
+    "#": "10"
+  },
+  {
+    "name": "Ivory Tower",
+    "prints": "93000",
+    "set": "atq",
+    "#": "53"
+  },
+  {
+    "name": "Jalum Tome",
+    "prints": "62000",
+    "set": "atq",
+    "#": "54"
+  },
+  {
+    "name": "Martyrs of Korlis",
+    "prints": "93000",
+    "set": "atq",
+    "#": "6"
+  },
+  {
+    "name": "Mightstone",
+    "prints": "93000",
+    "set": "atq",
+    "#": "55"
+  },
+  {
+    "name": "Millstone",
+    "prints": "93000",
+    "set": "atq",
+    "#": "56"
+  },
+  {
+    "name": "Mishra's Factory 80a",
+    "prints": "31000",
+    "set": "atq",
+    "#": "80a"
+  },
+  {
+    "name": "Mishra's Factory 80b",
+    "prints": "93000",
+    "set": "atq",
+    "#": "80b"
+  },
+  {
+    "name": "Mishra's Factory 80c",
+    "prints": "31000",
+    "set": "atq",
+    "#": "80c"
+  },
+  {
+    "name": "Mishra's Factory 80d",
+    "prints": "31000",
+    "set": "atq",
+    "#": "80d"
+  },
+  {
+    "name": "Mishra's War Machine",
+    "prints": "31000",
+    "set": "atq",
+    "#": "57"
+  },
+  {
+    "name": "Mishra's Workshop",
+    "prints": "31000",
+    "set": "atq",
+    "#": "81"
+  },
+  {
+    "name": "Obelisk of Undoing",
+    "prints": "31000",
+    "set": "atq",
+    "#": "58"
+  },
+  {
+    "name": "Onulet",
+    "prints": "93000",
+    "set": "atq",
+    "#": "59"
+  },
+  {
+    "name": "Orcish Mechanics",
+    "prints": "372000",
+    "set": "atq",
+    "#": "27"
+  },
+  {
+    "name": "Ornithopter",
+    "prints": "372000",
+    "set": "atq",
+    "#": "60"
+  },
+  {
+    "name": "Phyrexian Gremlins",
+    "prints": "372000",
+    "set": "atq",
+    "#": "18"
+  },
+  {
+    "name": "Power Artifact",
+    "prints": "93000",
+    "set": "atq",
+    "#": "11"
+  },
+  {
+    "name": "Powerleech",
+    "prints": "93000",
+    "set": "atq",
+    "#": "34"
+  },
+  {
+    "name": "Priest of Yawgmoth",
+    "prints": "372000",
+    "set": "atq",
+    "#": "19"
+  },
+  {
+    "name": "Primal Clay",
+    "prints": "93000",
+    "set": "atq",
+    "#": "61"
+  },
+  {
+    "name": "Rakalite",
+    "prints": "93000",
+    "set": "atq",
+    "#": "62"
+  },
+  {
+    "name": "Reconstruction",
+    "prints": "372000",
+    "set": "atq",
+    "#": "12"
+  },
+  {
+    "name": "Reverse Polarity",
+    "prints": "372000",
+    "set": "atq",
+    "#": "7"
+  },
+  {
+    "name": "Rocket Launcher",
+    "prints": "93000",
+    "set": "atq",
+    "#": "63"
+  },
+  {
+    "name": "Sage of Lat-Nam",
+    "prints": "372000",
+    "set": "atq",
+    "#": "13"
+  },
+  {
+    "name": "Shapeshifter",
+    "prints": "31000",
+    "set": "atq",
+    "#": "64"
+  },
+  {
+    "name": "Shatterstorm",
+    "prints": "31000",
+    "set": "atq",
+    "#": "28"
+  },
+  {
+    "name": "Staff of Zegon",
+    "prints": "372000",
+    "set": "atq",
+    "#": "65"
+  },
+  {
+    "name": "Strip Mine - Even Stripe",
+    "prints": "31000",
+    "set": "atq",
+    "#": "82a"
+  },
+  {
+    "name": "Strip Mine - No Horizon",
+    "prints": "93000",
+    "set": "atq",
+    "#": "82b"
+  },
+  {
+    "name": "Strip Mine - Tower",
+    "prints": "31000",
+    "set": "atq",
+    "#": "82c"
+  },
+  {
+    "name": "Strip Mine - Uneven Stripe",
+    "prints": "31000",
+    "set": "atq",
+    "#": "82d"
+  },
+  {
+    "name": "Su-Chi",
+    "prints": "93000",
+    "set": "atq",
+    "#": "66"
+  },
+  {
+    "name": "Tablet of Epityr",
+    "prints": "372000",
+    "set": "atq",
+    "#": "67"
+  },
+  {
+    "name": "Tawnos's Coffin",
+    "prints": "31000",
+    "set": "atq",
+    "#": "68"
+  },
+  {
+    "name": "Tawnos's Wand",
+    "prints": "93000",
+    "set": "atq",
+    "#": "69"
+  },
+  {
+    "name": "Tawnos's Weaponry",
+    "prints": "93000",
+    "set": "atq",
+    "#": "70"
+  },
+  {
+    "name": "Tetravus",
+    "prints": "31000",
+    "set": "atq",
+    "#": "71"
+  },
+  {
+    "name": "The Rack",
+    "prints": "93000",
+    "set": "atq",
+    "#": "72"
+  },
+  {
+    "name": "Titania's Song",
+    "prints": "93000",
+    "set": "atq",
+    "#": "35"
+  },
+  {
+    "name": "Transmute Artifact",
+    "prints": "93000",
+    "set": "atq",
+    "#": "14"
+  },
+  {
+    "name": "Triskelion",
+    "prints": "31000",
+    "set": "atq",
+    "#": "73"
+  },
+  {
+    "name": "Urza's Avenger",
+    "prints": "31000",
+    "set": "atq",
+    "#": "74"
+  },
+  {
+    "name": "Urza's Chalice",
+    "prints": "372000",
+    "set": "atq",
+    "#": "75"
+  },
+  {
+    "name": "Urza's Mine - Clawed Sphere",
+    "prints": "186000",
+    "set": "atq",
+    "#": "83a"
+  },
+  {
+    "name": "Urza's Mine - Mouth",
+    "prints": "93000",
+    "set": "atq",
+    "#": "83b"
+  },
+  {
+    "name": "Urza's Mine - Pulley",
+    "prints": "93000",
+    "set": "atq",
+    "#": "83c"
+  },
+  {
+    "name": "Urza's Mine - Tower",
+    "prints": "186000",
+    "set": "atq",
+    "#": "83d"
+  },
+  {
+    "name": "Urza's Miter",
+    "prints": "31000",
+    "set": "atq",
+    "#": "76"
+  },
+  {
+    "name": "Urza's Power Plant - Bug",
+    "prints": "186000",
+    "set": "atq",
+    "#": "84a"
+  },
+  {
+    "name": "Urza's Power Plant - Columns",
+    "prints": "93000",
+    "set": "atq",
+    "#": "84b"
+  },
+  {
+    "name": "Urza's Power Plant - Rock",
+    "prints": "93000",
+    "set": "atq",
+    "#": "84c"
+  },
+  {
+    "name": "Urza's Power Plant - Sphere",
+    "prints": "186000",
+    "set": "atq",
+    "#": "84d"
+  },
+  {
+    "name": "Urza's Tower - Forest",
+    "prints": "186000",
+    "set": "atq",
+    "#": "85a"
+  },
+  {
+    "name": "Urza's Tower - Mountains",
+    "prints": "93000",
+    "set": "atq",
+    "#": "85b"
+  },
+  {
+    "name": "Urza's Tower - Plains",
+    "prints": "93000",
+    "set": "atq",
+    "#": "85c"
+  },
+  {
+    "name": "Urza's Tower - Shore",
+    "prints": "93000",
+    "set": "atq",
+    "#": "85d"
+  },
+  {
+    "name": "Wall of Spears",
+    "prints": "93000",
+    "set": "atq",
+    "#": "77"
+  },
+  {
+    "name": "Weakstone",
+    "prints": "93000",
+    "set": "atq",
+    "#": "78"
+  },
+  {
+    "name": "Xenic Poltergeist",
+    "prints": "93000",
+    "set": "atq",
+    "#": "20"
+  },
+  {
+    "name": "Yawgmoth Demon",
+    "prints": "31000",
+    "set": "atq",
+    "#": "21"
+  },
+  {
+    "name": "Yotian Soldier",
+    "prints": "372000",
+    "set": "atq",
+    "#": "79"
+  },
+  {
+    "name": "Amnesia",
+    "prints": "269000",
+    "set": "drk",
+    "#": "20"
+  },
+  {
+    "name": "Angry Mob",
+    "prints": "269000",
+    "set": "drk",
+    "#": "1"
+  },
+  {
+    "name": "Apprentice Wizard",
+    "prints": "134000",
+    "set": "drk",
+    "#": "21"
+  },
+  {
+    "name": "Ashes to Ashes",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "39"
+  },
+  {
+    "name": "Ball Lightning",
+    "prints": "134000",
+    "set": "drk",
+    "#": "57"
+  },
+  {
+    "name": "Banshee",
+    "prints": "269000",
+    "set": "drk",
+    "#": "40"
+  },
+  {
+    "name": "Barl's Cage",
+    "prints": "134000",
+    "set": "drk",
+    "#": "96"
+  },
+  {
+    "name": "Blood Moon",
+    "prints": "134000",
+    "set": "drk",
+    "#": "58"
+  },
+  {
+    "name": "Blood of the Martyr",
+    "prints": "269000",
+    "set": "drk",
+    "#": "2"
+  },
+  {
+    "name": "Bog Imp",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "41"
+  },
+  {
+    "name": "Bog Rats",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "42"
+  },
+  {
+    "name": "Bone Flute",
+    "prints": "269000",
+    "set": "drk",
+    "#": "97"
+  },
+  {
+    "name": "Book of Rass",
+    "prints": "269000",
+    "set": "drk",
+    "#": "98"
+  },
+  {
+    "name": "Brainwash",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "3"
+  },
+  {
+    "name": "Brothers of Fire",
+    "prints": "269000",
+    "set": "drk",
+    "#": "59"
+  },
+  {
+    "name": "Carnivorous Plant",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "75"
+  },
+  {
+    "name": "Cave People",
+    "prints": "269000",
+    "set": "drk",
+    "#": "60"
+  },
+  {
+    "name": "City of Shadows",
+    "prints": "134000",
+    "set": "drk",
+    "#": "116"
+  },
+  {
+    "name": "Cleansing",
+    "prints": "134000",
+    "set": "drk",
+    "#": "4"
+  },
+  {
+    "name": "Coal Golem",
+    "prints": "269000",
+    "set": "drk",
+    "#": "99"
+  },
+  {
+    "name": "Curse Artifact",
+    "prints": "269000",
+    "set": "drk",
+    "#": "43"
+  },
+  {
+    "name": "Dance of Many",
+    "prints": "134000",
+    "set": "drk",
+    "#": "22"
+  },
+  {
+    "name": "Dark Heart of the Wood",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "95"
+  },
+  {
+    "name": "Dark Sphere",
+    "prints": "269000",
+    "set": "drk",
+    "#": "100"
+  },
+  {
+    "name": "Deep Water",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "23"
+  },
+  {
+    "name": "Diabolic Machine",
+    "prints": "269000",
+    "set": "drk",
+    "#": "101"
+  },
+  {
+    "name": "Drowned",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "24"
+  },
+  {
+    "name": "Dust to Dust",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "5"
+  },
+  {
+    "name": "Eater of the Dead",
+    "prints": "269000",
+    "set": "drk",
+    "#": "44"
+  },
+  {
+    "name": "Electric Eel",
+    "prints": "269000",
+    "set": "drk",
+    "#": "25"
+  },
+  {
+    "name": "Elves of Deep Shadow",
+    "prints": "269000",
+    "set": "drk",
+    "#": "76"
+  },
+  {
+    "name": "Erosion",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "26"
+  },
+  {
+    "name": "Eternal Flame",
+    "prints": "134000",
+    "set": "drk",
+    "#": "61"
+  },
+  {
+    "name": "Exorcist",
+    "prints": "134000",
+    "set": "drk",
+    "#": "6"
+  },
+  {
+    "name": "Fasting",
+    "prints": "269000",
+    "set": "drk",
+    "#": "7"
+  },
+  {
+    "name": "Fellwar Stone",
+    "prints": "269000",
+    "set": "drk",
+    "#": "102"
+  },
+  {
+    "name": "Festival",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "8"
+  },
+  {
+    "name": "Fire and Brimstone",
+    "prints": "269000",
+    "set": "drk",
+    "#": "9"
+  },
+  {
+    "name": "Fire Drake",
+    "prints": "269000",
+    "set": "drk",
+    "#": "62"
+  },
+  {
+    "name": "Fissure",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "63"
+  },
+  {
+    "name": "Flood",
+    "prints": "269000",
+    "set": "drk",
+    "#": "27"
+  },
+  {
+    "name": "Fountain of Youth",
+    "prints": "269000",
+    "set": "drk",
+    "#": "103"
+  },
+  {
+    "name": "Frankenstein's Monster",
+    "prints": "134000",
+    "set": "drk",
+    "#": "45"
+  },
+  {
+    "name": "Gaea's Touch",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "77"
+  },
+  {
+    "name": "Ghost Ship",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "28"
+  },
+  {
+    "name": "Giant Shark",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "29"
+  },
+  {
+    "name": "Goblin Caves",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "64"
+  },
+  {
+    "name": "Goblin Digging Team",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "65"
+  },
+  {
+    "name": "Goblin Hero",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "66"
+  },
+  {
+    "name": "Goblin Rock Sled",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "67"
+  },
+  {
+    "name": "Goblin Shrine",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "68"
+  },
+  {
+    "name": "Goblin Wizard",
+    "prints": "134000",
+    "set": "drk",
+    "#": "70"
+  },
+  {
+    "name": "Goblins of the Flarg",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "69"
+  },
+  {
+    "name": "Grave Robbers",
+    "prints": "134000",
+    "set": "drk",
+    "#": "46"
+  },
+  {
+    "name": "Hidden Path",
+    "prints": "134000",
+    "set": "drk",
+    "#": "78"
+  },
+  {
+    "name": "Holy Light",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "10"
+  },
+  {
+    "name": "Inferno",
+    "prints": "134000",
+    "set": "drk",
+    "#": "71"
+  },
+  {
+    "name": "Inquisition",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "47"
+  },
+  {
+    "name": "Knights of Thorn",
+    "prints": "134000",
+    "set": "drk",
+    "#": "11"
+  },
+  {
+    "name": "Land Leeches",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "79"
+  },
+  {
+    "name": "Leviathan",
+    "prints": "134000",
+    "set": "drk",
+    "#": "30"
+  },
+  {
+    "name": "Living Armor",
+    "prints": "269000",
+    "set": "drk",
+    "#": "104"
+  },
+  {
+    "name": "Lurker",
+    "prints": "134000",
+    "set": "drk",
+    "#": "80"
+  },
+  {
+    "name": "Mana Clash",
+    "prints": "134000",
+    "set": "drk",
+    "#": "72"
+  },
+  {
+    "name": "Mana Vortex",
+    "prints": "134000",
+    "set": "drk",
+    "#": "31"
+  },
+  {
+    "name": "Marsh Gas",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "48"
+  },
+  {
+    "name": "Marsh Goblins",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "93"
+  },
+  {
+    "name": "Marsh Viper",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "81"
+  },
+  {
+    "name": "Martyr's Cry",
+    "prints": "134000",
+    "set": "drk",
+    "#": "12"
+  },
+  {
+    "name": "Maze of Ith",
+    "prints": "403000",
+    "set": "drk",
+    "#": "117"
+  },
+  {
+    "name": "Merfolk Assassin",
+    "prints": "269000",
+    "set": "drk",
+    "#": "32"
+  },
+  {
+    "name": "Mind Bomb",
+    "prints": "134000",
+    "set": "drk",
+    "#": "33"
+  },
+  {
+    "name": "Miracle Worker",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "13"
+  },
+  {
+    "name": "Morale",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "14"
+  },
+  {
+    "name": "Murk Dwellers",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "49"
+  },
+  {
+    "name": "Nameless Race",
+    "prints": "134000",
+    "set": "drk",
+    "#": "50"
+  },
+  {
+    "name": "Necropolis",
+    "prints": "269000",
+    "set": "drk",
+    "#": "105"
+  },
+  {
+    "name": "Niall Silvain",
+    "prints": "134000",
+    "set": "drk",
+    "#": "82"
+  },
+  {
+    "name": "Orc General",
+    "prints": "269000",
+    "set": "drk",
+    "#": "73"
+  },
+  {
+    "name": "People of the Woods",
+    "prints": "269000",
+    "set": "drk",
+    "#": "83"
+  },
+  {
+    "name": "Pikemen",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "15"
+  },
+  {
+    "name": "Preacher",
+    "prints": "134000",
+    "set": "drk",
+    "#": "16"
+  },
+  {
+    "name": "Psychic Allergy",
+    "prints": "134000",
+    "set": "drk",
+    "#": "34"
+  },
+  {
+    "name": "Rag Man",
+    "prints": "134000",
+    "set": "drk",
+    "#": "51"
+  },
+  {
+    "name": "Reflecting Mirror",
+    "prints": "269000",
+    "set": "drk",
+    "#": "106"
+  },
+  {
+    "name": "Riptide",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "35"
+  },
+  {
+    "name": "Runesword",
+    "prints": "269000",
+    "set": "drk",
+    "#": "107"
+  },
+  {
+    "name": "Safe Haven",
+    "prints": "134000",
+    "set": "drk",
+    "#": "118"
+  },
+  {
+    "name": "Savaen Elves",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "84"
+  },
+  {
+    "name": "Scarecrow",
+    "prints": "269000",
+    "set": "drk",
+    "#": "108"
+  },
+  {
+    "name": "Scarwood Bandits",
+    "prints": "134000",
+    "set": "drk",
+    "#": "85"
+  },
+  {
+    "name": "Scarwood Goblins",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "94"
+  },
+  {
+    "name": "Scarwood Hag",
+    "prints": "269000",
+    "set": "drk",
+    "#": "86"
+  },
+  {
+    "name": "Scavenger Folk",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "87"
+  },
+  {
+    "name": "Season of the Witch",
+    "prints": "134000",
+    "set": "drk",
+    "#": "52"
+  },
+  {
+    "name": "Sisters of the Flame",
+    "prints": "269000",
+    "set": "drk",
+    "#": "74"
+  },
+  {
+    "name": "Skull of Orm",
+    "prints": "269000",
+    "set": "drk",
+    "#": "109"
+  },
+  {
+    "name": "Sorrow's Path",
+    "prints": "134000",
+    "set": "drk",
+    "#": "119"
+  },
+  {
+    "name": "Spitting Slug",
+    "prints": "269000",
+    "set": "drk",
+    "#": "88"
+  },
+  {
+    "name": "Squire",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "17"
+  },
+  {
+    "name": "Standing Stones",
+    "prints": "269000",
+    "set": "drk",
+    "#": "110"
+  },
+  {
+    "name": "Stone Calendar",
+    "prints": "134000",
+    "set": "drk",
+    "#": "111"
+  },
+  {
+    "name": "Sunken City",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "36"
+  },
+  {
+    "name": "Tangle Kelp",
+    "prints": "269000",
+    "set": "drk",
+    "#": "37"
+  },
+  {
+    "name": "The Fallen",
+    "prints": "269000",
+    "set": "drk",
+    "#": "53"
+  },
+  {
+    "name": "Tivadar's Crusade",
+    "prints": "269000",
+    "set": "drk",
+    "#": "18"
+  },
+  {
+    "name": "Tormod's Crypt",
+    "prints": "269000",
+    "set": "drk",
+    "#": "112"
+  },
+  {
+    "name": "Tower of Coireall",
+    "prints": "269000",
+    "set": "drk",
+    "#": "113"
+  },
+  {
+    "name": "Tracker",
+    "prints": "134000",
+    "set": "drk",
+    "#": "89"
+  },
+  {
+    "name": "Uncle Istvan",
+    "prints": "269000",
+    "set": "drk",
+    "#": "54"
+  },
+  {
+    "name": "Venom",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "90"
+  },
+  {
+    "name": "Wand of Ith",
+    "prints": "269000",
+    "set": "drk",
+    "#": "114"
+  },
+  {
+    "name": "War Barge",
+    "prints": "269000",
+    "set": "drk",
+    "#": "115"
+  },
+  {
+    "name": "Water Wurm",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "38"
+  },
+  {
+    "name": "Whippoorwill",
+    "prints": "269000",
+    "set": "drk",
+    "#": "91"
+  },
+  {
+    "name": "Witch Hunter",
+    "prints": "134000",
+    "set": "drk",
+    "#": "19"
+  },
+  {
+    "name": "Word of Binding",
+    "prints": "1209000",
+    "set": "drk",
+    "#": "55"
+  },
+  {
+    "name": "Worms of the Earth",
+    "prints": "134000",
+    "set": "drk",
+    "#": "56"
+  },
+  {
+    "name": "Wormwood Treefolk",
+    "prints": "134000",
+    "set": "drk",
+    "#": "92"
+  },
+  {
+    "name": "Abomination",
+    "prints": "57900",
+    "set": "leg",
+    "#": "87"
+  },
+  {
+    "name": "Acid Rain",
+    "prints": "19300",
+    "set": "leg",
+    "#": "44"
+  },
+  {
+    "name": "Active Volcano",
+    "prints": "424000",
+    "set": "leg",
+    "#": "130"
+  },
+  {
+    "name": "Adun Oakenshield",
+    "prints": "19300",
+    "set": "leg",
+    "#": "216"
+  },
+  {
+    "name": "Adventurers' Guildhouse",
+    "prints": "57900",
+    "set": "leg",
+    "#": "300"
+  },
+  {
+    "name": "Ærathi Berserker",
+    "prints": "57900",
+    "set": "leg",
+    "#": "131"
+  },
+  {
+    "name": "Aisling Leprechaun",
+    "prints": "212000",
+    "set": "leg",
+    "#": "173"
+  },
+  {
+    "name": "Akron Legionnaire",
+    "prints": "19300",
+    "set": "leg",
+    "#": "1"
+  },
+  {
+    "name": "Al-abara's Carpet",
+    "prints": "19300",
+    "set": "leg",
+    "#": "271"
+  },
+  {
+    "name": "Alabaster Potion",
+    "prints": "424000",
+    "set": "leg",
+    "#": "2"
+  },
+  {
+    "name": "Alchor's Tomb",
+    "prints": "19300",
+    "set": "leg",
+    "#": "272"
+  },
+  {
+    "name": "All Hallow's Eve",
+    "prints": "19300",
+    "set": "leg",
+    "#": "88"
+  },
+  {
+    "name": "Amrou Kithkin",
+    "prints": "424000",
+    "set": "leg",
+    "#": "3"
+  },
+  {
+    "name": "Angelic Voices",
+    "prints": "19300",
+    "set": "leg",
+    "#": "4"
+  },
+  {
+    "name": "Angus Mackenzie",
+    "prints": "19300",
+    "set": "leg",
+    "#": "217"
+  },
+  {
+    "name": "Anti-Magic Aura",
+    "prints": "212000",
+    "set": "leg",
+    "#": "45"
+  },
+  {
+    "name": "Arboria",
+    "prints": "57900",
+    "set": "leg",
+    "#": "174"
+  },
+  {
+    "name": "Arcades Sabboth",
+    "prints": "19300",
+    "set": "leg",
+    "#": "218"
+  },
+  {
+    "name": "Arena of the Ancients",
+    "prints": "19300",
+    "set": "leg",
+    "#": "273"
+  },
+  {
+    "name": "Avoid Fate",
+    "prints": "212000",
+    "set": "leg",
+    "#": "175"
+  },
+  {
+    "name": "Axelrod Gunnarson",
+    "prints": "19300",
+    "set": "leg",
+    "#": "219"
+  },
+  {
+    "name": "Ayesha Tanaka",
+    "prints": "19300",
+    "set": "leg",
+    "#": "220"
+  },
+  {
+    "name": "Azure Drake",
+    "prints": "57900",
+    "set": "leg",
+    "#": "46"
+  },
+  {
+    "name": "Backdraft",
+    "prints": "57900",
+    "set": "leg",
+    "#": "132"
+  },
+  {
+    "name": "Backfire",
+    "prints": "57900",
+    "set": "leg",
+    "#": "47"
+  },
+  {
+    "name": "Barbary Apes",
+    "prints": "212000",
+    "set": "leg",
+    "#": "176"
+  },
+  {
+    "name": "Barktooth Warbeard",
+    "prints": "57900",
+    "set": "leg",
+    "#": "221"
+  },
+  {
+    "name": "Bartel Runeaxe",
+    "prints": "19300",
+    "set": "leg",
+    "#": "222"
+  },
+  {
+    "name": "Beasts of Bogardan",
+    "prints": "57900",
+    "set": "leg",
+    "#": "133"
+  },
+  {
+    "name": "Black Mana Battery",
+    "prints": "57900",
+    "set": "leg",
+    "#": "274"
+  },
+  {
+    "name": "Blazing Effigy",
+    "prints": "424000",
+    "set": "leg",
+    "#": "134"
+  },
+  {
+    "name": "Blight",
+    "prints": "57900",
+    "set": "leg",
+    "#": "89"
+  },
+  {
+    "name": "Blood Lust",
+    "prints": "57900",
+    "set": "leg",
+    "#": "135"
+  },
+  {
+    "name": "Blue Mana Battery",
+    "prints": "57900",
+    "set": "leg",
+    "#": "275"
+  },
+  {
+    "name": "Boomerang",
+    "prints": "424000",
+    "set": "leg",
+    "#": "48"
+  },
+  {
+    "name": "Boris Devilboon",
+    "prints": "19300",
+    "set": "leg",
+    "#": "223"
+  },
+  {
+    "name": "Brine Hag",
+    "prints": "57900",
+    "set": "leg",
+    "#": "49"
+  },
+  {
+    "name": "Bronze Horse",
+    "prints": "19300",
+    "set": "leg",
+    "#": "276"
+  },
+  {
+    "name": "Carrion Ants",
+    "prints": "19300",
+    "set": "leg",
+    "#": "90"
+  },
+  {
+    "name": "Cat Warriors",
+    "prints": "424000",
+    "set": "leg",
+    "#": "301"
+  },
+  {
+    "name": "Cathedral of Serra",
+    "prints": "57900",
+    "set": "leg",
+    "#": "177"
+  },
+  {
+    "name": "Caverns of Despair",
+    "prints": "19300",
+    "set": "leg",
+    "#": "136"
+  },
+  {
+    "name": "Chain Lightning",
+    "prints": "424000",
+    "set": "leg",
+    "#": "137"
+  },
+  {
+    "name": "Chains of Mephistopheles",
+    "prints": "19300",
+    "set": "leg",
+    "#": "91"
+  },
+  {
+    "name": "Chromium",
+    "prints": "19300",
+    "set": "leg",
+    "#": "224"
+  },
+  {
+    "name": "Cleanse",
+    "prints": "19300",
+    "set": "leg",
+    "#": "5"
+  },
+  {
+    "name": "Clergy of the Holy Nimbus",
+    "prints": "424000",
+    "set": "leg",
+    "#": "6"
+  },
+  {
+    "name": "Cocoon",
+    "prints": "57900",
+    "set": "leg",
+    "#": "178"
+  },
+  {
+    "name": "Concordant Crossroads",
+    "prints": "19300",
+    "set": "leg",
+    "#": "179"
+  },
+  {
+    "name": "Cosmic Horror",
+    "prints": "19300",
+    "set": "leg",
+    "#": "92"
+  },
+  {
+    "name": "Craw Giant",
+    "prints": "57900",
+    "set": "leg",
+    "#": "180"
+  },
+  {
+    "name": "Crevasse",
+    "prints": "57900",
+    "set": "leg",
+    "#": "138"
+  },
+  {
+    "name": "Crimson Kobolds",
+    "prints": "424000",
+    "set": "leg",
+    "#": "139"
+  },
+  {
+    "name": "Crimson Manticore",
+    "prints": "19300",
+    "set": "leg",
+    "#": "140"
+  },
+  {
+    "name": "Crookshank Kobolds",
+    "prints": "424000",
+    "set": "leg",
+    "#": "141"
+  },
+  {
+    "name": "Cyclopean Mummy",
+    "prints": "424000",
+    "set": "leg",
+    "#": "93"
+  },
+  {
+    "name": "D'Avenant Archer",
+    "prints": "424000",
+    "set": "leg",
+    "#": "225"
+  },
+  {
+    "name": "Dakkon Blackblade",
+    "prints": "19300",
+    "set": "leg",
+    "#": "94"
+  },
+  {
+    "name": "Darkness",
+    "prints": "212000",
+    "set": "leg",
+    "#": "7"
+  },
+  {
+    "name": "Deadfall",
+    "prints": "57900",
+    "set": "leg",
+    "#": "181"
+  },
+  {
+    "name": "Demonic Torment",
+    "prints": "57900",
+    "set": "leg",
+    "#": "95"
+  },
+  {
+    "name": "Devouring Deep",
+    "prints": "424000",
+    "set": "leg",
+    "#": "50"
+  },
+  {
+    "name": "Disharmony",
+    "prints": "19300",
+    "set": "leg",
+    "#": "142"
+  },
+  {
+    "name": "Divine Intervention",
+    "prints": "19300",
+    "set": "leg",
+    "#": "8"
+  },
+  {
+    "name": "Divine Offering",
+    "prints": "424000",
+    "set": "leg",
+    "#": "9"
+  },
+  {
+    "name": "Divine Transformation",
+    "prints": "19300",
+    "set": "leg",
+    "#": "10"
+  },
+  {
+    "name": "Dream Coat",
+    "prints": "57900",
+    "set": "leg",
+    "#": "51"
+  },
+  {
+    "name": "Durkwood Boars",
+    "prints": "424000",
+    "set": "leg",
+    "#": "182"
+  },
+  {
+    "name": "Dwarven Song",
+    "prints": "57900",
+    "set": "leg",
+    "#": "143"
+  },
+  {
+    "name": "Elder Land Wurm",
+    "prints": "19300",
+    "set": "leg",
+    "#": "11"
+  },
+  {
+    "name": "Elder Spawn",
+    "prints": "19300",
+    "set": "leg",
+    "#": "52"
+  },
+  {
+    "name": "Elven Riders",
+    "prints": "19300",
+    "set": "leg",
+    "#": "183"
+  },
+  {
+    "name": "Emerald Dragonfly",
+    "prints": "424000",
+    "set": "leg",
+    "#": "184"
+  },
+  {
+    "name": "Enchanted Being",
+    "prints": "212000",
+    "set": "leg",
+    "#": "12"
+  },
+  {
+    "name": "Enchantment Alteration",
+    "prints": "212000",
+    "set": "leg",
+    "#": "53"
+  },
+  {
+    "name": "Energy Tap",
+    "prints": "424000",
+    "set": "leg",
+    "#": "54"
+  },
+  {
+    "name": "Equinox",
+    "prints": "212000",
+    "set": "leg",
+    "#": "13"
+  },
+  {
+    "name": "Eternal Warrior",
+    "prints": "57900",
+    "set": "leg",
+    "#": "144"
+  },
+  {
+    "name": "Eureka",
+    "prints": "19300",
+    "set": "leg",
+    "#": "185"
+  },
+  {
+    "name": "Evil Eye of Orms-By-Gore",
+    "prints": "57900",
+    "set": "leg",
+    "#": "96"
+  },
+  {
+    "name": "Fallen Angel",
+    "prints": "57900",
+    "set": "leg",
+    "#": "97"
+  },
+  {
+    "name": "Falling Star",
+    "prints": "19300",
+    "set": "leg",
+    "#": "145"
+  },
+  {
+    "name": "Feint",
+    "prints": "212000",
+    "set": "leg",
+    "#": "146"
+  },
+  {
+    "name": "Field of Dreams",
+    "prints": "19300",
+    "set": "leg",
+    "#": "55"
+  },
+  {
+    "name": "Fire Sprites",
+    "prints": "424000",
+    "set": "leg",
+    "#": "186"
+  },
+  {
+    "name": "Firestorm Phoenix",
+    "prints": "19300",
+    "set": "leg",
+    "#": "147"
+  },
+  {
+    "name": "Flash Counter",
+    "prints": "424000",
+    "set": "leg",
+    "#": "56"
+  },
+  {
+    "name": "Flash Flood",
+    "prints": "424000",
+    "set": "leg",
+    "#": "57"
+  },
+  {
+    "name": "Floral Spuzzem",
+    "prints": "57900",
+    "set": "leg",
+    "#": "187"
+  },
+  {
+    "name": "Force Spike",
+    "prints": "424000",
+    "set": "leg",
+    "#": "58"
+  },
+  {
+    "name": "Forethought Amulet",
+    "prints": "19300",
+    "set": "leg",
+    "#": "277"
+  },
+  {
+    "name": "Fortified Area",
+    "prints": "57900",
+    "set": "leg",
+    "#": "14"
+  },
+  {
+    "name": "Frost Giant",
+    "prints": "57900",
+    "set": "leg",
+    "#": "148"
+  },
+  {
+    "name": "Gabriel Angelfire",
+    "prints": "19300",
+    "set": "leg",
+    "#": "226"
+  },
+  {
+    "name": "Gaseous Form",
+    "prints": "212000",
+    "set": "leg",
+    "#": "59"
+  },
+  {
+    "name": "Gauntlets of Chaos",
+    "prints": "19300",
+    "set": "leg",
+    "#": "278"
+  },
+  {
+    "name": "Ghosts of the Damned",
+    "prints": "424000",
+    "set": "leg",
+    "#": "98"
+  },
+  {
+    "name": "Giant Slug",
+    "prints": "424000",
+    "set": "leg",
+    "#": "99"
+  },
+  {
+    "name": "Giant Strength",
+    "prints": "424000",
+    "set": "leg",
+    "#": "149"
+  },
+  {
+    "name": "Giant Turtle",
+    "prints": "424000",
+    "set": "leg",
+    "#": "188"
+  },
+  {
+    "name": "Glyph of Delusion",
+    "prints": "212000",
+    "set": "leg",
+    "#": "60"
+  },
+  {
+    "name": "Glyph of Destruction",
+    "prints": "424000",
+    "set": "leg",
+    "#": "150"
+  },
+  {
+    "name": "Glyph of Doom",
+    "prints": "424000",
+    "set": "leg",
+    "#": "100"
+  },
+  {
+    "name": "Glyph of Life",
+    "prints": "424000",
+    "set": "leg",
+    "#": "15"
+  },
+  {
+    "name": "Glyph of Reincarnation",
+    "prints": "212000",
+    "set": "leg",
+    "#": "189"
+  },
+  {
+    "name": "Gosta Dirk",
+    "prints": "19300",
+    "set": "leg",
+    "#": "227"
+  },
+  {
+    "name": "Gravity Sphere",
+    "prints": "19300",
+    "set": "leg",
+    "#": "151"
+  },
+  {
+    "name": "Great Defender",
+    "prints": "57900",
+    "set": "leg",
+    "#": "16"
+  },
+  {
+    "name": "Great Wall",
+    "prints": "57900",
+    "set": "leg",
+    "#": "18"
+  },
+  {
+    "name": "Greater Realm of Preservation",
+    "prints": "57900",
+    "set": "leg",
+    "#": "17"
+  },
+  {
+    "name": "Greed",
+    "prints": "19300",
+    "set": "leg",
+    "#": "101"
+  },
+  {
+    "name": "Green Mana Battery",
+    "prints": "57900",
+    "set": "leg",
+    "#": "279"
+  },
+  {
+    "name": "Gwendlyn Di Corci",
+    "prints": "19300",
+    "set": "leg",
+    "#": "228"
+  },
+  {
+    "name": "Halfdane",
+    "prints": "19300",
+    "set": "leg",
+    "#": "229"
+  },
+  {
+    "name": "Hammerheim",
+    "prints": "116",
+    "set": "leg",
+    "#": "302"
+  },
+  {
+    "name": "Hazezon Tamar",
+    "prints": "19300",
+    "set": "leg",
+    "#": "230"
+  },
+  {
+    "name": "Headless Horseman",
+    "prints": "212000",
+    "set": "leg",
+    "#": "102"
+  },
+  {
+    "name": "Heaven's Gate",
+    "prints": "57900",
+    "set": "leg",
+    "#": "19"
+  },
+  {
+    "name": "Hell Swarm",
+    "prints": "212000",
+    "set": "leg",
+    "#": "105"
+  },
+  {
+    "name": "Hell's Caretaker",
+    "prints": "19300",
+    "set": "leg",
+    "#": "104"
+  },
+  {
+    "name": "Hellfire",
+    "prints": "19300",
+    "set": "leg",
+    "#": "103"
+  },
+  {
+    "name": "Holy Day",
+    "prints": "212000",
+    "set": "leg",
+    "#": "20"
+  },
+  {
+    "name": "Horn of Deafening",
+    "prints": "19300",
+    "set": "leg",
+    "#": "190"
+  },
+  {
+    "name": "Hornet Cobra",
+    "prints": "424000",
+    "set": "leg",
+    "#": "280"
+  },
+  {
+    "name": "Horror of Horrors",
+    "prints": "57900",
+    "set": "leg",
+    "#": "106"
+  },
+  {
+    "name": "Hunding Gjornersen",
+    "prints": "57900",
+    "set": "leg",
+    "#": "231"
+  },
+  {
+    "name": "Hyperion Blacksmith",
+    "prints": "57900",
+    "set": "leg",
+    "#": "152"
+  },
+  {
+    "name": "Ichneumon Druid",
+    "prints": "57900",
+    "set": "leg",
+    "#": "191"
+  },
+  {
+    "name": "Immolation",
+    "prints": "212000",
+    "set": "leg",
+    "#": "153"
+  },
+  {
+    "name": "Imprison",
+    "prints": "19300",
+    "set": "leg",
+    "#": "107"
+  },
+  {
+    "name": "In the Eye of Chaos",
+    "prints": "19300",
+    "set": "leg",
+    "#": "21"
+  },
+  {
+    "name": "Indestructible Aura",
+    "prints": "424000",
+    "set": "leg",
+    "#": "108"
+  },
+  {
+    "name": "Infernal Medusa",
+    "prints": "57900",
+    "set": "leg",
+    "#": "22"
+  },
+  {
+    "name": "Infinite Authority",
+    "prints": "19300",
+    "set": "leg",
+    "#": "61"
+  },
+  {
+    "name": "Invoke Prejudice",
+    "prints": "19300",
+    "set": "leg",
+    "#": "62"
+  },
+  {
+    "name": "Ivory Guardians",
+    "prints": "57900",
+    "set": "leg",
+    "#": "23"
+  },
+  {
+    "name": "Jacques le Vert",
+    "prints": "19300",
+    "set": "leg",
+    "#": "232"
+  },
+  {
+    "name": "Jasmine Boreal",
+    "prints": "57900",
+    "set": "leg",
+    "#": "233"
+  },
+  {
+    "name": "Jedit Ojanen",
+    "prints": "57900",
+    "set": "leg",
+    "#": "234"
+  },
+  {
+    "name": "Jerrard of the Closed Fist",
+    "prints": "57900",
+    "set": "leg",
+    "#": "235"
+  },
+  {
+    "name": "Johan",
+    "prints": "19300",
+    "set": "leg",
+    "#": "236"
+  },
+  {
+    "name": "Jovial Evil",
+    "prints": "19300",
+    "set": "leg",
+    "#": "109"
+  },
+  {
+    "name": "Juxtapose",
+    "prints": "19300",
+    "set": "leg",
+    "#": "63"
+  },
+  {
+    "name": "Karakas",
+    "prints": "116",
+    "set": "leg",
+    "#": "303"
+  },
+  {
+    "name": "Kasimir the Lone Wolf",
+    "prints": "57900",
+    "set": "leg",
+    "#": "237"
+  },
+  {
+    "name": "Keepers of the Faith",
+    "prints": "424000",
+    "set": "leg",
+    "#": "24"
+  },
+  {
+    "name": "Kei Takahashi",
+    "prints": "19300",
+    "set": "leg",
+    "#": "238"
+  },
+  {
+    "name": "Killer Bees",
+    "prints": "19300",
+    "set": "leg",
+    "#": "192"
+  },
+  {
+    "name": "Kismet",
+    "prints": "57900",
+    "set": "leg",
+    "#": "25"
+  },
+  {
+    "name": "Knowledge Vault",
+    "prints": "19300",
+    "set": "leg",
+    "#": "281"
+  },
+  {
+    "name": "Kobold Drill Sergeant",
+    "prints": "57900",
+    "set": "leg",
+    "#": "154"
+  },
+  {
+    "name": "Kobold Overlord",
+    "prints": "19300",
+    "set": "leg",
+    "#": "155"
+  },
+  {
+    "name": "Kobold Taskmaster",
+    "prints": "57900",
+    "set": "leg",
+    "#": "157"
+  },
+  {
+    "name": "Kobolds of Kher Keep",
+    "prints": "424000",
+    "set": "leg",
+    "#": "156"
+  },
+  {
+    "name": "Kry Shield",
+    "prints": "57900",
+    "set": "leg",
+    "#": "282"
+  },
+  {
+    "name": "Lady Caleria",
+    "prints": "19300",
+    "set": "leg",
+    "#": "239"
+  },
+  {
+    "name": "Lady Evangela",
+    "prints": "19300",
+    "set": "leg",
+    "#": "240"
+  },
+  {
+    "name": "Lady Orca",
+    "prints": "57900",
+    "set": "leg",
+    "#": "241"
+  },
+  {
+    "name": "Land Equilibrium",
+    "prints": "19300",
+    "set": "leg",
+    "#": "64"
+  },
+  {
+    "name": "Land Tax",
+    "prints": "57900",
+    "set": "leg",
+    "#": "158"
+  },
+  {
+    "name": "Land's Edge",
+    "prints": "19300",
+    "set": "leg",
+    "#": "26"
+  },
+  {
+    "name": "Lesser Werewolf",
+    "prints": "57900",
+    "set": "leg",
+    "#": "110"
+  },
+  {
+    "name": "Life Chisel",
+    "prints": "116",
+    "set": "leg",
+    "#": "27"
+  },
+  {
+    "name": "Life Matrix",
+    "prints": "19300",
+    "set": "leg",
+    "#": "283"
+  },
+  {
+    "name": "Lifeblood",
+    "prints": "19300",
+    "set": "leg",
+    "#": "284"
+  },
+  {
+    "name": "Living Plane",
+    "prints": "19300",
+    "set": "leg",
+    "#": "193"
+  },
+  {
+    "name": "Livonya Silone",
+    "prints": "19300",
+    "set": "leg",
+    "#": "242"
+  },
+  {
+    "name": "Lord Magnus",
+    "prints": "57900",
+    "set": "leg",
+    "#": "243"
+  },
+  {
+    "name": "Lost Soul",
+    "prints": "424000",
+    "set": "leg",
+    "#": "111"
+  },
+  {
+    "name": "Mana Drain",
+    "prints": "57900",
+    "set": "leg",
+    "#": "65"
+  },
+  {
+    "name": "Mana Matrix",
+    "prints": "19300",
+    "set": "leg",
+    "#": "285"
+  },
+  {
+    "name": "Marble Priest",
+    "prints": "57900",
+    "set": "leg",
+    "#": "286"
+  },
+  {
+    "name": "Marhault Elsdragon",
+    "prints": "57900",
+    "set": "leg",
+    "#": "244"
+  },
+  {
+    "name": "Master of the Hunt",
+    "prints": "19300",
+    "set": "leg",
+    "#": "194"
+  },
+  {
+    "name": "Mirror Universe",
+    "prints": "19300",
+    "set": "leg",
+    "#": "287"
+  },
+  {
+    "name": "Moat",
+    "prints": "19300",
+    "set": "leg",
+    "#": "28"
+  },
+  {
+    "name": "Mold Demon",
+    "prints": "19300",
+    "set": "leg",
+    "#": "112"
+  },
+  {
+    "name": "Moss Monster",
+    "prints": "424000",
+    "set": "leg",
+    "#": "195"
+  },
+  {
+    "name": "Mountain Stronghold",
+    "prints": "57900",
+    "set": "leg",
+    "#": "304"
+  },
+  {
+    "name": "Mountain Yeti",
+    "prints": "57900",
+    "set": "leg",
+    "#": "159"
+  },
+  {
+    "name": "Nebuchadnezzar",
+    "prints": "19300",
+    "set": "leg",
+    "#": "245"
+  },
+  {
+    "name": "Nether Void",
+    "prints": "19300",
+    "set": "leg",
+    "#": "113"
+  },
+  {
+    "name": "Nicol Bolas",
+    "prints": "19300",
+    "set": "leg",
+    "#": "246"
+  },
+  {
+    "name": "North Star",
+    "prints": "19300",
+    "set": "leg",
+    "#": "288"
+  },
+  {
+    "name": "Nova Pentacle",
+    "prints": "19300",
+    "set": "leg",
+    "#": "289"
+  },
+  {
+    "name": "Osai Vultures",
+    "prints": "212000",
+    "set": "leg",
+    "#": "29"
+  },
+  {
+    "name": "Palladia-Mors",
+    "prints": "19300",
+    "set": "leg",
+    "#": "247"
+  },
+  {
+    "name": "Part Water",
+    "prints": "57900",
+    "set": "leg",
+    "#": "66"
+  },
+  {
+    "name": "Pavel Maliki",
+    "prints": "57900",
+    "set": "leg",
+    "#": "248"
+  },
+  {
+    "name": "Pendelhaven",
+    "prints": "116",
+    "set": "leg",
+    "#": "305"
+  },
+  {
+    "name": "Petra Sphinx",
+    "prints": "19300",
+    "set": "leg",
+    "#": "30"
+  },
+  {
+    "name": "Pit Scorpion",
+    "prints": "424000",
+    "set": "leg",
+    "#": "114"
+  },
+  {
+    "name": "Pixie Queen",
+    "prints": "19300",
+    "set": "leg",
+    "#": "196"
+  },
+  {
+    "name": "Planar Gate",
+    "prints": "19300",
+    "set": "leg",
+    "#": "290"
+  },
+  {
+    "name": "Pradesh Gypsies",
+    "prints": "57900",
+    "set": "leg",
+    "#": "197"
+  },
+  {
+    "name": "Presence of the Master",
+    "prints": "57900",
+    "set": "leg",
+    "#": "31"
+  },
+  {
+    "name": "Primordial Ooze",
+    "prints": "57900",
+    "set": "leg",
+    "#": "160"
+  },
+  {
+    "name": "Princess Lucrezia",
+    "prints": "57900",
+    "set": "leg",
+    "#": "249"
+  },
+  {
+    "name": "Psionic Entity",
+    "prints": "19300",
+    "set": "leg",
+    "#": "67"
+  },
+  {
+    "name": "Psychic Purge",
+    "prints": "212000",
+    "set": "leg",
+    "#": "68"
+  },
+  {
+    "name": "Puppet Master",
+    "prints": "57900",
+    "set": "leg",
+    "#": "69"
+  },
+  {
+    "name": "Pyrotechnics",
+    "prints": "424000",
+    "set": "leg",
+    "#": "161"
+  },
+  {
+    "name": "Quagmire",
+    "prints": "57900",
+    "set": "leg",
+    "#": "115"
+  },
+  {
+    "name": "Quarum Trench Gnomes",
+    "prints": "19300",
+    "set": "leg",
+    "#": "162"
+  },
+  {
+    "name": "Rabid Wombat",
+    "prints": "57900",
+    "set": "leg",
+    "#": "198"
+  },
+  {
+    "name": "Radjan Spirit",
+    "prints": "57900",
+    "set": "leg",
+    "#": "199"
+  },
+  {
+    "name": "Raging Bull",
+    "prints": "212000",
+    "set": "leg",
+    "#": "163"
+  },
+  {
+    "name": "Ragnar",
+    "prints": "19300",
+    "set": "leg",
+    "#": "250"
+  },
+  {
+    "name": "Ramirez DePietro",
+    "prints": "57900",
+    "set": "leg",
+    "#": "251"
+  },
+  {
+    "name": "Ramses Overdark",
+    "prints": "19300",
+    "set": "leg",
+    "#": "252"
+  },
+  {
+    "name": "Rapid Fire",
+    "prints": "19300",
+    "set": "leg",
+    "#": "32"
+  },
+  {
+    "name": "Rasputin Dreamweaver",
+    "prints": "19300",
+    "set": "leg",
+    "#": "253"
+  },
+  {
+    "name": "Rebirth",
+    "prints": "19300",
+    "set": "leg",
+    "#": "200"
+  },
+  {
+    "name": "Recall",
+    "prints": "19300",
+    "set": "leg",
+    "#": "70"
+  },
+  {
+    "name": "Red Mana Battery",
+    "prints": "57900",
+    "set": "leg",
+    "#": "291"
+  },
+  {
+    "name": "Reincarnation",
+    "prints": "57900",
+    "set": "leg",
+    "#": "201"
+  },
+  {
+    "name": "Relic Barrier",
+    "prints": "116",
+    "set": "leg",
+    "#": "292"
+  },
+  {
+    "name": "Relic Bind",
+    "prints": "57900",
+    "set": "leg",
+    "#": "71"
+  },
+  {
+    "name": "Remove Enchantments",
+    "prints": "212000",
+    "set": "leg",
+    "#": "33"
+  },
+  {
+    "name": "Remove Soul",
+    "prints": "424000",
+    "set": "leg",
+    "#": "72"
+  },
+  {
+    "name": "Reset",
+    "prints": "57900",
+    "set": "leg",
+    "#": "73"
+  },
+  {
+    "name": "Revelation",
+    "prints": "19300",
+    "set": "leg",
+    "#": "202"
+  },
+  {
+    "name": "Reverberation",
+    "prints": "19300",
+    "set": "leg",
+    "#": "74"
+  },
+  {
+    "name": "Righteous Avengers",
+    "prints": "57900",
+    "set": "leg",
+    "#": "34"
+  },
+  {
+    "name": "Ring of Immortals",
+    "prints": "19300",
+    "set": "leg",
+    "#": "293"
+  },
+  {
+    "name": "Riven Turnbull",
+    "prints": "57900",
+    "set": "leg",
+    "#": "254"
+  },
+  {
+    "name": "Rohgahh of Kher Keep",
+    "prints": "19300",
+    "set": "leg",
+    "#": "255"
+  },
+  {
+    "name": "Rubinia Soulsinger",
+    "prints": "19300",
+    "set": "leg",
+    "#": "256"
+  },
+  {
+    "name": "Rust",
+    "prints": "424000",
+    "set": "leg",
+    "#": "203"
+  },
+  {
+    "name": "Sea Kings' Blessing",
+    "prints": "57900",
+    "set": "leg",
+    "#": "306"
+  },
+  {
+    "name": "Seafarer's Quay",
+    "prints": "116",
+    "set": "leg",
+    "#": "75"
+  },
+  {
+    "name": "Seeker",
+    "prints": "57900",
+    "set": "leg",
+    "#": "35"
+  },
+  {
+    "name": "Segovian Leviathan",
+    "prints": "57900",
+    "set": "leg",
+    "#": "76"
+  },
+  {
+    "name": "Sentinel",
+    "prints": "19300",
+    "set": "leg",
+    "#": "294"
+  },
+  {
+    "name": "Serpent Generator",
+    "prints": "19300",
+    "set": "leg",
+    "#": "295"
+  },
+  {
+    "name": "Shelkin Brownie",
+    "prints": "212000",
+    "set": "leg",
+    "#": "204"
+  },
+  {
+    "name": "Shield Wall",
+    "prints": "57900",
+    "set": "leg",
+    "#": "36"
+  },
+  {
+    "name": "Shimian Night Stalker",
+    "prints": "57900",
+    "set": "leg",
+    "#": "116"
+  },
+  {
+    "name": "Silhouette",
+    "prints": "57900",
+    "set": "leg",
+    "#": "77"
+  },
+  {
+    "name": "Sir Shandlar of Eberyn",
+    "prints": "57900",
+    "set": "leg",
+    "#": "257"
+  },
+  {
+    "name": "Sivitri Scarzam",
+    "prints": "57900",
+    "set": "leg",
+    "#": "258"
+  },
+  {
+    "name": "Sol'kanar the Swamp King",
+    "prints": "19300",
+    "set": "leg",
+    "#": "259"
+  },
+  {
+    "name": "Spectral Cloak",
+    "prints": "57900",
+    "set": "leg",
+    "#": "78"
+  },
+  {
+    "name": "Spinal Villain",
+    "prints": "19300",
+    "set": "leg",
+    "#": "164"
+  },
+  {
+    "name": "Spirit Link",
+    "prints": "57900",
+    "set": "leg",
+    "#": "37"
+  },
+  {
+    "name": "Spirit Shackle",
+    "prints": "212000",
+    "set": "leg",
+    "#": "117"
+  },
+  {
+    "name": "Spiritual Sanctuary",
+    "prints": "19300",
+    "set": "leg",
+    "#": "38"
+  },
+  {
+    "name": "Stangg",
+    "prints": "19300",
+    "set": "leg",
+    "#": "260"
+  },
+  {
+    "name": "Storm Seeker",
+    "prints": "57900",
+    "set": "leg",
+    "#": "205"
+  },
+  {
+    "name": "Storm World",
+    "prints": "19300",
+    "set": "leg",
+    "#": "165"
+  },
+  {
+    "name": "Subdue",
+    "prints": "212000",
+    "set": "leg",
+    "#": "206"
+  },
+  {
+    "name": "Sunastian Falconer",
+    "prints": "57900",
+    "set": "leg",
+    "#": "261"
+  },
+  {
+    "name": "Sword of the Ages",
+    "prints": "19300",
+    "set": "leg",
+    "#": "296"
+  },
+  {
+    "name": "Sylvan Library",
+    "prints": "57900",
+    "set": "leg",
+    "#": "207"
+  },
+  {
+    "name": "Sylvan Paradise",
+    "prints": "57900",
+    "set": "leg",
+    "#": "208"
+  },
+  {
+    "name": "Syphon Soul",
+    "prints": "424000",
+    "set": "leg",
+    "#": "118"
+  },
+  {
+    "name": "Tabernacle at Pendrell Vale",
+    "prints": "19300",
+    "set": "leg",
+    "#": "119"
+  },
+  {
+    "name": "Takklemaggot",
+    "prints": "57900",
+    "set": "leg",
+    "#": "79"
+  },
+  {
+    "name": "Telekinesis",
+    "prints": "19300",
+    "set": "leg",
+    "#": "80"
+  },
+  {
+    "name": "Teleport",
+    "prints": "19300",
+    "set": "leg",
+    "#": "166"
+  },
+  {
+    "name": "Tempest Efreet",
+    "prints": "19300",
+    "set": "leg",
+    "#": "262"
+  },
+  {
+    "name": "Tetsuo Umezawa",
+    "prints": "19300",
+    "set": "leg",
+    "#": "120"
+  },
+  {
+    "name": "The Abyss",
+    "prints": "19300",
+    "set": "leg",
+    "#": "167"
+  },
+  {
+    "name": "The Brute",
+    "prints": "212000",
+    "set": "leg",
+    "#": "263"
+  },
+  {
+    "name": "The Lady of the Mountain",
+    "prints": "57900",
+    "set": "leg",
+    "#": "307"
+  },
+  {
+    "name": "The Wretched",
+    "prints": "19300",
+    "set": "leg",
+    "#": "121"
+  },
+  {
+    "name": "Thunder Spirit",
+    "prints": "19300",
+    "set": "leg",
+    "#": "39"
+  },
+  {
+    "name": "Time Elemental",
+    "prints": "19300",
+    "set": "leg",
+    "#": "81"
+  },
+  {
+    "name": "Tobias Andrion",
+    "prints": "57900",
+    "set": "leg",
+    "#": "264"
+  },
+  {
+    "name": "Tolaria",
+    "prints": "116",
+    "set": "leg",
+    "#": "308"
+  },
+  {
+    "name": "Tor Wauki",
+    "prints": "57900",
+    "set": "leg",
+    "#": "266"
+  },
+  {
+    "name": "Torsten Von Ursus",
+    "prints": "57900",
+    "set": "leg",
+    "#": "265"
+  },
+  {
+    "name": "Touch of Darkness",
+    "prints": "57900",
+    "set": "leg",
+    "#": "122"
+  },
+  {
+    "name": "Transmutation",
+    "prints": "212000",
+    "set": "leg",
+    "#": "123"
+  },
+  {
+    "name": "Triassic Egg",
+    "prints": "19300",
+    "set": "leg",
+    "#": "297"
+  },
+  {
+    "name": "Tuknir Deathlock",
+    "prints": "19300",
+    "set": "leg",
+    "#": "267"
+  },
+  {
+    "name": "Tundra Wolves",
+    "prints": "424000",
+    "set": "leg",
+    "#": "40"
+  },
+  {
+    "name": "Typhoon",
+    "prints": "19300",
+    "set": "leg",
+    "#": "209"
+  },
+  {
+    "name": "Undertow",
+    "prints": "57900",
+    "set": "leg",
+    "#": "82"
+  },
+  {
+    "name": "Underworld Dreams",
+    "prints": "57900",
+    "set": "leg",
+    "#": "124"
+  },
+  {
+    "name": "Unholy Citadel",
+    "prints": "116",
+    "set": "leg",
+    "#": "309"
+  },
+  {
+    "name": "Untamed Wilds",
+    "prints": "57900",
+    "set": "leg",
+    "#": "210"
+  },
+  {
+    "name": "Ur-Drago",
+    "prints": "19300",
+    "set": "leg",
+    "#": "310"
+  },
+  {
+    "name": "Urborg",
+    "prints": "116",
+    "set": "leg",
+    "#": "268"
+  },
+  {
+    "name": "Vaevictis Asmadi",
+    "prints": "19300",
+    "set": "leg",
+    "#": "269"
+  },
+  {
+    "name": "Vampire Bats",
+    "prints": "424000",
+    "set": "leg",
+    "#": "125"
+  },
+  {
+    "name": "Venarian Gold",
+    "prints": "212000",
+    "set": "leg",
+    "#": "83"
+  },
+  {
+    "name": "Visions",
+    "prints": "57900",
+    "set": "leg",
+    "#": "41"
+  },
+  {
+    "name": "Voodoo Doll",
+    "prints": "19300",
+    "set": "leg",
+    "#": "298"
+  },
+  {
+    "name": "Walking Dead",
+    "prints": "212000",
+    "set": "leg",
+    "#": "126"
+  },
+  {
+    "name": "Wall of Caltrops",
+    "prints": "212000",
+    "set": "leg",
+    "#": "42"
+  },
+  {
+    "name": "Wall of Dust",
+    "prints": "57900",
+    "set": "leg",
+    "#": "168"
+  },
+  {
+    "name": "Wall of Earth",
+    "prints": "424000",
+    "set": "leg",
+    "#": "169"
+  },
+  {
+    "name": "Wall of Heat",
+    "prints": "212000",
+    "set": "leg",
+    "#": "170"
+  },
+  {
+    "name": "Wall of Light",
+    "prints": "57900",
+    "set": "leg",
+    "#": "43"
+  },
+  {
+    "name": "Wall of Opposition",
+    "prints": "19300",
+    "set": "leg",
+    "#": "171"
+  },
+  {
+    "name": "Wall of Putrid Flesh",
+    "prints": "57900",
+    "set": "leg",
+    "#": "127"
+  },
+  {
+    "name": "Wall of Shadows",
+    "prints": "424000",
+    "set": "leg",
+    "#": "128"
+  },
+  {
+    "name": "Wall of Tombstones",
+    "prints": "57900",
+    "set": "leg",
+    "#": "129"
+  },
+  {
+    "name": "Wall of Vapor",
+    "prints": "424000",
+    "set": "leg",
+    "#": "84"
+  },
+  {
+    "name": "Wall of Wonder",
+    "prints": "57900",
+    "set": "leg",
+    "#": "85"
+  },
+  {
+    "name": "Whirling Dervish",
+    "prints": "57900",
+    "set": "leg",
+    "#": "211"
+  },
+  {
+    "name": "White Mana Battery",
+    "prints": "57900",
+    "set": "leg",
+    "#": "299"
+  },
+  {
+    "name": "Willow Satyr",
+    "prints": "19300",
+    "set": "leg",
+    "#": "212"
+  },
+  {
+    "name": "Winds of Change",
+    "prints": "57900",
+    "set": "leg",
+    "#": "172"
+  },
+  {
+    "name": "Winter Blast",
+    "prints": "19300",
+    "set": "leg",
+    "#": "213"
+  },
+  {
+    "name": "Wolverine Pack",
+    "prints": "424000",
+    "set": "leg",
+    "#": "214"
+  },
+  {
+    "name": "Wood Elemental",
+    "prints": "19300",
+    "set": "leg",
+    "#": "215"
+  },
+  {
+    "name": "Xira Arien",
+    "prints": "19300",
+    "set": "leg",
+    "#": "270"
+  },
+  {
+    "name": "Zephyr Falcon",
+    "prints": "424000",
+    "set": "leg",
+    "#": "86"
+  },
+  {
+    "name": "Air Elemental",
+    "prints": "4500",
+    "set": "lea",
+    "#": "46"
+  },
+  {
+    "name": "Ancestral Recall",
+    "prints": "1100",
+    "set": "lea",
+    "#": "47"
+  },
+  {
+    "name": "Animate Artifact",
+    "prints": "4500",
+    "set": "lea",
+    "#": "48"
+  },
+  {
+    "name": "Animate Dead",
+    "prints": "4500",
+    "set": "lea",
+    "#": "92"
+  },
+  {
+    "name": "Animate Wall",
+    "prints": "1100",
+    "set": "lea",
+    "#": "1"
+  },
+  {
+    "name": "Ankh of Mishra",
+    "prints": "1100",
+    "set": "lea",
+    "#": "230"
+  },
+  {
+    "name": "Armageddon",
+    "prints": "1100",
+    "set": "lea",
+    "#": "2"
+  },
+  {
+    "name": "Aspect of Wolf",
+    "prints": "1100",
+    "set": "lea",
+    "#": "184"
+  },
+  {
+    "name": "Bad Moon",
+    "prints": "1100",
+    "set": "lea",
+    "#": "277"
+  },
+  {
+    "name": "Badlands",
+    "prints": "1100",
+    "set": "lea",
+    "#": "93"
+  },
+  {
+    "name": "Balance",
+    "prints": "1100",
+    "set": "lea",
+    "#": "3"
+  },
+  {
+    "name": "Basalt Monolith",
+    "prints": "4500",
+    "set": "lea",
+    "#": "231"
+  },
+  {
+    "name": "Bayou",
+    "prints": "1100",
+    "set": "lea",
+    "#": "278"
+  },
+  {
+    "name": "Benalish Hero",
+    "prints": "15900",
+    "set": "lea",
+    "#": "4"
+  },
+  {
+    "name": "Berserk",
+    "prints": "4500",
+    "set": "lea",
+    "#": "185"
+  },
+  {
+    "name": "Birds of Paradise",
+    "prints": "1100",
+    "set": "lea",
+    "#": "186"
+  },
+  {
+    "name": "Black Knight",
+    "prints": "4500",
+    "set": "lea",
+    "#": "94"
+  },
+  {
+    "name": "Black Lotus",
+    "prints": "1100",
+    "set": "lea",
+    "#": "232"
+  },
+  {
+    "name": "Black Vise",
+    "prints": "4500",
+    "set": "lea",
+    "#": "233"
+  },
+  {
+    "name": "Black Ward",
+    "prints": "4500",
+    "set": "lea",
+    "#": "5"
+  },
+  {
+    "name": "Blaze of Glory",
+    "prints": "1100",
+    "set": "lea",
+    "#": "6"
+  },
+  {
+    "name": "Blessing",
+    "prints": "1100",
+    "set": "lea",
+    "#": "7"
+  },
+  {
+    "name": "Blue Elemental Blast",
+    "prints": "15900",
+    "set": "lea",
+    "#": "49"
+  },
+  {
+    "name": "Blue Ward",
+    "prints": "4500",
+    "set": "lea",
+    "#": "8"
+  },
+  {
+    "name": "Bog Wraith",
+    "prints": "4500",
+    "set": "lea",
+    "#": "95"
+  },
+  {
+    "name": "Braingeyser",
+    "prints": "1100",
+    "set": "lea",
+    "#": "50"
+  },
+  {
+    "name": "Burrowing",
+    "prints": "4500",
+    "set": "lea",
+    "#": "138"
+  },
+  {
+    "name": "Camouflage",
+    "prints": "4500",
+    "set": "lea",
+    "#": "187"
+  },
+  {
+    "name": "Castle",
+    "prints": "4500",
+    "set": "lea",
+    "#": "9"
+  },
+  {
+    "name": "Celestial Prism",
+    "prints": "4500",
+    "set": "lea",
+    "#": "234"
+  },
+  {
+    "name": "Channel",
+    "prints": "4500",
+    "set": "lea",
+    "#": "188"
+  },
+  {
+    "name": "Chaos Orb",
+    "prints": "1100",
+    "set": "lea",
+    "#": "139"
+  },
+  {
+    "name": "Chaoslace",
+    "prints": "1100",
+    "set": "lea",
+    "#": "235"
+  },
+  {
+    "name": "Circle of Protection:",
+    "prints": "15900",
+    "set": "lea",
+    "#": "13"
+  },
+  {
+    "name": "Circle of Protection:",
+    "prints": "15900",
+    "set": "lea",
+    "#": "12"
+  },
+  {
+    "name": "Circle of Protection:",
+    "prints": "15900",
+    "set": "lea",
+    "#": "11"
+  },
+  {
+    "name": "Circle of Protection:",
+    "prints": "15900",
+    "set": "lea",
+    "#": "10"
+  },
+  {
+    "name": "Clockwork Beast",
+    "prints": "1100",
+    "set": "lea",
+    "#": "236"
+  },
+  {
+    "name": "Clone",
+    "prints": "4500",
+    "set": "lea",
+    "#": "51"
+  },
+  {
+    "name": "Cockatrice",
+    "prints": "1100",
+    "set": "lea",
+    "#": "189"
+  },
+  {
+    "name": "Consecrate Land",
+    "prints": "4500",
+    "set": "lea",
+    "#": "14"
+  },
+  {
+    "name": "Conservator",
+    "prints": "4500",
+    "set": "lea",
+    "#": "237"
+  },
+  {
+    "name": "Contract from Below",
+    "prints": "1100",
+    "set": "lea",
+    "#": "96"
+  },
+  {
+    "name": "Control Magic",
+    "prints": "4500",
+    "set": "lea",
+    "#": "52"
+  },
+  {
+    "name": "Conversion",
+    "prints": "4500",
+    "set": "lea",
+    "#": "15"
+  },
+  {
+    "name": "Copper Tablet",
+    "prints": "4500",
+    "set": "lea",
+    "#": "238"
+  },
+  {
+    "name": "Copy Artifact",
+    "prints": "1100",
+    "set": "lea",
+    "#": "53"
+  },
+  {
+    "name": "Counterspell",
+    "prints": "4500",
+    "set": "lea",
+    "#": "54"
+  },
+  {
+    "name": "Craw Wurm",
+    "prints": "15900",
+    "set": "lea",
+    "#": "190"
+  },
+  {
+    "name": "Creature Bond",
+    "prints": "15900",
+    "set": "lea",
+    "#": "55"
+  },
+  {
+    "name": "Crusade",
+    "prints": "1100",
+    "set": "lea",
+    "#": "16"
+  },
+  {
+    "name": "Crystal Rod",
+    "prints": "4500",
+    "set": "lea",
+    "#": "239"
+  },
+  {
+    "name": "Cursed Land",
+    "prints": "4500",
+    "set": "lea",
+    "#": "97"
+  },
+  {
+    "name": "Cyclopean Tomb",
+    "prints": "1100",
+    "set": "lea",
+    "#": "240"
+  },
+  {
+    "name": "Dark Ritual",
+    "prints": "15900",
+    "set": "lea",
+    "#": "99"
+  },
+  {
+    "name": "Darkpact",
+    "prints": "1100",
+    "set": "lea",
+    "#": "98"
+  },
+  {
+    "name": "Death Ward",
+    "prints": "15900",
+    "set": "lea",
+    "#": "100"
+  },
+  {
+    "name": "Deathgrip",
+    "prints": "4500",
+    "set": "lea",
+    "#": "101"
+  },
+  {
+    "name": "Deathlace",
+    "prints": "1100",
+    "set": "lea",
+    "#": "17"
+  },
+  {
+    "name": "Demonic Attorney",
+    "prints": "1100",
+    "set": "lea",
+    "#": "102"
+  },
+  {
+    "name": "Demonic Hordes",
+    "prints": "1100",
+    "set": "lea",
+    "#": "103"
+  },
+  {
+    "name": "Demonic Tutor",
+    "prints": "4500",
+    "set": "lea",
+    "#": "104"
+  },
+  {
+    "name": "Dingus Egg",
+    "prints": "1100",
+    "set": "lea",
+    "#": "241"
+  },
+  {
+    "name": "Disenchant",
+    "prints": "15900",
+    "set": "lea",
+    "#": "18"
+  },
+  {
+    "name": "Disintegrate",
+    "prints": "15900",
+    "set": "lea",
+    "#": "140"
+  },
+  {
+    "name": "Disrupting Scepter",
+    "prints": "1100",
+    "set": "lea",
+    "#": "242"
+  },
+  {
+    "name": "Dragon Whelp",
+    "prints": "4500",
+    "set": "lea",
+    "#": "141"
+  },
+  {
+    "name": "Drain Life",
+    "prints": "15900",
+    "set": "lea",
+    "#": "105"
+  },
+  {
+    "name": "Drain Power",
+    "prints": "1100",
+    "set": "lea",
+    "#": "56"
+  },
+  {
+    "name": "Drudge Skeletons",
+    "prints": "15900",
+    "set": "lea",
+    "#": "106"
+  },
+  {
+    "name": "Dwarven Demolition Tea",
+    "prints": "4500",
+    "set": "lea",
+    "#": "142"
+  },
+  {
+    "name": "Dwarven Warriors",
+    "prints": "15900",
+    "set": "lea",
+    "#": "143"
+  },
+  {
+    "name": "Earth Elemental",
+    "prints": "4500",
+    "set": "lea",
+    "#": "145"
+  },
+  {
+    "name": "Earthbind",
+    "prints": "15900",
+    "set": "lea",
+    "#": "144"
+  },
+  {
+    "name": "Earthquake",
+    "prints": "1100",
+    "set": "lea",
+    "#": "146"
+  },
+  {
+    "name": "Elvish Archers",
+    "prints": "1100",
+    "set": "lea",
+    "#": "191"
+  },
+  {
+    "name": "Evil Presence",
+    "prints": "4500",
+    "set": "lea",
+    "#": "107"
+  },
+  {
+    "name": "False Orders",
+    "prints": "15900",
+    "set": "lea",
+    "#": "147"
+  },
+  {
+    "name": "Farmstead",
+    "prints": "1100",
+    "set": "lea",
+    "#": "19"
+  },
+  {
+    "name": "Fastbond",
+    "prints": "1100",
+    "set": "lea",
+    "#": "192"
+  },
+  {
+    "name": "Fear",
+    "prints": "15900",
+    "set": "lea",
+    "#": "108"
+  },
+  {
+    "name": "Feedback",
+    "prints": "4500",
+    "set": "lea",
+    "#": "57"
+  },
+  {
+    "name": "Fire Elemental",
+    "prints": "4500",
+    "set": "lea",
+    "#": "149"
+  },
+  {
+    "name": "Fireball",
+    "prints": "15900",
+    "set": "lea",
+    "#": "150"
+  },
+  {
+    "name": "Firebreathing",
+    "prints": "15900",
+    "set": "lea",
+    "#": "148"
+  },
+  {
+    "name": "Flashfires",
+    "prints": "4500",
+    "set": "lea",
+    "#": "151"
+  },
+  {
+    "name": "Flight",
+    "prints": "15900",
+    "set": "lea",
+    "#": "58"
+  },
+  {
+    "name": "Fog",
+    "prints": "15900",
+    "set": "lea",
+    "#": "193"
+  },
+  {
+    "name": "Force of Nature",
+    "prints": "1100",
+    "set": "lea",
+    "#": "243"
+  },
+  {
+    "name": "Forcefield",
+    "prints": "1100",
+    "set": "lea",
+    "#": "194"
+  },
+  {
+    "name": "Forest - A",
+    "prints": "87000",
+    "set": "lea",
+    "#": "294"
+  },
+  {
+    "name": "Forest - B",
+    "prints": "87000",
+    "set": "lea",
+    "#": "295"
+  },
+  {
+    "name": "Fork",
+    "prints": "1100",
+    "set": "lea",
+    "#": "152"
+  },
+  {
+    "name": "Frozen Shade",
+    "prints": "15900",
+    "set": "lea",
+    "#": "109"
+  },
+  {
+    "name": "Fungusaur",
+    "prints": "1100",
+    "set": "lea",
+    "#": "195"
+  },
+  {
+    "name": "Gaea's Liege",
+    "prints": "1100",
+    "set": "lea",
+    "#": "196"
+  },
+  {
+    "name": "Gauntlet of Might",
+    "prints": "1100",
+    "set": "lea",
+    "#": "244"
+  },
+  {
+    "name": "Giant Growth",
+    "prints": "15900",
+    "set": "lea",
+    "#": "197"
+  },
+  {
+    "name": "Giant Spider",
+    "prints": "15900",
+    "set": "lea",
+    "#": "198"
+  },
+  {
+    "name": "Glasses of Urza",
+    "prints": "4500",
+    "set": "lea",
+    "#": "245"
+  },
+  {
+    "name": "Gloom",
+    "prints": "4500",
+    "set": "lea",
+    "#": "110"
+  },
+  {
+    "name": "Goblin Balloon Brigade",
+    "prints": "4500",
+    "set": "lea",
+    "#": "153"
+  },
+  {
+    "name": "Goblin King",
+    "prints": "1100",
+    "set": "lea",
+    "#": "154"
+  },
+  {
+    "name": "Granite Gargoyle",
+    "prints": "1100",
+    "set": "lea",
+    "#": "155"
+  },
+  {
+    "name": "Gray Ogre",
+    "prints": "15900",
+    "set": "lea",
+    "#": "156"
+  },
+  {
+    "name": "Green Ward",
+    "prints": "4500",
+    "set": "lea",
+    "#": "20"
+  },
+  {
+    "name": "Grizzly Bears",
+    "prints": "15900",
+    "set": "lea",
+    "#": "199"
+  },
+  {
+    "name": "Guardian Angel",
+    "prints": "15900",
+    "set": "lea",
+    "#": "21"
+  },
+  {
+    "name": "Healing Salve",
+    "prints": "15900",
+    "set": "lea",
+    "#": "22"
+  },
+  {
+    "name": "Helm of Chatzuk",
+    "prints": "1100",
+    "set": "lea",
+    "#": "246"
+  },
+  {
+    "name": "Hill Giant",
+    "prints": "15900",
+    "set": "lea",
+    "#": "157"
+  },
+  {
+    "name": "Holy Armor",
+    "prints": "15900",
+    "set": "lea",
+    "#": "23"
+  },
+  {
+    "name": "Holy Strength",
+    "prints": "15900",
+    "set": "lea",
+    "#": "24"
+  },
+  {
+    "name": "Howl from Beyond",
+    "prints": "15900",
+    "set": "lea",
+    "#": "111"
+  },
+  {
+    "name": "Howling Mine",
+    "prints": "1100",
+    "set": "lea",
+    "#": "247"
+  },
+  {
+    "name": "Hurloon Minotaur",
+    "prints": "15900",
+    "set": "lea",
+    "#": "158"
+  },
+  {
+    "name": "Hurricane",
+    "prints": "4500",
+    "set": "lea",
+    "#": "200"
+  },
+  {
+    "name": "Hypnotic Specter",
+    "prints": "4500",
+    "set": "lea",
+    "#": "112"
+  },
+  {
+    "name": "Ice Storm",
+    "prints": "4500",
+    "set": "lea",
+    "#": "201"
+  },
+  {
+    "name": "Icy Manipulator",
+    "prints": "4500",
+    "set": "lea",
+    "#": "248"
+  },
+  {
+    "name": "Illusionary Mask",
+    "prints": "1100",
+    "set": "lea",
+    "#": "249"
+  },
+  {
+    "name": "Instill Energy",
+    "prints": "4500",
+    "set": "lea",
+    "#": "202"
+  },
+  {
+    "name": "Invisibility",
+    "prints": "15900",
+    "set": "lea",
+    "#": "59"
+  },
+  {
+    "name": "Iron Star",
+    "prints": "4500",
+    "set": "lea",
+    "#": "159"
+  },
+  {
+    "name": "Ironclaw Orcs",
+    "prints": "15900",
+    "set": "lea",
+    "#": "203"
+  },
+  {
+    "name": "Ironroot Treefolk",
+    "prints": "15900",
+    "set": "lea",
+    "#": "250"
+  },
+  {
+    "name": "Island - A",
+    "prints": "87000",
+    "set": "lea",
+    "#": "288"
+  },
+  {
+    "name": "Island - B",
+    "prints": "87000",
+    "set": "lea",
+    "#": "289"
+  },
+  {
+    "name": "Island Sanctuary",
+    "prints": "1100",
+    "set": "lea",
+    "#": "25"
+  },
+  {
+    "name": "Ivory Cup",
+    "prints": "4500",
+    "set": "lea",
+    "#": "251"
+  },
+  {
+    "name": "Jade Monoith",
+    "prints": "1100",
+    "set": "lea",
+    "#": "252"
+  },
+  {
+    "name": "Jade Statue",
+    "prints": "4500",
+    "set": "lea",
+    "#": "253"
+  },
+  {
+    "name": "Jayemdae Tome",
+    "prints": "1100",
+    "set": "lea",
+    "#": "254"
+  },
+  {
+    "name": "Juggernaut",
+    "prints": "4500",
+    "set": "lea",
+    "#": "255"
+  },
+  {
+    "name": "Jump",
+    "prints": "15900",
+    "set": "lea",
+    "#": "60"
+  },
+  {
+    "name": "Karma",
+    "prints": "4500",
+    "set": "lea",
+    "#": "26"
+  },
+  {
+    "name": "Keldon Warlord",
+    "prints": "4500",
+    "set": "lea",
+    "#": "160"
+  },
+  {
+    "name": "Kormus Bell",
+    "prints": "1100",
+    "set": "lea",
+    "#": "256"
+  },
+  {
+    "name": "Kudzu",
+    "prints": "1100",
+    "set": "lea",
+    "#": "204"
+  },
+  {
+    "name": "Lance",
+    "prints": "4500",
+    "set": "lea",
+    "#": "27"
+  },
+  {
+    "name": "Ley Druid",
+    "prints": "4500",
+    "set": "lea",
+    "#": "205"
+  },
+  {
+    "name": "Library of Leng",
+    "prints": "4500",
+    "set": "lea",
+    "#": "257"
+  },
+  {
+    "name": "Lich",
+    "prints": "1100",
+    "set": "lea",
+    "#": "113"
+  },
+  {
+    "name": "Lifeforce",
+    "prints": "4500",
+    "set": "lea",
+    "#": "206"
+  },
+  {
+    "name": "Lifelace",
+    "prints": "1100",
+    "set": "lea",
+    "#": "207"
+  },
+  {
+    "name": "Lifetap",
+    "prints": "4500",
+    "set": "lea",
+    "#": "61"
+  },
+  {
+    "name": "Lightning Bolt",
+    "prints": "15900",
+    "set": "lea",
+    "#": "161"
+  },
+  {
+    "name": "Living Artifact",
+    "prints": "1100",
+    "set": "lea",
+    "#": "208"
+  },
+  {
+    "name": "Living Lands",
+    "prints": "1100",
+    "set": "lea",
+    "#": "209"
+  },
+  {
+    "name": "Living Wall",
+    "prints": "4500",
+    "set": "lea",
+    "#": "258"
+  },
+  {
+    "name": "Llanowar Elves",
+    "prints": "15900",
+    "set": "lea",
+    "#": "210"
+  },
+  {
+    "name": "Lord of Atlantis",
+    "prints": "1100",
+    "set": "lea",
+    "#": "62"
+  },
+  {
+    "name": "Lord of the Pit",
+    "prints": "1100",
+    "set": "lea",
+    "#": "114"
+  },
+  {
+    "name": "Lure",
+    "prints": "4500",
+    "set": "lea",
+    "#": "211"
+  },
+  {
+    "name": "Magical Hack",
+    "prints": "1100",
+    "set": "lea",
+    "#": "63"
+  },
+  {
+    "name": "Mahamoti Djinn",
+    "prints": "1100",
+    "set": "lea",
+    "#": "64"
+  },
+  {
+    "name": "Mana Flare",
+    "prints": "1100",
+    "set": "lea",
+    "#": "163"
+  },
+  {
+    "name": "Mana Short",
+    "prints": "1100",
+    "set": "lea",
+    "#": "162"
+  },
+  {
+    "name": "Mana Vault",
+    "prints": "1100",
+    "set": "lea",
+    "#": "65"
+  },
+  {
+    "name": "Manabarbs",
+    "prints": "1100",
+    "set": "lea",
+    "#": "259"
+  },
+  {
+    "name": "Meekstone",
+    "prints": "1100",
+    "set": "lea",
+    "#": "260"
+  },
+  {
+    "name": "Merfolk of the Pearl T",
+    "prints": "15900",
+    "set": "lea",
+    "#": "66"
+  },
+  {
+    "name": "Mesa Pegasus",
+    "prints": "15900",
+    "set": "lea",
+    "#": "28"
+  },
+  {
+    "name": "Mind Twist",
+    "prints": "1100",
+    "set": "lea",
+    "#": "115"
+  },
+  {
+    "name": "Mons's Goblin Raiders",
+    "prints": "15900",
+    "set": "lea",
+    "#": "164"
+  },
+  {
+    "name": "Mountain - A",
+    "prints": "87000",
+    "set": "lea",
+    "#": "292"
+  },
+  {
+    "name": "Mountain - B",
+    "prints": "87000",
+    "set": "lea",
+    "#": "293"
+  },
+  {
+    "name": "Mox Emerald",
+    "prints": "1100",
+    "set": "lea",
+    "#": "261"
+  },
+  {
+    "name": "Mox Jet",
+    "prints": "1100",
+    "set": "lea",
+    "#": "262"
+  },
+  {
+    "name": "Mox Pearl",
+    "prints": "1100",
+    "set": "lea",
+    "#": "263"
+  },
+  {
+    "name": "Mox Ruby",
+    "prints": "1100",
+    "set": "lea",
+    "#": "264"
+  },
+  {
+    "name": "Mox Sapphire",
+    "prints": "1100",
+    "set": "lea",
+    "#": "265"
+  },
+  {
+    "name": "Natural Selection",
+    "prints": "1100",
+    "set": "lea",
+    "#": "212"
+  },
+  {
+    "name": "Nether Shadow",
+    "prints": "1100",
+    "set": "lea",
+    "#": "116"
+  },
+  {
+    "name": "Nettling Imp",
+    "prints": "4500",
+    "set": "lea",
+    "#": "117"
+  },
+  {
+    "name": "Nevinyrral's Disk",
+    "prints": "1100",
+    "set": "lea",
+    "#": "266"
+  },
+  {
+    "name": "Nightmare",
+    "prints": "1100",
+    "set": "lea",
+    "#": "118"
+  },
+  {
+    "name": "Northern Paladin",
+    "prints": "1100",
+    "set": "lea",
+    "#": "29"
+  },
+  {
+    "name": "Obsianus Golem",
+    "prints": "4500",
+    "set": "lea",
+    "#": "267"
+  },
+  {
+    "name": "Orcish Artillery",
+    "prints": "4500",
+    "set": "lea",
+    "#": "165"
+  },
+  {
+    "name": "Orcish Oriflamme",
+    "prints": "4500",
+    "set": "lea",
+    "#": "166"
+  },
+  {
+    "name": "Paralyze",
+    "prints": "15900",
+    "set": "lea",
+    "#": "119"
+  },
+  {
+    "name": "Pearled Unicorn",
+    "prints": "15900",
+    "set": "lea",
+    "#": "30"
+  },
+  {
+    "name": "Personal Incarnation",
+    "prints": "1100",
+    "set": "lea",
+    "#": "31"
+  },
+  {
+    "name": "Pestilence",
+    "prints": "15900",
+    "set": "lea",
+    "#": "120"
+  },
+  {
+    "name": "Phantasmal Forces",
+    "prints": "4500",
+    "set": "lea",
+    "#": "67"
+  },
+  {
+    "name": "Phantasmal Terrain",
+    "prints": "15900",
+    "set": "lea",
+    "#": "68"
+  },
+  {
+    "name": "Phantom Monster",
+    "prints": "4500",
+    "set": "lea",
+    "#": "69"
+  },
+  {
+    "name": "Pirate Ship",
+    "prints": "1100",
+    "set": "lea",
+    "#": "70"
+  },
+  {
+    "name": "Plague Rats",
+    "prints": "15900",
+    "set": "lea",
+    "#": "121"
+  },
+  {
+    "name": "Plains - A",
+    "prints": "87000",
+    "set": "lea",
+    "#": "286"
+  },
+  {
+    "name": "Plains - B",
+    "prints": "87000",
+    "set": "lea",
+    "#": "287"
+  },
+  {
+    "name": "Plateau",
+    "prints": "1100",
+    "set": "lea",
+    "#": "279"
+  },
+  {
+    "name": "Power Leak",
+    "prints": "15900",
+    "set": "lea",
+    "#": "71"
+  },
+  {
+    "name": "Power Sink",
+    "prints": "15900",
+    "set": "lea",
+    "#": "72"
+  },
+  {
+    "name": "Power Surge",
+    "prints": "1100",
+    "set": "lea",
+    "#": "167"
+  },
+  {
+    "name": "Prodigal Sorcerer",
+    "prints": "15900",
+    "set": "lea",
+    "#": "73"
+  },
+  {
+    "name": "Psionic Blast",
+    "prints": "4500",
+    "set": "lea",
+    "#": "74"
+  },
+  {
+    "name": "Psychic Venom",
+    "prints": "15900",
+    "set": "lea",
+    "#": "75"
+  },
+  {
+    "name": "Purelace",
+    "prints": "1100",
+    "set": "lea",
+    "#": "32"
+  },
+  {
+    "name": "Raging River",
+    "prints": "1100",
+    "set": "lea",
+    "#": "168"
+  },
+  {
+    "name": "Raise Dead",
+    "prints": "15900",
+    "set": "lea",
+    "#": "122"
+  },
+  {
+    "name": "Red Elemental Blast",
+    "prints": "15900",
+    "set": "lea",
+    "#": "169"
+  },
+  {
+    "name": "Red Ward",
+    "prints": "4500",
+    "set": "lea",
+    "#": "33"
+  },
+  {
+    "name": "Regeneration",
+    "prints": "15900",
+    "set": "lea",
+    "#": "213"
+  },
+  {
+    "name": "Regrowth",
+    "prints": "4500",
+    "set": "lea",
+    "#": "214"
+  },
+  {
+    "name": "Resurrection",
+    "prints": "4500",
+    "set": "lea",
+    "#": "34"
+  },
+  {
+    "name": "Reverse Damage",
+    "prints": "1100",
+    "set": "lea",
+    "#": "35"
+  },
+  {
+    "name": "Righteousness",
+    "prints": "1100",
+    "set": "lea",
+    "#": "36"
+  },
+  {
+    "name": "Roc of Kher Ridges",
+    "prints": "1100",
+    "set": "lea",
+    "#": "171"
+  },
+  {
+    "name": "Rock Hydra",
+    "prints": "1100",
+    "set": "lea",
+    "#": "170"
+  },
+  {
+    "name": "Rod of Ruin",
+    "prints": "4500",
+    "set": "lea",
+    "#": "268"
+  },
+  {
+    "name": "Royal Assassin",
+    "prints": "1100",
+    "set": "lea",
+    "#": "123"
+  },
+  {
+    "name": "Sacrifice",
+    "prints": "4500",
+    "set": "lea",
+    "#": "124"
+  },
+  {
+    "name": "Samite Healer",
+    "prints": "15900",
+    "set": "lea",
+    "#": "37"
+  },
+  {
+    "name": "Savannah",
+    "prints": "1100",
+    "set": "lea",
+    "#": "280"
+  },
+  {
+    "name": "Savannah Lions",
+    "prints": "1100",
+    "set": "lea",
+    "#": "38"
+  },
+  {
+    "name": "Scathe Zombies",
+    "prints": "15900",
+    "set": "lea",
+    "#": "125"
+  },
+  {
+    "name": "Scavenging GhouL",
+    "prints": "4500",
+    "set": "lea",
+    "#": "126"
+  },
+  {
+    "name": "Scrubland",
+    "prints": "1100",
+    "set": "lea",
+    "#": "281"
+  },
+  {
+    "name": "Scryb Sprites",
+    "prints": "15900",
+    "set": "lea",
+    "#": "215"
+  },
+  {
+    "name": "Sea Serpent",
+    "prints": "15900",
+    "set": "lea",
+    "#": "76"
+  },
+  {
+    "name": "Sedge Troll",
+    "prints": "1100",
+    "set": "lea",
+    "#": "172"
+  },
+  {
+    "name": "Sengir Vampire",
+    "prints": "4500",
+    "set": "lea",
+    "#": "127"
+  },
+  {
+    "name": "Serra Angel",
+    "prints": "4500",
+    "set": "lea",
+    "#": "39"
+  },
+  {
+    "name": "Shanodin Dryads",
+    "prints": "15900",
+    "set": "lea",
+    "#": "216"
+  },
+  {
+    "name": "Shatter",
+    "prints": "15900",
+    "set": "lea",
+    "#": "173"
+  },
+  {
+    "name": "Shivan Dragon",
+    "prints": "1100",
+    "set": "lea",
+    "#": "174"
+  },
+  {
+    "name": "Simulacrum",
+    "prints": "4500",
+    "set": "lea",
+    "#": "128"
+  },
+  {
+    "name": "Sinkhole",
+    "prints": "15900",
+    "set": "lea",
+    "#": "129"
+  },
+  {
+    "name": "Siren's Call",
+    "prints": "4500",
+    "set": "lea",
+    "#": "77"
+  },
+  {
+    "name": "Sleight of Mind",
+    "prints": "1100",
+    "set": "lea",
+    "#": "78"
+  },
+  {
+    "name": "Smoke",
+    "prints": "1100",
+    "set": "lea",
+    "#": "175"
+  },
+  {
+    "name": "Sol Ring",
+    "prints": "4500",
+    "set": "lea",
+    "#": "269"
+  },
+  {
+    "name": "Soul Net",
+    "prints": "4500",
+    "set": "lea",
+    "#": "270"
+  },
+  {
+    "name": "Spell Blast",
+    "prints": "15900",
+    "set": "lea",
+    "#": "79"
+  },
+  {
+    "name": "Stasis",
+    "prints": "1100",
+    "set": "lea",
+    "#": "80"
+  },
+  {
+    "name": "Steal Artifact",
+    "prints": "4500",
+    "set": "lea",
+    "#": "81"
+  },
+  {
+    "name": "Stone Giant",
+    "prints": "4500",
+    "set": "lea",
+    "#": "176"
+  },
+  {
+    "name": "Stone Rain",
+    "prints": "15900",
+    "set": "lea",
+    "#": "177"
+  },
+  {
+    "name": "Stream of Life",
+    "prints": "15900",
+    "set": "lea",
+    "#": "217"
+  },
+  {
+    "name": "Sunglasses of Urza",
+    "prints": "1100",
+    "set": "lea",
+    "#": "271"
+  },
+  {
+    "name": "Swamp - A",
+    "prints": "87000",
+    "set": "lea",
+    "#": "290"
+  },
+  {
+    "name": "Swamp - B",
+    "prints": "87000",
+    "set": "lea",
+    "#": "291"
+  },
+  {
+    "name": "Swords to Plowshares",
+    "prints": "4500",
+    "set": "lea",
+    "#": "40"
+  },
+  {
+    "name": "Taiga",
+    "prints": "1100",
+    "set": "lea",
+    "#": "282"
+  },
+  {
+    "name": "Terror",
+    "prints": "15900",
+    "set": "lea",
+    "#": "130"
+  },
+  {
+    "name": "The Hive",
+    "prints": "1100",
+    "set": "lea",
+    "#": "272"
+  },
+  {
+    "name": "Thicket Basilisk",
+    "prints": "4500",
+    "set": "lea",
+    "#": "218"
+  },
+  {
+    "name": "Thoughtlace",
+    "prints": "1100",
+    "set": "lea",
+    "#": "82"
+  },
+  {
+    "name": "Throne of Bone",
+    "prints": "4500",
+    "set": "lea",
+    "#": "273"
+  },
+  {
+    "name": "Timber Wolves",
+    "prints": "1100",
+    "set": "lea",
+    "#": "219"
+  },
+  {
+    "name": "Time Vault",
+    "prints": "1100",
+    "set": "lea",
+    "#": "84"
+  },
+  {
+    "name": "Time Walk",
+    "prints": "1100",
+    "set": "lea",
+    "#": "274"
+  },
+  {
+    "name": "Timetwister",
+    "prints": "1100",
+    "set": "lea",
+    "#": "83"
+  },
+  {
+    "name": "Tranquility",
+    "prints": "15900",
+    "set": "lea",
+    "#": "220"
+  },
+  {
+    "name": "Tropical Island",
+    "prints": "1100",
+    "set": "lea",
+    "#": "283"
+  },
+  {
+    "name": "Tsunami",
+    "prints": "4500",
+    "set": "lea",
+    "#": "221"
+  },
+  {
+    "name": "Tundra",
+    "prints": "1100",
+    "set": "lea",
+    "#": "284"
+  },
+  {
+    "name": "Tunnel",
+    "prints": "4500",
+    "set": "lea",
+    "#": "178"
+  },
+  {
+    "name": "Twiddle",
+    "prints": "15900",
+    "set": "lea",
+    "#": "85"
+  },
+  {
+    "name": "Two-Headed Giant of Fo",
+    "prints": "1100",
+    "set": "lea",
+    "#": "179"
+  },
+  {
+    "name": "Underground Sea",
+    "prints": "1100",
+    "set": "lea",
+    "#": "285"
+  },
+  {
+    "name": "Unholy Strength",
+    "prints": "15900",
+    "set": "lea",
+    "#": "131"
+  },
+  {
+    "name": "Unsummon",
+    "prints": "15900",
+    "set": "lea",
+    "#": "86"
+  },
+  {
+    "name": "Uthden Troll",
+    "prints": "4500",
+    "set": "lea",
+    "#": "180"
+  },
+  {
+    "name": "Verduran Enchantress",
+    "prints": "1100",
+    "set": "lea",
+    "#": "222"
+  },
+  {
+    "name": "Vesuvan Doppelganger",
+    "prints": "1100",
+    "set": "lea",
+    "#": "87"
+  },
+  {
+    "name": "Veteran Bodyguard",
+    "prints": "1100",
+    "set": "lea",
+    "#": "41"
+  },
+  {
+    "name": "Volcanic Eruption",
+    "prints": "1100",
+    "set": "lea",
+    "#": "88"
+  },
+  {
+    "name": "Wall of Air",
+    "prints": "4500",
+    "set": "lea",
+    "#": "89"
+  },
+  {
+    "name": "Wall of Bone",
+    "prints": "4500",
+    "set": "lea",
+    "#": "132"
+  },
+  {
+    "name": "Wall of Brambles",
+    "prints": "4500",
+    "set": "lea",
+    "#": "223"
+  },
+  {
+    "name": "Wall of Fire",
+    "prints": "4500",
+    "set": "lea",
+    "#": "181"
+  },
+  {
+    "name": "Wall of Ice",
+    "prints": "4500",
+    "set": "lea",
+    "#": "224"
+  },
+  {
+    "name": "Wall of Stone",
+    "prints": "4500",
+    "set": "lea",
+    "#": "182"
+  },
+  {
+    "name": "Wall of Swords",
+    "prints": "4500",
+    "set": "lea",
+    "#": "42"
+  },
+  {
+    "name": "Wall of Water",
+    "prints": "4500",
+    "set": "lea",
+    "#": "90"
+  },
+  {
+    "name": "Wall of Wood",
+    "prints": "15900",
+    "set": "lea",
+    "#": "225"
+  },
+  {
+    "name": "Wanderlust",
+    "prints": "4500",
+    "set": "lea",
+    "#": "226"
+  },
+  {
+    "name": "War Mammoth",
+    "prints": "15900",
+    "set": "lea",
+    "#": "227"
+  },
+  {
+    "name": "Warp Artifact",
+    "prints": "1100",
+    "set": "lea",
+    "#": "133"
+  },
+  {
+    "name": "Water ElementaL",
+    "prints": "4500",
+    "set": "lea",
+    "#": "91"
+  },
+  {
+    "name": "Weakness",
+    "prints": "15900",
+    "set": "lea",
+    "#": "134"
+  },
+  {
+    "name": "Web",
+    "prints": "1100",
+    "set": "lea",
+    "#": "228"
+  },
+  {
+    "name": "Wheel of Fortune",
+    "prints": "1100",
+    "set": "lea",
+    "#": "183"
+  },
+  {
+    "name": "White Knight",
+    "prints": "4500",
+    "set": "lea",
+    "#": "43"
+  },
+  {
+    "name": "White Ward",
+    "prints": "4500",
+    "set": "lea",
+    "#": "44"
+  },
+  {
+    "name": "Wild Growth",
+    "prints": "15900",
+    "set": "lea",
+    "#": "229"
+  },
+  {
+    "name": "Will-O'-The-Wisp",
+    "prints": "1100",
+    "set": "lea",
+    "#": "135"
+  },
+  {
+    "name": "Winter Orb",
+    "prints": "1100",
+    "set": "lea",
+    "#": "275"
+  },
+  {
+    "name": "Wooden Sphere",
+    "prints": "4500",
+    "set": "lea",
+    "#": "276"
+  },
+  {
+    "name": "Word of Command",
+    "prints": "1100",
+    "set": "lea",
+    "#": "136"
+  },
+  {
+    "name": "Wrath of God",
+    "prints": "1100",
+    "set": "lea",
+    "#": "45"
+  },
+  {
+    "name": "Zombie Master",
+    "prints": "1100",
+    "set": "lea",
+    "#": "137"
+  },
+  {
+    "name": "Air Elemental",
+    "prints": "12600",
+    "set": "leb",
+    "#": "47"
+  },
+  {
+    "name": "Ancestral Recall",
+    "prints": "3000",
+    "set": "leb",
+    "#": "48"
+  },
+  {
+    "name": "Animate Artifact",
+    "prints": "12600",
+    "set": "leb",
+    "#": "49"
+  },
+  {
+    "name": "Animate Dead",
+    "prints": "12600",
+    "set": "leb",
+    "#": "93"
+  },
+  {
+    "name": "Animate Wall",
+    "prints": "3000",
+    "set": "leb",
+    "#": "1"
+  },
+  {
+    "name": "Ankh of Mishra",
+    "prints": "3000",
+    "set": "leb",
+    "#": "231"
+  },
+  {
+    "name": "Armageddon",
+    "prints": "3000",
+    "set": "leb",
+    "#": "2"
+  },
+  {
+    "name": "Aspect of Wolf",
+    "prints": "3000",
+    "set": "leb",
+    "#": "185"
+  },
+  {
+    "name": "Bad Moon",
+    "prints": "3000",
+    "set": "leb",
+    "#": "278"
+  },
+  {
+    "name": "Badlands",
+    "prints": "3000",
+    "set": "leb",
+    "#": "94"
+  },
+  {
+    "name": "Balance",
+    "prints": "3000",
+    "set": "leb",
+    "#": "3"
+  },
+  {
+    "name": "Basalt Monolith",
+    "prints": "12600",
+    "set": "leb",
+    "#": "232"
+  },
+  {
+    "name": "Bayou",
+    "prints": "3000",
+    "set": "leb",
+    "#": "279"
+  },
+  {
+    "name": "Benalish Hero",
+    "prints": "44800",
+    "set": "leb",
+    "#": "4"
+  },
+  {
+    "name": "Berserk",
+    "prints": "12600",
+    "set": "leb",
+    "#": "186"
+  },
+  {
+    "name": "Birds of Paradise",
+    "prints": "3000",
+    "set": "leb",
+    "#": "187"
+  },
+  {
+    "name": "Black Knight",
+    "prints": "12600",
+    "set": "leb",
+    "#": "95"
+  },
+  {
+    "name": "Black Lotus",
+    "prints": "3000",
+    "set": "leb",
+    "#": "233"
+  },
+  {
+    "name": "Black Vise",
+    "prints": "12600",
+    "set": "leb",
+    "#": "234"
+  },
+  {
+    "name": "Black Ward",
+    "prints": "12600",
+    "set": "leb",
+    "#": "5"
+  },
+  {
+    "name": "Blaze of Glory",
+    "prints": "3000",
+    "set": "leb",
+    "#": "6"
+  },
+  {
+    "name": "Blessing",
+    "prints": "3000",
+    "set": "leb",
+    "#": "7"
+  },
+  {
+    "name": "Blue Elemental Blast",
+    "prints": "44800",
+    "set": "leb",
+    "#": "50"
+  },
+  {
+    "name": "Blue Ward",
+    "prints": "12600",
+    "set": "leb",
+    "#": "8"
+  },
+  {
+    "name": "Bog Wraith",
+    "prints": "12600",
+    "set": "leb",
+    "#": "96"
+  },
+  {
+    "name": "Braingeyser",
+    "prints": "3000",
+    "set": "leb",
+    "#": "51"
+  },
+  {
+    "name": "Burrowing",
+    "prints": "12600",
+    "set": "leb",
+    "#": "139"
+  },
+  {
+    "name": "Camouflage",
+    "prints": "12600",
+    "set": "leb",
+    "#": "188"
+  },
+  {
+    "name": "Castle",
+    "prints": "12600",
+    "set": "leb",
+    "#": "9"
+  },
+  {
+    "name": "Celestial Prism",
+    "prints": "12600",
+    "set": "leb",
+    "#": "235"
+  },
+  {
+    "name": "Channel",
+    "prints": "12600",
+    "set": "leb",
+    "#": "189"
+  },
+  {
+    "name": "Chaos Orb",
+    "prints": "3000",
+    "set": "leb",
+    "#": "140"
+  },
+  {
+    "name": "Chaoslace",
+    "prints": "3000",
+    "set": "leb",
+    "#": "236"
+  },
+  {
+    "name": "Circle of Protection:",
+    "prints": "44800",
+    "set": "leb",
+    "#": "14"
+  },
+  {
+    "name": "Circle of Protection:",
+    "prints": "44800",
+    "set": "leb",
+    "#": "13"
+  },
+  {
+    "name": "Circle of Protection:",
+    "prints": "44800",
+    "set": "leb",
+    "#": "12"
+  },
+  {
+    "name": "Circle of Protection:",
+    "prints": "44800",
+    "set": "leb",
+    "#": "11"
+  },
+  {
+    "name": "Circle of Protection:",
+    "prints": "44800",
+    "set": "leb",
+    "#": "10"
+  },
+  {
+    "name": "Clockwork Beast",
+    "prints": "3000",
+    "set": "leb",
+    "#": "237"
+  },
+  {
+    "name": "Clone",
+    "prints": "12600",
+    "set": "leb",
+    "#": "52"
+  },
+  {
+    "name": "Cockatrice",
+    "prints": "3000",
+    "set": "leb",
+    "#": "190"
+  },
+  {
+    "name": "Consecrate Land",
+    "prints": "12600",
+    "set": "leb",
+    "#": "15"
+  },
+  {
+    "name": "Conservator",
+    "prints": "12600",
+    "set": "leb",
+    "#": "238"
+  },
+  {
+    "name": "Contract from Below",
+    "prints": "3000",
+    "set": "leb",
+    "#": "97"
+  },
+  {
+    "name": "Control Magic",
+    "prints": "12600",
+    "set": "leb",
+    "#": "53"
+  },
+  {
+    "name": "Conversion",
+    "prints": "12600",
+    "set": "leb",
+    "#": "16"
+  },
+  {
+    "name": "Copper Tablet",
+    "prints": "12600",
+    "set": "leb",
+    "#": "239"
+  },
+  {
+    "name": "Copy Artifact",
+    "prints": "3000",
+    "set": "leb",
+    "#": "54"
+  },
+  {
+    "name": "Counterspell",
+    "prints": "12600",
+    "set": "leb",
+    "#": "55"
+  },
+  {
+    "name": "Craw Wurm",
+    "prints": "44800",
+    "set": "leb",
+    "#": "191"
+  },
+  {
+    "name": "Creature Bond",
+    "prints": "44800",
+    "set": "leb",
+    "#": "56"
+  },
+  {
+    "name": "Crusade",
+    "prints": "3000",
+    "set": "leb",
+    "#": "17"
+  },
+  {
+    "name": "Crystal Rod",
+    "prints": "12600",
+    "set": "leb",
+    "#": "240"
+  },
+  {
+    "name": "Cursed Land",
+    "prints": "12600",
+    "set": "leb",
+    "#": "98"
+  },
+  {
+    "name": "Cyclopean Tomb",
+    "prints": "3000",
+    "set": "leb",
+    "#": "241"
+  },
+  {
+    "name": "Dark Ritual",
+    "prints": "44800",
+    "set": "leb",
+    "#": "100"
+  },
+  {
+    "name": "Darkpact",
+    "prints": "3000",
+    "set": "leb",
+    "#": "99"
+  },
+  {
+    "name": "Death Ward",
+    "prints": "44800",
+    "set": "leb",
+    "#": "101"
+  },
+  {
+    "name": "Deathgrip",
+    "prints": "12600",
+    "set": "leb",
+    "#": "102"
+  },
+  {
+    "name": "Deathlace",
+    "prints": "3000",
+    "set": "leb",
+    "#": "18"
+  },
+  {
+    "name": "Demonic Attorney",
+    "prints": "3000",
+    "set": "leb",
+    "#": "103"
+  },
+  {
+    "name": "Demonic Hordes",
+    "prints": "3000",
+    "set": "leb",
+    "#": "104"
+  },
+  {
+    "name": "Demonic Tutor",
+    "prints": "12600",
+    "set": "leb",
+    "#": "105"
+  },
+  {
+    "name": "Dingus Egg",
+    "prints": "3000",
+    "set": "leb",
+    "#": "242"
+  },
+  {
+    "name": "Disenchant",
+    "prints": "44800",
+    "set": "leb",
+    "#": "19"
+  },
+  {
+    "name": "Disintegrate",
+    "prints": "44800",
+    "set": "leb",
+    "#": "141"
+  },
+  {
+    "name": "Disrupting Scepter",
+    "prints": "3000",
+    "set": "leb",
+    "#": "243"
+  },
+  {
+    "name": "Dragon Whelp",
+    "prints": "12600",
+    "set": "leb",
+    "#": "142"
+  },
+  {
+    "name": "Drain Life",
+    "prints": "44800",
+    "set": "leb",
+    "#": "106"
+  },
+  {
+    "name": "Drain Power",
+    "prints": "3000",
+    "set": "leb",
+    "#": "57"
+  },
+  {
+    "name": "Drudge Skeletons",
+    "prints": "44800",
+    "set": "leb",
+    "#": "107"
+  },
+  {
+    "name": "Dwarven Demolition Tea",
+    "prints": "12600",
+    "set": "leb",
+    "#": "143"
+  },
+  {
+    "name": "Dwarven Warriors",
+    "prints": "44800",
+    "set": "leb",
+    "#": "144"
+  },
+  {
+    "name": "Earth Elemental",
+    "prints": "12600",
+    "set": "leb",
+    "#": "146"
+  },
+  {
+    "name": "Earthbind",
+    "prints": "44800",
+    "set": "leb",
+    "#": "145"
+  },
+  {
+    "name": "Earthquake",
+    "prints": "3000",
+    "set": "leb",
+    "#": "147"
+  },
+  {
+    "name": "Elvish Archers",
+    "prints": "3000",
+    "set": "leb",
+    "#": "192"
+  },
+  {
+    "name": "Evil Presence",
+    "prints": "12600",
+    "set": "leb",
+    "#": "108"
+  },
+  {
+    "name": "False Orders",
+    "prints": "44800",
+    "set": "leb",
+    "#": "148"
+  },
+  {
+    "name": "Farmstead",
+    "prints": "3000",
+    "set": "leb",
+    "#": "20"
+  },
+  {
+    "name": "Fastbond",
+    "prints": "3000",
+    "set": "leb",
+    "#": "193"
+  },
+  {
+    "name": "Fear",
+    "prints": "44800",
+    "set": "leb",
+    "#": "109"
+  },
+  {
+    "name": "Feedback",
+    "prints": "12600",
+    "set": "leb",
+    "#": "58"
+  },
+  {
+    "name": "Fire Elemental",
+    "prints": "12600",
+    "set": "leb",
+    "#": "150"
+  },
+  {
+    "name": "Fireball",
+    "prints": "44800",
+    "set": "leb",
+    "#": "151"
+  },
+  {
+    "name": "Firebreathing",
+    "prints": "44800",
+    "set": "leb",
+    "#": "149"
+  },
+  {
+    "name": "Flashfires",
+    "prints": "12600",
+    "set": "leb",
+    "#": "152"
+  },
+  {
+    "name": "Flight",
+    "prints": "44800",
+    "set": "leb",
+    "#": "59"
+  },
+  {
+    "name": "Fog",
+    "prints": "44800",
+    "set": "leb",
+    "#": "194"
+  },
+  {
+    "name": "Force of Nature",
+    "prints": "3000",
+    "set": "leb",
+    "#": "244"
+  },
+  {
+    "name": "Forcefield",
+    "prints": "3000",
+    "set": "leb",
+    "#": "195"
+  },
+  {
+    "name": "Forest - A",
+    "prints": "160000",
+    "set": "leb",
+    "#": "300"
+  },
+  {
+    "name": "Forest - B",
+    "prints": "160000",
+    "set": "leb",
+    "#": "301"
+  },
+  {
+    "name": "Forest - C",
+    "prints": "160000",
+    "set": "leb",
+    "#": "302"
+  },
+  {
+    "name": "Fork",
+    "prints": "3000",
+    "set": "leb",
+    "#": "153"
+  },
+  {
+    "name": "Frozen Shade",
+    "prints": "44800",
+    "set": "leb",
+    "#": "110"
+  },
+  {
+    "name": "Fungusaur",
+    "prints": "3000",
+    "set": "leb",
+    "#": "196"
+  },
+  {
+    "name": "Gaea's Liege",
+    "prints": "3000",
+    "set": "leb",
+    "#": "197"
+  },
+  {
+    "name": "Gauntlet of Might",
+    "prints": "3000",
+    "set": "leb",
+    "#": "245"
+  },
+  {
+    "name": "Giant Growth",
+    "prints": "44800",
+    "set": "leb",
+    "#": "198"
+  },
+  {
+    "name": "Giant Spider",
+    "prints": "44800",
+    "set": "leb",
+    "#": "199"
+  },
+  {
+    "name": "Glasses of Urza",
+    "prints": "12600",
+    "set": "leb",
+    "#": "246"
+  },
+  {
+    "name": "Gloom",
+    "prints": "12600",
+    "set": "leb",
+    "#": "111"
+  },
+  {
+    "name": "Goblin Balloon Brigade",
+    "prints": "12600",
+    "set": "leb",
+    "#": "154"
+  },
+  {
+    "name": "Goblin King",
+    "prints": "3000",
+    "set": "leb",
+    "#": "155"
+  },
+  {
+    "name": "Granite Gargoyle",
+    "prints": "3000",
+    "set": "leb",
+    "#": "156"
+  },
+  {
+    "name": "Gray Ogre",
+    "prints": "44800",
+    "set": "leb",
+    "#": "157"
+  },
+  {
+    "name": "Green Ward",
+    "prints": "12600",
+    "set": "leb",
+    "#": "21"
+  },
+  {
+    "name": "Grizzly Bears",
+    "prints": "44800",
+    "set": "leb",
+    "#": "200"
+  },
+  {
+    "name": "Guardian Angel",
+    "prints": "44800",
+    "set": "leb",
+    "#": "22"
+  },
+  {
+    "name": "Healing Salve",
+    "prints": "44800",
+    "set": "leb",
+    "#": "23"
+  },
+  {
+    "name": "Helm of Chatzuk",
+    "prints": "3000",
+    "set": "leb",
+    "#": "247"
+  },
+  {
+    "name": "Hill Giant",
+    "prints": "44800",
+    "set": "leb",
+    "#": "158"
+  },
+  {
+    "name": "Holy Armor",
+    "prints": "44800",
+    "set": "leb",
+    "#": "24"
+  },
+  {
+    "name": "Holy Strength",
+    "prints": "44800",
+    "set": "leb",
+    "#": "25"
+  },
+  {
+    "name": "Howl from Beyond",
+    "prints": "44800",
+    "set": "leb",
+    "#": "112"
+  },
+  {
+    "name": "Howling Mine",
+    "prints": "3000",
+    "set": "leb",
+    "#": "248"
+  },
+  {
+    "name": "Hurloon Minotaur",
+    "prints": "44800",
+    "set": "leb",
+    "#": "159"
+  },
+  {
+    "name": "Hurricane",
+    "prints": "12600",
+    "set": "leb",
+    "#": "201"
+  },
+  {
+    "name": "Hypnotic Specter",
+    "prints": "12600",
+    "set": "leb",
+    "#": "113"
+  },
+  {
+    "name": "Ice Storm",
+    "prints": "12600",
+    "set": "leb",
+    "#": "202"
+  },
+  {
+    "name": "Icy Manipulator",
+    "prints": "12600",
+    "set": "leb",
+    "#": "249"
+  },
+  {
+    "name": "Illusionary Mask",
+    "prints": "3000",
+    "set": "leb",
+    "#": "250"
+  },
+  {
+    "name": "Instill Energy",
+    "prints": "12600",
+    "set": "leb",
+    "#": "203"
+  },
+  {
+    "name": "Invisibility",
+    "prints": "44800",
+    "set": "leb",
+    "#": "60"
+  },
+  {
+    "name": "Iron Star",
+    "prints": "12600",
+    "set": "leb",
+    "#": "160"
+  },
+  {
+    "name": "Ironclaw Orcs",
+    "prints": "44800",
+    "set": "leb",
+    "#": "204"
+  },
+  {
+    "name": "Ironroot Treefolk",
+    "prints": "44800",
+    "set": "leb",
+    "#": "251"
+  },
+  {
+    "name": "Island - A",
+    "prints": "140000",
+    "set": "leb",
+    "#": "291"
+  },
+  {
+    "name": "Island - B",
+    "prints": "198000",
+    "set": "leb",
+    "#": "292"
+  },
+  {
+    "name": "Island - C",
+    "prints": "147000",
+    "set": "leb",
+    "#": "293"
+  },
+  {
+    "name": "Island Sanctuary",
+    "prints": "3000",
+    "set": "leb",
+    "#": "26"
+  },
+  {
+    "name": "Ivory Cup",
+    "prints": "12600",
+    "set": "leb",
+    "#": "252"
+  },
+  {
+    "name": "Jade Monoith",
+    "prints": "3000",
+    "set": "leb",
+    "#": "253"
+  },
+  {
+    "name": "Jade Statue",
+    "prints": "12600",
+    "set": "leb",
+    "#": "254"
+  },
+  {
+    "name": "Jayemdae Tome",
+    "prints": "3000",
+    "set": "leb",
+    "#": "255"
+  },
+  {
+    "name": "Juggernaut",
+    "prints": "12600",
+    "set": "leb",
+    "#": "256"
+  },
+  {
+    "name": "Jump",
+    "prints": "44800",
+    "set": "leb",
+    "#": "61"
+  },
+  {
+    "name": "Karma",
+    "prints": "12600",
+    "set": "leb",
+    "#": "27"
+  },
+  {
+    "name": "Keldon Warlord",
+    "prints": "12600",
+    "set": "leb",
+    "#": "161"
+  },
+  {
+    "name": "Kormus Bell",
+    "prints": "3000",
+    "set": "leb",
+    "#": "257"
+  },
+  {
+    "name": "Kudzu",
+    "prints": "3000",
+    "set": "leb",
+    "#": "205"
+  },
+  {
+    "name": "Lance",
+    "prints": "12600",
+    "set": "leb",
+    "#": "28"
+  },
+  {
+    "name": "Ley Druid",
+    "prints": "12600",
+    "set": "leb",
+    "#": "206"
+  },
+  {
+    "name": "Library of Leng",
+    "prints": "12600",
+    "set": "leb",
+    "#": "258"
+  },
+  {
+    "name": "Lich",
+    "prints": "3000",
+    "set": "leb",
+    "#": "114"
+  },
+  {
+    "name": "Lifeforce",
+    "prints": "12600",
+    "set": "leb",
+    "#": "207"
+  },
+  {
+    "name": "Lifelace",
+    "prints": "3000",
+    "set": "leb",
+    "#": "208"
+  },
+  {
+    "name": "Lifetap",
+    "prints": "12600",
+    "set": "leb",
+    "#": "62"
+  },
+  {
+    "name": "Lightning Bolt",
+    "prints": "44800",
+    "set": "leb",
+    "#": "162"
+  },
+  {
+    "name": "Living Artifact",
+    "prints": "3000",
+    "set": "leb",
+    "#": "209"
+  },
+  {
+    "name": "Living Lands",
+    "prints": "3000",
+    "set": "leb",
+    "#": "210"
+  },
+  {
+    "name": "Living Wall",
+    "prints": "12600",
+    "set": "leb",
+    "#": "259"
+  },
+  {
+    "name": "Llanowar Elves",
+    "prints": "44800",
+    "set": "leb",
+    "#": "211"
+  },
+  {
+    "name": "Lord of Atlantis",
+    "prints": "3000",
+    "set": "leb",
+    "#": "63"
+  },
+  {
+    "name": "Lord of the Pit",
+    "prints": "3000",
+    "set": "leb",
+    "#": "115"
+  },
+  {
+    "name": "Lure",
+    "prints": "12600",
+    "set": "leb",
+    "#": "212"
+  },
+  {
+    "name": "Magical Hack",
+    "prints": "3000",
+    "set": "leb",
+    "#": "64"
+  },
+  {
+    "name": "Mahamoti Djinn",
+    "prints": "3000",
+    "set": "leb",
+    "#": "65"
+  },
+  {
+    "name": "Mana Flare",
+    "prints": "3000",
+    "set": "leb",
+    "#": "164"
+  },
+  {
+    "name": "Mana Short",
+    "prints": "3000",
+    "set": "leb",
+    "#": "163"
+  },
+  {
+    "name": "Mana Vault",
+    "prints": "3000",
+    "set": "leb",
+    "#": "66"
+  },
+  {
+    "name": "Manabarbs",
+    "prints": "3000",
+    "set": "leb",
+    "#": "260"
+  },
+  {
+    "name": "Meekstone",
+    "prints": "3000",
+    "set": "leb",
+    "#": "261"
+  },
+  {
+    "name": "Merfolk of the Pearl T",
+    "prints": "44800",
+    "set": "leb",
+    "#": "67"
+  },
+  {
+    "name": "Mesa Pegasus",
+    "prints": "44800",
+    "set": "leb",
+    "#": "29"
+  },
+  {
+    "name": "Mind Twist",
+    "prints": "3000",
+    "set": "leb",
+    "#": "116"
+  },
+  {
+    "name": "Mons's Goblin Raiders",
+    "prints": "44800",
+    "set": "leb",
+    "#": "165"
+  },
+  {
+    "name": "Mountain - A",
+    "prints": "204000",
+    "set": "leb",
+    "#": "297"
+  },
+  {
+    "name": "Mountain - B",
+    "prints": "160000",
+    "set": "leb",
+    "#": "298"
+  },
+  {
+    "name": "Mountain - C",
+    "prints": "160000",
+    "set": "leb",
+    "#": "299"
+  },
+  {
+    "name": "Mox Emerald",
+    "prints": "3000",
+    "set": "leb",
+    "#": "262"
+  },
+  {
+    "name": "Mox Jet",
+    "prints": "3000",
+    "set": "leb",
+    "#": "263"
+  },
+  {
+    "name": "Mox Pearl",
+    "prints": "3000",
+    "set": "leb",
+    "#": "264"
+  },
+  {
+    "name": "Mox Ruby",
+    "prints": "3000",
+    "set": "leb",
+    "#": "265"
+  },
+  {
+    "name": "Mox Sapphire",
+    "prints": "3000",
+    "set": "leb",
+    "#": "266"
+  },
+  {
+    "name": "Natural Selection",
+    "prints": "3000",
+    "set": "leb",
+    "#": "213"
+  },
+  {
+    "name": "Nether Shadow",
+    "prints": "3000",
+    "set": "leb",
+    "#": "117"
+  },
+  {
+    "name": "Nettling Imp",
+    "prints": "12600",
+    "set": "leb",
+    "#": "118"
+  },
+  {
+    "name": "Nevinyrral's Disk",
+    "prints": "3000",
+    "set": "leb",
+    "#": "267"
+  },
+  {
+    "name": "Nightmare",
+    "prints": "3000",
+    "set": "leb",
+    "#": "119"
+  },
+  {
+    "name": "Northern Paladin",
+    "prints": "3000",
+    "set": "leb",
+    "#": "30"
+  },
+  {
+    "name": "Obsianus Golem",
+    "prints": "12600",
+    "set": "leb",
+    "#": "268"
+  },
+  {
+    "name": "Orcish Artillery",
+    "prints": "12600",
+    "set": "leb",
+    "#": "166"
+  },
+  {
+    "name": "Orcish Oriflamme",
+    "prints": "12600",
+    "set": "leb",
+    "#": "167"
+  },
+  {
+    "name": "Paralyze",
+    "prints": "44800",
+    "set": "leb",
+    "#": "120"
+  },
+  {
+    "name": "Pearled Unicorn",
+    "prints": "44800",
+    "set": "leb",
+    "#": "31"
+  },
+  {
+    "name": "Personal Incarnation",
+    "prints": "3000",
+    "set": "leb",
+    "#": "32"
+  },
+  {
+    "name": "Pestilence",
+    "prints": "44800",
+    "set": "leb",
+    "#": "121"
+  },
+  {
+    "name": "Phantasmal Forces",
+    "prints": "12600",
+    "set": "leb",
+    "#": "68"
+  },
+  {
+    "name": "Phantasmal Terrain",
+    "prints": "44800",
+    "set": "leb",
+    "#": "69"
+  },
+  {
+    "name": "Phantom Monster",
+    "prints": "12600",
+    "set": "leb",
+    "#": "70"
+  },
+  {
+    "name": "Pirate Ship",
+    "prints": "3000",
+    "set": "leb",
+    "#": "71"
+  },
+  {
+    "name": "Plague Rats",
+    "prints": "44800",
+    "set": "leb",
+    "#": "122"
+  },
+  {
+    "name": "Plains - A",
+    "prints": "115000",
+    "set": "leb",
+    "#": "288"
+  },
+  {
+    "name": "Plains - B",
+    "prints": "160000",
+    "set": "leb",
+    "#": "289"
+  },
+  {
+    "name": "Plains - C",
+    "prints": "160000",
+    "set": "leb",
+    "#": "290"
+  },
+  {
+    "name": "Plateau",
+    "prints": "3000",
+    "set": "leb",
+    "#": "280"
+  },
+  {
+    "name": "Power Leak",
+    "prints": "44800",
+    "set": "leb",
+    "#": "72"
+  },
+  {
+    "name": "Power Sink",
+    "prints": "44800",
+    "set": "leb",
+    "#": "73"
+  },
+  {
+    "name": "Power Surge",
+    "prints": "3000",
+    "set": "leb",
+    "#": "168"
+  },
+  {
+    "name": "Prodigal Sorcerer",
+    "prints": "44800",
+    "set": "leb",
+    "#": "74"
+  },
+  {
+    "name": "Psionic Blast",
+    "prints": "12600",
+    "set": "leb",
+    "#": "75"
+  },
+  {
+    "name": "Psychic Venom",
+    "prints": "44800",
+    "set": "leb",
+    "#": "76"
+  },
+  {
+    "name": "Purelace",
+    "prints": "3000",
+    "set": "leb",
+    "#": "33"
+  },
+  {
+    "name": "Raging River",
+    "prints": "3000",
+    "set": "leb",
+    "#": "169"
+  },
+  {
+    "name": "Raise Dead",
+    "prints": "44800",
+    "set": "leb",
+    "#": "123"
+  },
+  {
+    "name": "Red Elemental Blast",
+    "prints": "44800",
+    "set": "leb",
+    "#": "170"
+  },
+  {
+    "name": "Red Ward",
+    "prints": "12600",
+    "set": "leb",
+    "#": "34"
+  },
+  {
+    "name": "Regeneration",
+    "prints": "44800",
+    "set": "leb",
+    "#": "214"
+  },
+  {
+    "name": "Regrowth",
+    "prints": "12600",
+    "set": "leb",
+    "#": "215"
+  },
+  {
+    "name": "Resurrection",
+    "prints": "12600",
+    "set": "leb",
+    "#": "35"
+  },
+  {
+    "name": "Reverse Damage",
+    "prints": "3000",
+    "set": "leb",
+    "#": "36"
+  },
+  {
+    "name": "Righteousness",
+    "prints": "3000",
+    "set": "leb",
+    "#": "37"
+  },
+  {
+    "name": "Roc of Kher Ridges",
+    "prints": "3000",
+    "set": "leb",
+    "#": "172"
+  },
+  {
+    "name": "Rock Hydra",
+    "prints": "3000",
+    "set": "leb",
+    "#": "171"
+  },
+  {
+    "name": "Rod of Ruin",
+    "prints": "12600",
+    "set": "leb",
+    "#": "269"
+  },
+  {
+    "name": "Royal Assassin",
+    "prints": "3000",
+    "set": "leb",
+    "#": "124"
+  },
+  {
+    "name": "Sacrifice",
+    "prints": "12600",
+    "set": "leb",
+    "#": "125"
+  },
+  {
+    "name": "Samite Healer",
+    "prints": "44800",
+    "set": "leb",
+    "#": "38"
+  },
+  {
+    "name": "Savannah",
+    "prints": "3000",
+    "set": "leb",
+    "#": "281"
+  },
+  {
+    "name": "Savannah Lions",
+    "prints": "3000",
+    "set": "leb",
+    "#": "39"
+  },
+  {
+    "name": "Scathe Zombies",
+    "prints": "44800",
+    "set": "leb",
+    "#": "126"
+  },
+  {
+    "name": "Scavenging GhouL",
+    "prints": "12600",
+    "set": "leb",
+    "#": "127"
+  },
+  {
+    "name": "Scrubland",
+    "prints": "3000",
+    "set": "leb",
+    "#": "282"
+  },
+  {
+    "name": "Scryb Sprites",
+    "prints": "44800",
+    "set": "leb",
+    "#": "216"
+  },
+  {
+    "name": "Sea Serpent",
+    "prints": "44800",
+    "set": "leb",
+    "#": "77"
+  },
+  {
+    "name": "Sedge Troll",
+    "prints": "3000",
+    "set": "leb",
+    "#": "173"
+  },
+  {
+    "name": "Sengir Vampire",
+    "prints": "12600",
+    "set": "leb",
+    "#": "128"
+  },
+  {
+    "name": "Serra Angel",
+    "prints": "12600",
+    "set": "leb",
+    "#": "40"
+  },
+  {
+    "name": "Shanodin Dryads",
+    "prints": "44800",
+    "set": "leb",
+    "#": "217"
+  },
+  {
+    "name": "Shatter",
+    "prints": "44800",
+    "set": "leb",
+    "#": "174"
+  },
+  {
+    "name": "Shivan Dragon",
+    "prints": "3000",
+    "set": "leb",
+    "#": "175"
+  },
+  {
+    "name": "Simulacrum",
+    "prints": "12600",
+    "set": "leb",
+    "#": "129"
+  },
+  {
+    "name": "Sinkhole",
+    "prints": "44800",
+    "set": "leb",
+    "#": "130"
+  },
+  {
+    "name": "Siren's Call",
+    "prints": "12600",
+    "set": "leb",
+    "#": "78"
+  },
+  {
+    "name": "Sleight of Mind",
+    "prints": "3000",
+    "set": "leb",
+    "#": "79"
+  },
+  {
+    "name": "Smoke",
+    "prints": "3000",
+    "set": "leb",
+    "#": "176"
+  },
+  {
+    "name": "Sol Ring",
+    "prints": "12600",
+    "set": "leb",
+    "#": "270"
+  },
+  {
+    "name": "Soul Net",
+    "prints": "12600",
+    "set": "leb",
+    "#": "271"
+  },
+  {
+    "name": "Spell Blast",
+    "prints": "44800",
+    "set": "leb",
+    "#": "80"
+  },
+  {
+    "name": "Stasis",
+    "prints": "3000",
+    "set": "leb",
+    "#": "81"
+  },
+  {
+    "name": "Steal Artifact",
+    "prints": "12600",
+    "set": "leb",
+    "#": "82"
+  },
+  {
+    "name": "Stone Giant",
+    "prints": "12600",
+    "set": "leb",
+    "#": "177"
+  },
+  {
+    "name": "Stone Rain",
+    "prints": "44800",
+    "set": "leb",
+    "#": "178"
+  },
+  {
+    "name": "Stream of Life",
+    "prints": "44800",
+    "set": "leb",
+    "#": "218"
+  },
+  {
+    "name": "Sunglasses of Urza",
+    "prints": "3000",
+    "set": "leb",
+    "#": "272"
+  },
+  {
+    "name": "Swamp - A",
+    "prints": "160000",
+    "set": "leb",
+    "#": "294"
+  },
+  {
+    "name": "Swamp - B",
+    "prints": "160000",
+    "set": "leb",
+    "#": "295"
+  },
+  {
+    "name": "Swamp - C",
+    "prints": "160000",
+    "set": "leb",
+    "#": "296"
+  },
+  {
+    "name": "Swords to Plowshares",
+    "prints": "12600",
+    "set": "leb",
+    "#": "41"
+  },
+  {
+    "name": "Taiga",
+    "prints": "3000",
+    "set": "leb",
+    "#": "283"
+  },
+  {
+    "name": "Terror",
+    "prints": "44800",
+    "set": "leb",
+    "#": "131"
+  },
+  {
+    "name": "The Hive",
+    "prints": "3000",
+    "set": "leb",
+    "#": "273"
+  },
+  {
+    "name": "Thicket Basilisk",
+    "prints": "12600",
+    "set": "leb",
+    "#": "219"
+  },
+  {
+    "name": "Thoughtlace",
+    "prints": "3000",
+    "set": "leb",
+    "#": "83"
+  },
+  {
+    "name": "Throne of Bone",
+    "prints": "12600",
+    "set": "leb",
+    "#": "274"
+  },
+  {
+    "name": "Timber Wolves",
+    "prints": "3000",
+    "set": "leb",
+    "#": "220"
+  },
+  {
+    "name": "Time Vault",
+    "prints": "3000",
+    "set": "leb",
+    "#": "85"
+  },
+  {
+    "name": "Time Walk",
+    "prints": "3000",
+    "set": "leb",
+    "#": "275"
+  },
+  {
+    "name": "Timetwister",
+    "prints": "3000",
+    "set": "leb",
+    "#": "84"
+  },
+  {
+    "name": "Tranquility",
+    "prints": "44800",
+    "set": "leb",
+    "#": "221"
+  },
+  {
+    "name": "Tropical Island",
+    "prints": "3000",
+    "set": "leb",
+    "#": "284"
+  },
+  {
+    "name": "Tsunami",
+    "prints": "12600",
+    "set": "leb",
+    "#": "222"
+  },
+  {
+    "name": "Tundra",
+    "prints": "3000",
+    "set": "leb",
+    "#": "285"
+  },
+  {
+    "name": "Tunnel",
+    "prints": "12600",
+    "set": "leb",
+    "#": "179"
+  },
+  {
+    "name": "Twiddle",
+    "prints": "44800",
+    "set": "leb",
+    "#": "86"
+  },
+  {
+    "name": "Two-Headed Giant of Fo",
+    "prints": "3000",
+    "set": "leb",
+    "#": "180"
+  },
+  {
+    "name": "Underground Sea",
+    "prints": "3000",
+    "set": "leb",
+    "#": "286"
+  },
+  {
+    "name": "Unholy Strength",
+    "prints": "44800",
+    "set": "leb",
+    "#": "132"
+  },
+  {
+    "name": "Unsummon",
+    "prints": "44800",
+    "set": "leb",
+    "#": "87"
+  },
+  {
+    "name": "Uthden Troll",
+    "prints": "12600",
+    "set": "leb",
+    "#": "181"
+  },
+  {
+    "name": "Verduran Enchantress",
+    "prints": "3000",
+    "set": "leb",
+    "#": "223"
+  },
+  {
+    "name": "Vesuvan Doppelganger",
+    "prints": "3000",
+    "set": "leb",
+    "#": "88"
+  },
+  {
+    "name": "Veteran Bodyguard",
+    "prints": "3000",
+    "set": "leb",
+    "#": "42"
+  },
+  {
+    "name": "Volcanic Eruption",
+    "prints": "3000",
+    "set": "leb",
+    "#": "89"
+  },
+  {
+    "name": "Volcanic Island",
+    "prints": "3000",
+    "set": "leb",
+    "#": "287"
+  },
+  {
+    "name": "Wall of Air",
+    "prints": "12600",
+    "set": "leb",
+    "#": "90"
+  },
+  {
+    "name": "Wall of Bone",
+    "prints": "12600",
+    "set": "leb",
+    "#": "133"
+  },
+  {
+    "name": "Wall of Brambles",
+    "prints": "12600",
+    "set": "leb",
+    "#": "224"
+  },
+  {
+    "name": "Wall of Fire",
+    "prints": "12600",
+    "set": "leb",
+    "#": "182"
+  },
+  {
+    "name": "Wall of Ice",
+    "prints": "12600",
+    "set": "leb",
+    "#": "225"
+  },
+  {
+    "name": "Wall of Stone",
+    "prints": "12600",
+    "set": "leb",
+    "#": "183"
+  },
+  {
+    "name": "Wall of Swords",
+    "prints": "12600",
+    "set": "leb",
+    "#": "43"
+  },
+  {
+    "name": "Wall of Water",
+    "prints": "12600",
+    "set": "leb",
+    "#": "91"
+  },
+  {
+    "name": "Wall of Wood",
+    "prints": "44800",
+    "set": "leb",
+    "#": "226"
+  },
+  {
+    "name": "Wanderlust",
+    "prints": "12600",
+    "set": "leb",
+    "#": "227"
+  },
+  {
+    "name": "War Mammoth",
+    "prints": "44800",
+    "set": "leb",
+    "#": "228"
+  },
+  {
+    "name": "Warp Artifact",
+    "prints": "3000",
+    "set": "leb",
+    "#": "134"
+  },
+  {
+    "name": "Water ElementaL",
+    "prints": "12600",
+    "set": "leb",
+    "#": "92"
+  },
+  {
+    "name": "Weakness",
+    "prints": "44800",
+    "set": "leb",
+    "#": "135"
+  },
+  {
+    "name": "Web",
+    "prints": "3000",
+    "set": "leb",
+    "#": "229"
+  },
+  {
+    "name": "Wheel of Fortune",
+    "prints": "3000",
+    "set": "leb",
+    "#": "184"
+  },
+  {
+    "name": "White Knight",
+    "prints": "12600",
+    "set": "leb",
+    "#": "44"
+  },
+  {
+    "name": "White Ward",
+    "prints": "12600",
+    "set": "leb",
+    "#": "45"
+  },
+  {
+    "name": "Wild Growth",
+    "prints": "44800",
+    "set": "leb",
+    "#": "230"
+  },
+  {
+    "name": "Will-O'-The-Wisp",
+    "prints": "3000",
+    "set": "leb",
+    "#": "136"
+  },
+  {
+    "name": "Winter Orb",
+    "prints": "3000",
+    "set": "leb",
+    "#": "276"
+  },
+  {
+    "name": "Wooden Sphere",
+    "prints": "12600",
+    "set": "leb",
+    "#": "277"
+  },
+  {
+    "name": "Word of Command",
+    "prints": "3000",
+    "set": "leb",
+    "#": "137"
+  },
+  {
+    "name": "Wrath of God",
+    "prints": "3000",
+    "set": "leb",
+    "#": "46"
+  },
+  {
+    "name": "Zombie Master",
+    "prints": "3000",
+    "set": "leb",
+    "#": "138"
+  },
+  {
+    "name": "Air Elemental",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "47"
+  },
+  {
+    "name": "Ancestral Recall",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "48"
+  },
+  {
+    "name": "Animate Artifact",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "49"
+  },
+  {
+    "name": "Animate Dead",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "93"
+  },
+  {
+    "name": "Animate Wall",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "1"
+  },
+  {
+    "name": "Ankh of Mishra",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "231"
+  },
+  {
+    "name": "Armageddon",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "2"
+  },
+  {
+    "name": "Aspect of Wolf",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "185"
+  },
+  {
+    "name": "Bad Moon",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "278"
+  },
+  {
+    "name": "Badlands",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "94"
+  },
+  {
+    "name": "Balance",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "3"
+  },
+  {
+    "name": "Basalt Monolith",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "232"
+  },
+  {
+    "name": "Bayou",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "279"
+  },
+  {
+    "name": "Benalish Hero",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "4"
+  },
+  {
+    "name": "Berserk",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "186"
+  },
+  {
+    "name": "Birds of Paradise",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "187"
+  },
+  {
+    "name": "Black Knight",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "95"
+  },
+  {
+    "name": "Black Lotus",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "233"
+  },
+  {
+    "name": "Black Vise",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "234"
+  },
+  {
+    "name": "Black Ward",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "5"
+  },
+  {
+    "name": "Blaze of Glory",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "6"
+  },
+  {
+    "name": "Blessing",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "7"
+  },
+  {
+    "name": "Blue Elemental Blast",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "50"
+  },
+  {
+    "name": "Blue Ward",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "8"
+  },
+  {
+    "name": "Bog Wraith",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "96"
+  },
+  {
+    "name": "Braingeyser",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "51"
+  },
+  {
+    "name": "Burrowing",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "139"
+  },
+  {
+    "name": "Camouflage",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "188"
+  },
+  {
+    "name": "Castle",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "9"
+  },
+  {
+    "name": "Celestial Prism",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "235"
+  },
+  {
+    "name": "Channel",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "189"
+  },
+  {
+    "name": "Chaos Orb",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "140"
+  },
+  {
+    "name": "Chaoslace",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "236"
+  },
+  {
+    "name": "Circle of Protection: Black",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "10"
+  },
+  {
+    "name": "Circle of Protection: Blue",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "11"
+  },
+  {
+    "name": "Circle of Protection: Green",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "12"
+  },
+  {
+    "name": "Circle of Protection: Red",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "13"
+  },
+  {
+    "name": "Circle of Protection: White",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "14"
+  },
+  {
+    "name": "Clockwork Beast",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "237"
+  },
+  {
+    "name": "Clone",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "52"
+  },
+  {
+    "name": "Cockatrice",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "190"
+  },
+  {
+    "name": "Consecrate Land",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "15"
+  },
+  {
+    "name": "Conservator",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "238"
+  },
+  {
+    "name": "Contract from Below",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "97"
+  },
+  {
+    "name": "Control Magic",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "53"
+  },
+  {
+    "name": "Conversion",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "16"
+  },
+  {
+    "name": "Copper Tablet",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "239"
+  },
+  {
+    "name": "Copy Artifact",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "54"
+  },
+  {
+    "name": "Counterspell",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "55"
+  },
+  {
+    "name": "Craw Wurm",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "191"
+  },
+  {
+    "name": "Creature Bond",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "56"
+  },
+  {
+    "name": "Crusade",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "17"
+  },
+  {
+    "name": "Crystal Rod",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "240"
+  },
+  {
+    "name": "Cursed Land",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "98"
+  },
+  {
+    "name": "Cyclopean Tomb",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "241"
+  },
+  {
+    "name": "Dark Ritual",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "100"
+  },
+  {
+    "name": "Darkpact",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "99"
+  },
+  {
+    "name": "Death Ward",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "101"
+  },
+  {
+    "name": "Deathgrip",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "102"
+  },
+  {
+    "name": "Deathlace",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "18"
+  },
+  {
+    "name": "Demonic Attorney",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "103"
+  },
+  {
+    "name": "Demonic Hordes",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "104"
+  },
+  {
+    "name": "Demonic Tutor",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "105"
+  },
+  {
+    "name": "Dingus Egg",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "242"
+  },
+  {
+    "name": "Disenchant",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "19"
+  },
+  {
+    "name": "Disintegrate",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "141"
+  },
+  {
+    "name": "Disrupting Scepter",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "243"
+  },
+  {
+    "name": "Dragon Whelp",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "142"
+  },
+  {
+    "name": "Drain Life",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "106"
+  },
+  {
+    "name": "Drain Power",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "57"
+  },
+  {
+    "name": "Drudge Skeletons",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "107"
+  },
+  {
+    "name": "Dwarven Demolition Team",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "143"
+  },
+  {
+    "name": "Dwarven Warriors",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "144"
+  },
+  {
+    "name": "Earth Elemental",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "146"
+  },
+  {
+    "name": "Earthbind",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "145"
+  },
+  {
+    "name": "Earthquake",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "147"
+  },
+  {
+    "name": "Elvish Archers",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "192"
+  },
+  {
+    "name": "Evil Presence",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "108"
+  },
+  {
+    "name": "False Orders",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "148"
+  },
+  {
+    "name": "Farmstead",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "20"
+  },
+  {
+    "name": "Fastbond",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "193"
+  },
+  {
+    "name": "Fear",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "109"
+  },
+  {
+    "name": "Feedback",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "58"
+  },
+  {
+    "name": "Fire Elemental",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "150"
+  },
+  {
+    "name": "Fireball",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "151"
+  },
+  {
+    "name": "Firebreathing",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "149"
+  },
+  {
+    "name": "Flashfires",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "152"
+  },
+  {
+    "name": "Flight",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "59"
+  },
+  {
+    "name": "Fog",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "194"
+  },
+  {
+    "name": "Force of Nature",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "244"
+  },
+  {
+    "name": "Forcefield",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "195"
+  },
+  {
+    "name": "Forest - A",
+    "prints": "760000",
+    "set": "2ed",
+    "#": "300"
+  },
+  {
+    "name": "Forest - B",
+    "prints": "760000",
+    "set": "2ed",
+    "#": "301"
+  },
+  {
+    "name": "Forest - C",
+    "prints": "760000",
+    "set": "2ed",
+    "#": "302"
+  },
+  {
+    "name": "Fork",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "153"
+  },
+  {
+    "name": "Frozen Shade",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "110"
+  },
+  {
+    "name": "Fungusaur",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "196"
+  },
+  {
+    "name": "Gaea's Liege",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "197"
+  },
+  {
+    "name": "Gauntlet of Might",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "245"
+  },
+  {
+    "name": "Giant Growth",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "198"
+  },
+  {
+    "name": "Giant Spider",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "199"
+  },
+  {
+    "name": "Glasses of Urza",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "246"
+  },
+  {
+    "name": "Gloom",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "111"
+  },
+  {
+    "name": "Goblin Balloon Brigade",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "154"
+  },
+  {
+    "name": "Goblin King",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "155"
+  },
+  {
+    "name": "Granite Gargoyle",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "156"
+  },
+  {
+    "name": "Gray Ogre",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "157"
+  },
+  {
+    "name": "Green Ward",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "21"
+  },
+  {
+    "name": "Grizzly Bears",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "200"
+  },
+  {
+    "name": "Guardian Angel",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "22"
+  },
+  {
+    "name": "Healing Salve",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "23"
+  },
+  {
+    "name": "Helm of Chatzuk",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "247"
+  },
+  {
+    "name": "Hill Giant",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "158"
+  },
+  {
+    "name": "Holy Armor",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "24"
+  },
+  {
+    "name": "Holy Strength",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "25"
+  },
+  {
+    "name": "Howl from Beyond",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "112"
+  },
+  {
+    "name": "Howling Mine",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "248"
+  },
+  {
+    "name": "Hurloon Minotaur",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "159"
+  },
+  {
+    "name": "Hurricane",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "201"
+  },
+  {
+    "name": "Hypnotic Specter",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "113"
+  },
+  {
+    "name": "Ice Storm",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "202"
+  },
+  {
+    "name": "Icy Manipulator",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "249"
+  },
+  {
+    "name": "Illusionary Mask",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "250"
+  },
+  {
+    "name": "Instill Energy",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "203"
+  },
+  {
+    "name": "Invisibility",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "60"
+  },
+  {
+    "name": "Iron Star",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "160"
+  },
+  {
+    "name": "Ironclaw Orcs",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "204"
+  },
+  {
+    "name": "Ironroot Treefolk",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "251"
+  },
+  {
+    "name": "Island - A",
+    "prints": "673000",
+    "set": "2ed",
+    "#": "291"
+  },
+  {
+    "name": "Island - B",
+    "prints": "947000",
+    "set": "2ed",
+    "#": "292"
+  },
+  {
+    "name": "Island - C",
+    "prints": "701000",
+    "set": "2ed",
+    "#": "293"
+  },
+  {
+    "name": "Island Sanctuary",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "26"
+  },
+  {
+    "name": "Ivory Cup",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "252"
+  },
+  {
+    "name": "Jade Monoith",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "253"
+  },
+  {
+    "name": "Jade Statue",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "254"
+  },
+  {
+    "name": "Jayemdae Tome",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "255"
+  },
+  {
+    "name": "Juggernaut",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "256"
+  },
+  {
+    "name": "Jump",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "61"
+  },
+  {
+    "name": "Karma",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "27"
+  },
+  {
+    "name": "Keldon Warlord",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "161"
+  },
+  {
+    "name": "Kormus Bell",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "257"
+  },
+  {
+    "name": "Kudzu",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "205"
+  },
+  {
+    "name": "Lance",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "28"
+  },
+  {
+    "name": "Ley Druid",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "206"
+  },
+  {
+    "name": "Library of Leng",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "258"
+  },
+  {
+    "name": "Lich",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "114"
+  },
+  {
+    "name": "Lifeforce",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "207"
+  },
+  {
+    "name": "Lifelace",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "208"
+  },
+  {
+    "name": "Lifetap",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "62"
+  },
+  {
+    "name": "Lightning Bolt",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "162"
+  },
+  {
+    "name": "Living Artifact",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "209"
+  },
+  {
+    "name": "Living Lands",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "210"
+  },
+  {
+    "name": "Living Wall",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "259"
+  },
+  {
+    "name": "Llanowar Elves",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "211"
+  },
+  {
+    "name": "Lord of Atlantis",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "63"
+  },
+  {
+    "name": "Lord of the Pit",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "115"
+  },
+  {
+    "name": "Lure",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "212"
+  },
+  {
+    "name": "Magical Hack",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "64"
+  },
+  {
+    "name": "Mahamoti Djinn",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "65"
+  },
+  {
+    "name": "Mana Flare",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "164"
+  },
+  {
+    "name": "Mana Short",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "163"
+  },
+  {
+    "name": "Mana Vault",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "66"
+  },
+  {
+    "name": "Manabarbs",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "260"
+  },
+  {
+    "name": "Meekstone",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "261"
+  },
+  {
+    "name": "Merfolk of the Pearl Trident",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "67"
+  },
+  {
+    "name": "Mesa Pegasus",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "29"
+  },
+  {
+    "name": "Mind Twist",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "116"
+  },
+  {
+    "name": "Mons's Goblin Raiders",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "165"
+  },
+  {
+    "name": "Mountain - A",
+    "prints": "760000",
+    "set": "2ed",
+    "#": "297"
+  },
+  {
+    "name": "Mountain - B",
+    "prints": "974000",
+    "set": "2ed",
+    "#": "298"
+  },
+  {
+    "name": "Mountain - C",
+    "prints": "760000",
+    "set": "2ed",
+    "#": "299"
+  },
+  {
+    "name": "Mox Emerald",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "262"
+  },
+  {
+    "name": "Mox Jet",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "263"
+  },
+  {
+    "name": "Mox Pearl",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "264"
+  },
+  {
+    "name": "Mox Ruby",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "265"
+  },
+  {
+    "name": "Mox Sapphire",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "266"
+  },
+  {
+    "name": "Natural Selection",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "213"
+  },
+  {
+    "name": "Nether Shadow",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "117"
+  },
+  {
+    "name": "Nettling Imp",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "118"
+  },
+  {
+    "name": "Nevinyrral's Disk",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "267"
+  },
+  {
+    "name": "Nightmare",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "119"
+  },
+  {
+    "name": "Northern Paladin",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "30"
+  },
+  {
+    "name": "Obsianus Golem",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "268"
+  },
+  {
+    "name": "Orcish Artillery",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "166"
+  },
+  {
+    "name": "Orcish Oriflamme",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "167"
+  },
+  {
+    "name": "Paralyze",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "120"
+  },
+  {
+    "name": "Pearled Unicorn",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "31"
+  },
+  {
+    "name": "Personal Incarnation",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "32"
+  },
+  {
+    "name": "Pestilence",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "121"
+  },
+  {
+    "name": "Phantasmal Forces",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "68"
+  },
+  {
+    "name": "Phantasmal Terrain",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "69"
+  },
+  {
+    "name": "Phantom Monster",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "70"
+  },
+  {
+    "name": "Pirate Ship",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "71"
+  },
+  {
+    "name": "Plague Rats",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "122"
+  },
+  {
+    "name": "Plains - A",
+    "prints": "546000",
+    "set": "2ed",
+    "#": "288"
+  },
+  {
+    "name": "Plains - B",
+    "prints": "760000",
+    "set": "2ed",
+    "#": "289"
+  },
+  {
+    "name": "Plains - C",
+    "prints": "760000",
+    "set": "2ed",
+    "#": "290"
+  },
+  {
+    "name": "Plateau",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "280"
+  },
+  {
+    "name": "Power Leak",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "72"
+  },
+  {
+    "name": "Power Sink",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "73"
+  },
+  {
+    "name": "Power Surge",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "168"
+  },
+  {
+    "name": "Prodigal Sorcerer",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "74"
+  },
+  {
+    "name": "Psionic Blast",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "75"
+  },
+  {
+    "name": "Psychic Venom",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "76"
+  },
+  {
+    "name": "Purelace",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "33"
+  },
+  {
+    "name": "Raging River",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "169"
+  },
+  {
+    "name": "Raise Dead",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "123"
+  },
+  {
+    "name": "Red Elemental Blast",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "170"
+  },
+  {
+    "name": "Red Ward",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "34"
+  },
+  {
+    "name": "Regeneration",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "214"
+  },
+  {
+    "name": "Regrowth",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "215"
+  },
+  {
+    "name": "Resurrection",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "35"
+  },
+  {
+    "name": "Reverse Damage",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "36"
+  },
+  {
+    "name": "Righteousness",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "37"
+  },
+  {
+    "name": "Roc of Kher Ridges",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "172"
+  },
+  {
+    "name": "Rock Hydra",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "171"
+  },
+  {
+    "name": "Rod of Ruin",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "269"
+  },
+  {
+    "name": "Royal Assassin",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "124"
+  },
+  {
+    "name": "Sacrifice",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "125"
+  },
+  {
+    "name": "Samite Healer",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "38"
+  },
+  {
+    "name": "Savannah",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "281"
+  },
+  {
+    "name": "Savannah Lions",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "39"
+  },
+  {
+    "name": "Scathe Zombies",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "126"
+  },
+  {
+    "name": "Scavenging GhouL",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "127"
+  },
+  {
+    "name": "Scrubland",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "282"
+  },
+  {
+    "name": "Scryb Sprites",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "216"
+  },
+  {
+    "name": "Sea Serpent",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "77"
+  },
+  {
+    "name": "Sedge Troll",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "173"
+  },
+  {
+    "name": "Sengir Vampire",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "128"
+  },
+  {
+    "name": "Serra Angel",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "40"
+  },
+  {
+    "name": "Shanodin Dryads",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "217"
+  },
+  {
+    "name": "Shatter",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "174"
+  },
+  {
+    "name": "Shivan Dragon",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "175"
+  },
+  {
+    "name": "Simulacrum",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "129"
+  },
+  {
+    "name": "Sinkhole",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "130"
+  },
+  {
+    "name": "Siren's Call",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "78"
+  },
+  {
+    "name": "Sleight of Mind",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "79"
+  },
+  {
+    "name": "Smoke",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "176"
+  },
+  {
+    "name": "Sol Ring",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "270"
+  },
+  {
+    "name": "Soul Net",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "271"
+  },
+  {
+    "name": "Spell Blast",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "80"
+  },
+  {
+    "name": "Stasis",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "81"
+  },
+  {
+    "name": "Steal Artifact",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "82"
+  },
+  {
+    "name": "Stone Giant",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "177"
+  },
+  {
+    "name": "Stone Rain",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "178"
+  },
+  {
+    "name": "Stream of Life",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "218"
+  },
+  {
+    "name": "Sunglasses of Urza",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "272"
+  },
+  {
+    "name": "Swamp - A",
+    "prints": "760000",
+    "set": "2ed",
+    "#": "294"
+  },
+  {
+    "name": "Swamp - B",
+    "prints": "760000",
+    "set": "2ed",
+    "#": "295"
+  },
+  {
+    "name": "Swamp - C",
+    "prints": "760000",
+    "set": "2ed",
+    "#": "296"
+  },
+  {
+    "name": "Swords to Plowshares",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "41"
+  },
+  {
+    "name": "Taiga",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "283"
+  },
+  {
+    "name": "Terror",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "131"
+  },
+  {
+    "name": "The Hive",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "273"
+  },
+  {
+    "name": "Thicket Basilisk",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "219"
+  },
+  {
+    "name": "Thoughtlace",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "83"
+  },
+  {
+    "name": "Throne of Bone",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "274"
+  },
+  {
+    "name": "Timber Wolves",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "220"
+  },
+  {
+    "name": "Time Vault",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "85"
+  },
+  {
+    "name": "Time Walk",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "275"
+  },
+  {
+    "name": "Timetwister",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "84"
+  },
+  {
+    "name": "Tranquility",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "221"
+  },
+  {
+    "name": "Tropical Island",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "284"
+  },
+  {
+    "name": "Tsunami",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "222"
+  },
+  {
+    "name": "Tundra",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "285"
+  },
+  {
+    "name": "Tunnel",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "179"
+  },
+  {
+    "name": "Twiddle",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "86"
+  },
+  {
+    "name": "Two-Headed Giant of Foriys",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "180"
+  },
+  {
+    "name": "Underground Sea",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "286"
+  },
+  {
+    "name": "Unholy Strength",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "132"
+  },
+  {
+    "name": "Unsummon",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "87"
+  },
+  {
+    "name": "Uthden Troll",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "181"
+  },
+  {
+    "name": "Verduran Enchantress",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "223"
+  },
+  {
+    "name": "Vesuvan Doppelganger",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "88"
+  },
+  {
+    "name": "Veteran Bodyguard",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "42"
+  },
+  {
+    "name": "Volcanic Eruption",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "89"
+  },
+  {
+    "name": "Volcanic Island",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "287"
+  },
+  {
+    "name": "Wall of Air",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "90"
+  },
+  {
+    "name": "Wall of Bone",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "133"
+  },
+  {
+    "name": "Wall of Brambles",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "224"
+  },
+  {
+    "name": "Wall of Fire",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "182"
+  },
+  {
+    "name": "Wall of Ice",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "225"
+  },
+  {
+    "name": "Wall of Stone",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "183"
+  },
+  {
+    "name": "Wall of Swords",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "43"
+  },
+  {
+    "name": "Wall of Water",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "91"
+  },
+  {
+    "name": "Wall of Wood",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "226"
+  },
+  {
+    "name": "Wanderlust",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "227"
+  },
+  {
+    "name": "War Mammoth",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "228"
+  },
+  {
+    "name": "Warp Artifact",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "134"
+  },
+  {
+    "name": "Water ElementaL",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "92"
+  },
+  {
+    "name": "Weakness",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "135"
+  },
+  {
+    "name": "Web",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "229"
+  },
+  {
+    "name": "Wheel of Fortune",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "184"
+  },
+  {
+    "name": "White Knight",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "44"
+  },
+  {
+    "name": "White Ward",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "45"
+  },
+  {
+    "name": "Wild Growth",
+    "prints": "214000",
+    "set": "2ed",
+    "#": "230"
+  },
+  {
+    "name": "Will-O'-The-Wisp",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "136"
+  },
+  {
+    "name": "Winter Orb",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "276"
+  },
+  {
+    "name": "Wooden Sphere",
+    "prints": "59500",
+    "set": "2ed",
+    "#": "277"
+  },
+  {
+    "name": "Word of Command",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "137"
+  },
+  {
+    "name": "Wrath of God",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "46"
+  },
+  {
+    "name": "Zombie Master",
+    "prints": "16000",
+    "set": "2ed",
+    "#": "138"
   }
-}
+]

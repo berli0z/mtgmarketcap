@@ -1,7 +1,6 @@
-/crawler_output.json
-/data_alpha.csv
-/data_beta.csv
-/data_unlimited.csv
 /last_update.json
 /.idea/mtgmarkecap.iml
 /env/
+/TODO
+/card_market_cap.json
+/data/

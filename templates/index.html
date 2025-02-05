@@ -266,67 +266,66 @@
       </div>
     </div>
 
-    <!-- Set Menu: Clickable icons from the web -->
-    <div class="row mb-4 set-menu">
-      <div class="col text-center">
-        <a href="/?set=lea" class="{% if set_name == 'lea' %}active-set{% endif %}">
-          <div class="set-item">
-            <img src="https://eakett.ca/mtgimage/symbol/set/lea/c/256.png" alt="LEA" class="set-icon">
-            <div>Alpha</div>
-          </div>
-        </a>
+<!-- Set Menu: Clickable icons from local static images -->
+<div class="row mb-4 set-menu">
+  <div class="col text-center">
+    <a href="/?set=lea" class="{% if set_name == 'lea' %}active-set{% endif %}">
+      <div class="set-item">
+        <img src="{{ url_for('static', filename='set-icons/lea.png') }}" alt="LEA" class="set-icon">
+        <div>Alpha</div>
       </div>
-      <div class="col text-center">
-        <a href="/?set=leb" class="{% if set_name == 'leb' %}active-set{% endif %}">
-          <div class="set-item">
-            <img src="https://eakett.ca/mtgimage/symbol/set/leb/c/256.png" alt="LEB" class="set-icon">
-            <div>Beta</div>
-          </div>
-        </a>
+    </a>
+  </div>
+  <div class="col text-center">
+    <a href="/?set=leb" class="{% if set_name == 'leb' %}active-set{% endif %}">
+      <div class="set-item">
+        <img src="{{ url_for('static', filename='set-icons/leb.png') }}" alt="LEB" class="set-icon">
+        <div>Beta</div>
       </div>
-      <div class="col text-center">
-        <a href="/?set=2ed" class="{% if set_name == '2ed' %}active-set{% endif %}">
-          <div class="set-item">
-            <img src="https://eakett.ca/mtgimage/symbol/set/2ed/c/256.png" alt="2ED" class="set-icon">
-            <div>Unlimited</div>
-          </div>
-        </a>
+    </a>
+  </div>
+  <div class="col text-center">
+    <a href="/?set=2ed" class="{% if set_name == '2ed' %}active-set{% endif %}">
+      <div class="set-item">
+        <img src="{{ url_for('static', filename='set-icons/2ed.png') }}" alt="2ED" class="set-icon">
+        <div>Unlimited</div>
       </div>
-      <div class="col text-center">
-        <a href="/?set=drk" class="{% if set_name == 'drk' %}active-set{% endif %}">
-          <div class="set-item">
-            <img src="https://eakett.ca/mtgimage/symbol/set/drk/c/256.png" alt="DRK" class="set-icon">
-            <div>The Dark</div>
-          </div>
-        </a>
+    </a>
+  </div>
+  <div class="col text-center">
+    <a href="/?set=arn" class="{% if set_name == 'arn' %}active-set{% endif %}">
+      <div class="set-item">
+        <img src="{{ url_for('static', filename='set-icons/arn.png') }}" alt="ARN" class="set-icon">
+        <div>Arabian Nights</div>
       </div>
-      <div class="col text-center">
-        <a href="/?set=leg" class="{% if set_name == 'leg' %}active-set{% endif %}">
-          <div class="set-item">
-            <img src="https://eakett.ca/mtgimage/symbol/set/leg/c/256.png" alt="LEG" class="set-icon">
-            <div>Legends</div>
-          </div>
-        </a>
+    </a>
+  </div>
+  <div class="col text-center">
+    <a href="/?set=atq" class="{% if set_name == 'atq' %}active-set{% endif %}">
+      <div class="set-item">
+        <img src="{{ url_for('static', filename='set-icons/atq.png') }}" alt="ATQ" class="set-icon">
+        <div>Antiquities</div>
       </div>
-      <div class="col text-center">
-        <a href="/?set=arn" class="{% if set_name == 'arn' %}active-set{% endif %}">
-          <div class="set-item">
-            <img src="https://eakett.ca/mtgimage/symbol/set/arn/c/256.png" alt="ARN" class="set-icon">
-            <div>Arabian Nights</div>
-          </div>
-        </a>
+    </a>
+  </div>
+  <div class="col text-center">
+    <a href="/?set=leg" class="{% if set_name == 'leg' %}active-set{% endif %}">
+      <div class="set-item">
+        <img src="{{ url_for('static', filename='set-icons/leg.png') }}" alt="LEG" class="set-icon">
+        <div>Legends</div>
       </div>
-      <div class="col text-center">
-        <a href="/?set=atq" class="{% if set_name == 'atq' %}active-set{% endif %}">
-          <div class="set-item">
-            <img src="https://eakett.ca/mtgimage/symbol/set/atq/c/256.png" alt="ATQ" class="set-icon">
-            <div>Antiquities</div>
-          </div>
-        </a>
+    </a>
+  </div>
+  <div class="col text-center">
+    <a href="/?set=drk" class="{% if set_name == 'drk' %}active-set{% endif %}">
+      <div class="set-item">
+        <img src="{{ url_for('static', filename='set-icons/drk.png') }}" alt="DRK" class="set-icon">
+        <div>The Dark</div>
       </div>
-    </div>
+    </a>
+  </div>
+</div>
 
-    <!-- DataTables table for card listings -->
     <!-- DataTables table for card listings -->
     <table id="cardsTable" class="table table-striped table-bordered">
       <thead>

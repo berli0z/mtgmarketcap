@@ -1,0 +1,219 @@
+    /* -----------------------
+       Default (Light) Theme
+       ----------------------- */
+    :root {
+      /* Light theme colors */
+      --bg-color: #ffffff;
+      --text-color: #000000;
+      --accent-bg-color: #d1ecf1;  /* highlight for .active-set */
+      --link-color: #0056b3;
+      --table-bg: #f8f9fa;
+      --table-border: #dee2e6;
+
+      /* Row striping in Light theme */
+      --row-bg-1: #ffffff; /* a pure white row */
+      --row-bg-2: #f0f0f0; /* slightly grayer row */
+    }
+
+    body {
+      margin-top: 20px;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    a, a:hover {
+      color: var(--link-color);
+    }
+
+    .thumbnail-img {
+      max-width: 80px;
+    }
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .small-col {
+      width: 50px;
+    }
+    /* Style for the set icon menu */
+    .set-icon {
+      width: 80px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .set-menu a {
+      text-decoration: none;
+      display: block;
+      color: inherit;
+    }
+    .set-menu a:hover {
+      text-decoration: underline;
+    }
+    /* Flex container to align the set icon and name with name at bottom */
+    .set-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      height: 120px; /* adjust as needed */
+    }
+    /* Highlight active set */
+    .active-set {
+      background-color: var(--accent-bg-color);
+      border-radius: 8px;
+      padding: 5px;
+    }
+
+    /* Table styling (light theme) */
+    table.dataTable {
+      background-color: var(--table-bg);
+      border-color: var(--table-border);
+    }
+    /* Row striping for Light theme */
+    table.dataTable tbody tr:nth-child(odd) {
+      background-color: var(--row-bg-1);
+    }
+    table.dataTable tbody tr:nth-child(even) {
+      background-color: var(--row-bg-2);
+    }
+
+    /* -----------
+       DARK THEME
+       ----------- */
+    body.dark-theme {
+      --bg-color: #181a1b;
+      --text-color: #f8f9fa;
+      --accent-bg-color: #304b54;
+      --link-color: #63b3ed;
+      --table-bg: #222427;
+      --table-border: #44484c;
+      --row-bg-1: #2e2f31;
+      --row-bg-2: #343638;
+    }
+    body.dark-theme table.dataTable,
+    body.dark-theme table.dataTable tbody tr td,
+    body.dark-theme table.dataTable thead tr th {
+      color: #fff !important;
+    }
+
+    /* ---------------
+       PSYCHEDELIC THEME
+       --------------- */
+    body.psychedelic-theme {
+      --bg-color: linear-gradient(45deg, #ff0080, #fcb900, #00c6ff);
+      --text-color: #ffffff;
+      --accent-bg-color: rgba(255, 255, 255, 0.3);
+      --link-color: #fff700;
+      --table-bg: rgba(0, 0, 0, 0.4);
+      --table-border: #ffffff;
+      --row-bg-1: rgba(255, 255, 255, 0.1);
+      --row-bg-2: rgba(255, 255, 255, 0.25);
+    }
+    body.psychedelic-theme {
+      background: var(--bg-color); /* note background is a gradient */
+      background-size: 400% 400%;
+      animation: gradient-flow 15s ease infinite;
+      color: var(--text-color);
+    }
+    @keyframes gradient-flow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    body.psychedelic-theme .active-set {
+      background-color: var(--accent-bg-color);
+    }
+    .psychedelic-theme a,
+    .psychedelic-theme a:hover {
+      color: var(--link-color);
+    }
+    .psychedelic-theme table.dataTable {
+      background-color: var(--table-bg);
+      border-color: var(--table-border);
+    }
+    body.psychedelic-theme table.dataTable tbody tr:nth-child(odd) {
+      background-color: var(--row-bg-1);
+    }
+    body.psychedelic-theme table.dataTable tbody tr:nth-child(even) {
+      background-color: var(--row-bg-2);
+    }
+
+    /* ------------
+       PURPLE THEME
+       ------------ */
+    body.purple-theme {
+      --bg-color: #4b0082; /* indigo-ish background */
+      --text-color: #ffffff;
+      --accent-bg-color: #7d3fb2; /* highlight a lighter purple? */
+      --link-color: #e5b3ff;
+      --table-bg: #3f006f;
+      --table-border: #8b55cc;
+      --row-bg-1: #551a8b;
+      --row-bg-2: #6e2398;
+      color: var(--text-color);
+    }
+    body.purple-theme table.dataTable,
+    body.purple-theme table.dataTable tbody tr td,
+    body.purple-theme table.dataTable thead tr th {
+      color: #fff !important;
+    }
+    body.purple-theme table.dataTable tbody tr:nth-child(odd) {
+      background-color: var(--row-bg-1);
+    }
+    body.purple-theme table.dataTable tbody tr:nth-child(even) {
+      background-color: var(--row-bg-2);
+    }
+
+    /* ---------------
+       ACID GREEN THEME
+       --------------- */
+    body.acid-theme {
+      --bg-color: #2eff2e; /* bright acid green */
+      --text-color: #000000;
+      --accent-bg-color: #91ff91;
+      --link-color: #006600;
+      --table-bg: #c3ffc3;
+      --table-border: #76ff76;
+      --row-bg-1: #b0ffb0;
+      --row-bg-2: #d2ffd2;
+      color: var(--text-color);
+    }
+    body.acid-theme table.dataTable,
+    body.acid-theme table.dataTable tbody tr td,
+    body.acid-theme table.dataTable thead tr th {
+      color: #000 !important;
+    }
+    body.acid-theme table.dataTable tbody tr:nth-child(odd) {
+      background-color: var(--row-bg-1);
+    }
+    body.acid-theme table.dataTable tbody tr:nth-child(even) {
+      background-color: var(--row-bg-2);
+    }
+
+    /* ---------------
+       MATRIX THEME
+       --------------- */
+    body.matrix-theme {
+      --bg-color: #000000;  /* black background */
+      --text-color: #00ff00; /* bright green text */
+      --accent-bg-color: #003300; /* darker highlight */
+      --link-color: #00ff00; /* all green links too? */
+      --table-bg: #000000;
+      --table-border: #004400;
+      --row-bg-1: #001900; /* very dark greenish */
+      --row-bg-2: #002200; /* a bit brighter greenish black */
+      color: var(--text-color);
+    }
+    body.matrix-theme table.dataTable,
+    body.matrix-theme table.dataTable tbody tr td,
+    body.matrix-theme table.dataTable thead tr th {
+      color: #00ff00 !important;
+    }
+    body.matrix-theme table.dataTable tbody tr:nth-child(odd) {
+      background-color: var(--row-bg-1);
+    }
+    body.matrix-theme table.dataTable tbody tr:nth-child(even) {
+      background-color: var(--row-bg-2);
+    }

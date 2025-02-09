@@ -1,7 +1,8 @@
-from flask import Flask, render_template, request
 import json
-import os
 import logging
+import os
+
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
@@ -13,6 +14,7 @@ if 'macbook' in os.environ.get('HOME', ''):
     DATA_DIR = "/Users/macbookpro_e/PycharmProjects/mtgmarketcap"  # Local development path
 else:
     DATA_DIR = "/home/ubuntu/mtgmarketcap"  # Production path
+
 
 def load_data_for_set(set_name):
     """
@@ -61,6 +63,7 @@ def load_data_for_set(set_name):
     logging.debug(f"Total market cap for {set_name}: {total_marketcap}")
     return set_data, total_marketcap
 
+
 def load_last_update():
     """
     Load the timestamp from last_update.json, if it exists.
@@ -75,6 +78,7 @@ def load_last_update():
     except (FileNotFoundError, json.JSONDecodeError):
         logging.warning("last_update.json not found or contains invalid JSON.")
         return "N/A"
+
 
 @app.route('/')
 def index():
@@ -99,6 +103,7 @@ def index():
         total_marketcap=total_marketcap,
         last_update=last_update
     )
+
 
 if __name__ == '__main__':
     app.run(debug=True)
